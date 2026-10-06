@@ -1,0 +1,776 @@
+Subject_ID,Volume_ID,Source,Split,Model,Precision,Recall,Dice,HD95_mm,SSR_pct,GT_Vol_mm3,FP_Vol_mm3,Spill_Vol_mm3,Motor_Task,Run
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9675,0.9544,0.960938,1.2247,0.633,1722.125,55.125,10.750,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9638,0.9639,0.963818,2.1213,0.810,1511.375,54.750,12.250,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8997,0.8541,0.876288,2.2913,1.498,1300.500,123.875,18.500,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8848,0.8884,0.886579,3.3166,2.973,1344.000,155.500,40.125,Lip Pursing,3
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9104,0.9285,0.919343,1.8708,1.173,1055.750,96.500,12.625,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9569,0.9571,0.956975,0.7071,0.884,791.625,34.125,7.000,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9659,0.9585,0.962169,1.6583,0.556,520.750,17.625,2.875,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8637,0.7915,0.826028,2.1213,3.245,1391.375,173.750,41.375,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.5015,0.5213,0.511228,8.2916,12.586,1561.125,809.000,204.250,Lip Pursing,3
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9237,0.8919,0.907552,1.7321,0.706,1833.250,135.000,12.500,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7888,0.7325,0.759607,4.1533,1.945,1944.750,381.375,35.125,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7973,0.8032,0.800206,2.3452,1.229,1696.750,346.500,21.000,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8944,0.8994,0.896861,2.0616,1.483,1290.750,137.125,19.250,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8333,0.8681,0.850358,2.5981,1.949,855.875,148.625,17.375,Lip Pursing,3
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9562,0.9387,0.947373,0.8660,0.483,1609.625,69.250,7.625,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9537,0.9261,0.939685,0.7071,0.959,805.375,36.250,7.500,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9326,0.8848,0.908105,1.7321,1.503,709.875,45.375,10.125,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9063,0.8462,0.875237,3.1623,3.044,1565.750,137.000,44.500,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9471,0.9331,0.940050,1.0000,1.087,933.750,48.625,10.000,Lip Pursing,3
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8512,0.8298,0.840354,1.8708,3.631,2408.625,349.375,85.250,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9754,0.9522,0.963670,1.4142,1.597,1258.750,30.250,19.625,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9258,0.9549,0.940142,1.4142,4.412,1650.875,126.375,75.125,Lip Pursing,3
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8419,0.8169,0.829203,2.0000,6.392,1041.875,159.875,64.625,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8353,0.8069,0.820847,1.8708,1.968,2097.000,333.750,39.875,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8847,0.8499,0.866924,2.2913,1.626,2233.000,247.375,34.875,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8501,0.8760,0.862849,2.1213,8.844,2068.375,319.500,188.500,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.6951,0.5859,0.635886,3.9370,17.288,1109.125,285.000,161.625,Lip Pursing,3
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8603,0.8321,0.845971,1.1180,4.567,1313.125,177.375,58.000,Lip Pursing,3
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8994,0.9082,0.903784,2.2913,0.971,1517.125,154.125,14.875,Lip Pursing,3
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7990,0.8580,0.827440,1.4142,0.967,1793.250,387.125,18.625,Lip Pursing,3
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8527,0.7943,0.822471,2.5495,1.665,1337.500,183.500,20.750,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9687,0.9619,0.965317,1.1180,0.914,1336.375,41.500,12.125,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8714,0.8405,0.855710,3.7417,5.208,1142.125,141.625,57.375,Lip Pursing,3
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8481,0.8139,0.830666,2.2361,6.423,1841.250,268.375,113.500,Lip Pursing,3
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7446,0.8486,0.793224,2.4495,7.612,1824.375,530.875,158.250,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7945,0.8144,0.804284,3.0822,2.142,927.875,195.500,20.375,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9338,0.9387,0.936267,3.2016,1.059,903.750,60.125,9.625,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8490,0.8321,0.840478,1.5000,3.468,1849.625,273.750,62.875,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7621,0.7619,0.761993,3.1623,7.966,1280.875,304.625,102.000,Lip Pursing,3
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.7158,0.7041,0.709925,3.6401,3.841,1131.375,316.250,42.750,Lip Pursing,3
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.6702,0.6563,0.663146,3.6401,4.348,1793.875,579.375,76.375,Lip Pursing,3
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8714,0.6794,0.763502,1.4142,3.893,1503.375,150.750,45.625,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9225,0.9323,0.927407,1.0000,0.434,2253.250,176.375,9.875,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9305,0.9184,0.924429,0.7071,0.495,2097.750,143.875,10.250,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9346,0.9596,0.946893,1.5811,1.150,1514.375,101.750,17.875,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8386,0.8419,0.840277,2.2361,2.822,1504.750,243.750,42.625,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8239,0.8854,0.853576,2.2361,6.577,1390.000,263.000,98.250,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.4762,0.8127,0.600500,16.0156,22.429,1531.750,1369.500,586.375,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9663,0.9661,0.966175,0.7071,0.323,2557.500,86.250,8.250,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8902,0.8522,0.870774,1.5000,0.935,3575.625,375.750,32.000,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.6564,0.6831,0.669493,6.3246,8.716,809.000,289.250,73.375,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.7911,0.7901,0.790569,3.3912,5.214,1061.000,221.375,55.250,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.1286,0.4671,0.201703,12.7867,22.951,1552.625,4913.375,1294.125,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7213,0.8238,0.769137,2.5000,4.044,1534.500,488.500,70.875,Lip Pursing,3
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9291,0.9160,0.922495,1.8028,1.311,831.625,58.125,10.750,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9053,0.9128,0.909046,2.0000,2.490,1259.875,120.250,31.625,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.5003,0.8846,0.639102,9.4868,20.364,1512.625,1336.500,544.625,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9252,0.9224,0.923828,0.8660,0.742,1807.875,134.750,13.375,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9464,0.8729,0.908175,1.6583,0.742,1535.250,75.875,10.500,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8905,0.8922,0.891344,2.4495,3.335,1305.625,143.250,43.625,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8644,0.7950,0.828259,2.4495,3.363,1762.250,219.750,54.500,Lip Pursing,3
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8706,0.8156,0.842241,3.3541,4.947,1548.000,187.625,71.750,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9202,0.9139,0.917001,1.7321,1.390,2345.375,186.000,32.375,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8554,0.7745,0.812970,3.4641,2.468,1946.375,254.750,43.500,Lip Pursing,3
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9427,0.9418,0.942271,1.1180,1.388,1055.000,60.375,14.625,Lip Pursing,3
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.6813,0.7708,0.723293,4.7170,9.059,1278.000,460.875,131.000,Lip Pursing,3
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8508,0.8349,0.842732,2.2361,1.474,561.625,82.250,8.125,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8413,0.8957,0.867659,2.8284,3.490,2079.125,351.375,77.250,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9119,0.8910,0.901326,2.9155,3.304,1912.625,164.625,61.750,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7442,0.8445,0.791163,1.7321,2.219,1995.750,579.375,50.250,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9078,0.8985,0.903142,1.4142,0.757,1701.250,155.250,12.750,Lip Pursing,3
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.5805,0.3487,0.435659,3.0414,15.088,1193.125,300.625,108.125,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8944,0.8835,0.888905,2.0616,4.090,1738.875,181.375,70.250,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8717,0.7726,0.819198,3.8406,5.887,1085.250,123.375,56.625,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9359,0.9592,0.947402,1.2247,2.592,1552.750,102.000,41.250,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8910,0.8632,0.876880,1.6583,3.931,1798.750,189.875,68.500,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.6124,0.5045,0.553234,4.5277,2.257,1095.625,349.875,20.375,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7852,0.7812,0.783166,2.0000,0.955,1104.750,236.125,10.500,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8443,0.6861,0.757061,2.5000,2.474,2207.250,279.250,44.375,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8391,0.7959,0.816948,2.2913,2.807,1488.375,227.125,39.625,Lip Pursing,3
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9442,0.9369,0.940519,1.1180,0.834,1223.625,67.750,10.125,Lip Pursing,3
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9436,0.9161,0.929609,1.8708,1.348,965.000,52.875,12.625,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9349,0.9551,0.944901,1.2247,1.550,2289.250,152.250,36.250,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8943,0.8232,0.857276,2.5000,2.534,2368.125,230.500,55.250,Lip Pursing,3
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9097,0.7808,0.840313,3.0000,2.755,1142.000,88.500,27.000,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8619,0.7688,0.812693,1.8708,2.342,2142.500,263.875,44.750,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8568,0.9118,0.883419,2.0616,2.834,1550.000,236.250,46.750,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8600,0.8279,0.843639,1.4142,2.521,2369.000,319.250,57.500,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9437,0.9146,0.928895,2.5000,1.150,2029.250,110.750,22.625,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7064,0.6113,0.655433,3.3166,5.602,1920.875,488.000,93.125,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7961,0.7853,0.790656,2.4495,4.967,1255.250,252.500,61.500,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7400,0.6102,0.668858,2.9580,5.745,1459.125,312.875,69.125,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7671,0.7556,0.761347,3.9051,5.196,1182.125,271.125,60.500,Lip Pursing,3
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7707,0.6411,0.699917,4.1231,7.879,1152.000,219.750,75.500,Lip Pursing,3
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9381,0.9303,0.934153,1.5811,2.828,1930.125,118.500,54.125,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8136,0.8519,0.832315,2.8723,2.411,2139.000,417.500,54.000,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8382,0.7640,0.799343,1.5000,1.946,2466.750,363.875,43.750,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9665,0.9690,0.967782,0.8660,0.641,2392.750,80.250,15.375,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9258,0.9448,0.935219,2.2913,1.451,1924.375,145.625,28.500,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9349,0.8976,0.915865,2.0000,1.891,888.375,55.500,16.125,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8197,0.7370,0.776128,2.4495,5.091,917.625,148.750,42.000,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9707,0.8995,0.933722,1.0000,0.675,1779.625,48.375,11.125,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9676,0.9549,0.961195,0.8660,0.953,1288.875,41.250,12.125,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8315,0.6675,0.740556,2.0000,1.849,1692.250,228.875,25.125,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9239,0.9005,0.912070,1.0000,0.756,1510.375,112.000,11.125,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8816,0.8004,0.839025,2.4495,1.369,1488.875,160.000,18.500,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9639,0.9534,0.958601,0.8660,0.283,938.125,33.500,2.625,Lip Pursing,3
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9541,0.9526,0.953325,0.8660,0.523,1507.625,69.125,7.875,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9741,0.9727,0.973415,1.0000,0.842,1858.625,48.000,15.625,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9512,0.9443,0.947740,1.0000,1.201,1153.500,55.875,13.750,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9233,0.8609,0.890988,1.2247,1.617,2122.500,151.875,32.000,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9465,0.9070,0.926357,1.0000,1.011,2167.750,111.125,21.000,Lip Pursing,3
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9465,0.9548,0.950662,2.0000,2.032,2426.625,130.875,49.750,Lip Pursing,3
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.6691,0.6792,0.674107,3.3912,9.901,1350.625,453.750,135.750,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9422,0.8814,0.910813,2.5000,0.606,1302.000,70.375,7.375,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9087,0.9168,0.912740,1.4142,0.635,1540.875,142.000,9.875,Lip Pursing,3
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9350,0.8951,0.914594,2.0000,2.292,1669.000,103.875,36.625,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.7342,0.7264,0.730242,3.8406,6.558,1292.750,340.000,83.875,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8438,0.8030,0.822877,2.0000,3.337,1086.250,161.500,34.500,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9389,0.9014,0.919783,1.7321,2.992,1444.500,84.750,41.500,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9431,0.9651,0.953945,1.4142,2.663,1192.500,69.500,32.500,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9112,0.8717,0.891022,2.4495,1.729,1557.000,132.250,25.750,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9386,0.9600,0.949169,1.4142,1.144,1517.250,95.250,17.750,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.9008,0.9032,0.902009,1.8028,1.317,804.500,80.000,10.625,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.8821,0.9417,0.910903,1.4142,1.099,1619.750,203.875,19.000,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9461,0.9662,0.956053,1.0000,1.574,1400.250,77.000,22.500,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8891,0.9019,0.895436,2.3452,2.393,1699.625,191.250,41.250,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8868,0.8510,0.868502,2.6926,2.992,1580.375,171.750,45.375,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.7855,0.8082,0.796689,2.8723,4.211,1079.125,238.125,46.750,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.7389,0.7602,0.749427,2.5000,3.432,1398.625,375.625,49.375,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8652,0.3011,0.446690,9.5656,2.876,1486.375,69.750,14.875,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8766,0.8266,0.850834,1.8028,2.300,1867.500,217.375,40.500,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9765,0.9519,0.964029,0.8660,0.560,1856.500,42.500,10.125,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.6466,0.7679,0.702030,2.4495,17.333,1787.000,750.125,367.875,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9285,0.8693,0.897908,1.5000,3.530,1490.500,99.750,49.250,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.6029,0.5686,0.585228,3.8406,7.525,2441.500,914.250,173.250,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.8414,0.7789,0.808917,3.5355,3.172,2064.375,303.125,60.625,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9279,0.9279,0.927855,1.7321,0.570,1382.625,99.750,7.875,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9572,0.9656,0.961390,1.0000,0.418,1303.875,56.250,5.500,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,P(4x6) (State-of-the-Art),0.8013,0.5945,0.682590,3.8079,10.083,1457.125,214.750,109.000,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,P(4x6) (State-of-the-Art),0.4988,0.4832,0.490899,4.9749,22.820,1569.625,762.125,347.000,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8211,0.6661,0.735479,3.4641,5.456,756.875,109.875,33.500,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8251,0.7654,0.794128,1.5811,3.241,1130.750,183.500,34.000,Lip Pursing,3
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9382,0.9399,0.939056,1.7321,1.500,2553.375,158.000,38.375,Lip Pursing,3
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8689,0.8667,0.867776,2.1213,3.975,1210.625,158.375,48.000,Lip Pursing,3
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8697,0.8935,0.881458,3.3912,0.637,2387.875,319.625,15.625,Lip Pursing,3
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9224,0.9596,0.940642,1.4142,1.193,916.500,74.000,11.375,Lip Pursing,3
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8350,0.8512,0.843012,2.6926,2.852,1242.875,209.000,36.125,Lip Pursing,3
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,P(4x6) (State-of-the-Art),0.9871,0.9919,0.989519,0.5000,0.140,4176.000,54.000,5.875,Lip Pursing,3
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,P(4x6) (State-of-the-Art),0.8279,0.8022,0.814832,3.0414,2.394,1611.125,268.625,37.375,Lip Pursing,3
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9301,0.9528,0.941328,0.8660,0.959,1870.125,133.875,18.375,Lip Pursing,3
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8727,0.7766,0.821872,2.5000,1.888,1183.000,134.000,19.875,Lip Pursing,3
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,P(4x6) (State-of-the-Art),0.9260,0.9585,0.942009,1.2247,1.217,2073.875,158.750,26.125,Lip Pursing,3
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,P(4x6) (State-of-the-Art),0.8632,0.8512,0.857172,2.0000,1.558,1229.000,165.750,18.875,Lip Pursing,3
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8411,0.7131,0.771807,3.7749,1.191,1175.750,158.375,11.875,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9644,0.9130,0.937996,1.5811,0.713,1722.125,58.125,11.625,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9666,0.9495,0.957944,2.4495,0.985,1511.375,49.625,14.625,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8720,0.8317,0.851380,2.5981,1.078,1300.500,158.750,13.375,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8660,0.8352,0.850298,4.2720,4.455,1344.000,173.750,57.750,Lip Pursing,3
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8981,0.9801,0.937327,1.4142,0.521,1055.750,117.375,6.000,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9578,0.9580,0.957922,0.7071,1.074,791.625,33.375,8.500,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9604,0.9424,0.951296,2.1794,1.052,520.750,20.250,5.375,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8469,0.5138,0.639566,2.0000,3.924,1391.375,129.250,33.125,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.5404,0.4339,0.481347,7.5166,19.687,1561.125,576.000,246.750,Lip Pursing,3
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9241,0.9465,0.935193,2.0000,0.579,1833.250,142.500,10.875,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7754,0.6092,0.682337,4.5826,2.929,1944.750,343.125,44.750,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7630,0.4141,0.536842,4.6904,1.425,1696.750,218.250,13.125,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8979,0.9355,0.916291,2.0000,0.892,1290.750,137.375,12.000,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8487,0.9219,0.883786,2.1794,1.829,855.875,140.625,17.000,Lip Pursing,3
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9491,0.9102,0.929279,0.7071,0.364,1609.625,78.500,5.625,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9612,0.6953,0.806916,1.0000,0.794,805.375,22.625,4.625,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9333,0.8797,0.905729,1.8028,1.084,709.875,44.625,7.250,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8936,0.4895,0.632486,5.0249,4.416,1565.750,91.250,37.875,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9418,0.8193,0.876289,1.6583,0.985,933.750,47.250,8.000,Lip Pursing,3
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8342,0.8570,0.845433,2.0616,4.850,2408.625,410.250,120.000,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9659,0.8186,0.886154,1.8708,2.847,1258.750,36.375,30.375,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9336,0.9586,0.945906,1.8028,5.044,1650.875,112.625,85.500,Lip Pursing,3
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8348,0.6058,0.702079,3.7417,6.928,1041.875,124.875,52.375,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8269,0.8180,0.822451,2.1213,1.760,2097.000,359.000,36.500,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8655,0.5212,0.650618,4.2426,2.724,2233.000,180.875,36.625,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8383,0.9038,0.869831,3.0000,12.164,2068.375,360.500,271.250,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.6911,0.4218,0.523900,4.8218,18.630,1109.125,209.125,126.125,Lip Pursing,3
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8520,0.7896,0.819624,1.0000,4.129,1313.125,180.125,50.250,Lip Pursing,3
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8919,0.9140,0.902824,2.9580,1.134,1517.125,168.000,17.625,Lip Pursing,3
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7837,0.8416,0.811576,1.5811,0.837,1793.250,416.625,16.125,Lip Pursing,3
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8287,0.5881,0.687985,2.6926,4.174,1337.500,162.625,39.625,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9642,0.9109,0.936751,1.5811,0.723,1336.375,45.250,9.125,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8597,0.8118,0.835060,4.4721,3.373,1142.125,151.250,36.375,Lip Pursing,3
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8525,0.2622,0.401038,3.9051,2.781,1841.250,83.500,15.750,Lip Pursing,3
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7017,0.8318,0.761248,2.8723,8.214,1824.375,645.000,177.625,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7686,0.4699,0.583229,5.7663,1.366,927.875,131.250,7.750,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9111,0.9382,0.924429,4.1533,0.994,903.750,82.750,9.250,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8327,0.5538,0.665178,2.3452,3.628,1849.625,205.750,44.625,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7725,0.3378,0.470021,4.6098,5.022,1280.875,127.375,28.125,Lip Pursing,3
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.6724,0.7232,0.696865,4.1231,2.332,1131.375,398.750,28.375,Lip Pursing,3
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.6579,0.5495,0.598853,4.2426,6.666,1793.875,512.500,99.875,Lip Pursing,3
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.3788,0.3000,0.334834,17.8885,26.869,1503.375,739.500,319.875,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9184,0.6717,0.775905,0.8660,0.599,2253.250,134.500,9.875,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9281,0.4822,0.634695,1.8708,0.803,2097.750,78.375,8.750,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9369,0.9851,0.960367,1.2247,1.240,1514.375,100.500,19.750,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8192,0.8554,0.836916,2.9155,2.984,1504.750,284.000,46.875,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7816,0.9692,0.865390,1.5000,9.007,1390.000,376.375,155.250,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9039,0.5459,0.680676,2.7386,3.284,1531.750,88.875,30.375,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9605,0.9100,0.934568,1.0000,0.299,2557.500,95.625,7.250,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9044,0.6467,0.754163,2.5000,1.041,3575.625,244.500,26.625,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.6403,0.3826,0.478963,6.8007,10.939,809.000,173.875,52.875,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.7828,0.5999,0.679250,4.3012,3.966,1061.000,176.625,32.250,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.5756,0.3628,0.445037,7.6974,10.691,1552.625,415.375,104.625,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.6978,0.8028,0.746647,2.2361,4.666,1534.500,533.375,82.375,Lip Pursing,3
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9292,0.9713,0.949805,1.8708,2.301,831.625,61.500,20.000,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8964,0.7046,0.789023,4.7434,2.297,1259.875,102.625,22.750,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8723,0.9294,0.899976,2.1213,2.699,1512.625,205.750,43.500,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9351,0.6949,0.797319,1.1180,0.670,1807.875,87.250,9.000,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9384,0.6751,0.785244,2.0000,1.539,1535.250,68.000,17.000,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8688,0.7877,0.826312,3.7417,6.262,1305.625,155.250,74.125,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8210,0.6402,0.719381,2.6926,4.112,1762.250,246.000,56.500,Lip Pursing,3
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8529,0.8369,0.844834,2.9155,3.555,1548.000,223.375,54.000,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9226,0.9317,0.927132,1.5811,1.599,2345.375,183.375,37.875,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8638,0.4934,0.628025,5.5000,1.181,1946.375,151.375,13.125,Lip Pursing,3
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9391,0.9544,0.946700,1.5811,2.320,1055.000,65.250,24.875,Lip Pursing,3
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.6748,0.5026,0.576121,6.2048,13.038,1278.000,309.625,124.125,Lip Pursing,3
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8543,0.7423,0.794331,2.1213,1.050,561.625,71.125,5.125,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8383,0.7809,0.808578,3.5355,1.852,2079.125,313.250,35.875,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8962,0.7332,0.806528,2.6926,5.105,1912.625,162.375,79.875,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7752,0.7240,0.748729,2.0000,1.395,1995.750,419.125,26.000,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9068,0.8482,0.876504,2.1794,0.511,1701.250,148.375,8.125,Lip Pursing,3
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.5377,0.4325,0.479387,4.1833,18.158,1193.125,443.625,174.250,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8977,0.7795,0.834430,2.5000,3.825,1738.875,154.375,57.750,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8559,0.4296,0.572086,7.9530,5.622,1085.250,78.500,30.625,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9300,0.9791,0.953961,1.0000,3.296,1552.750,114.375,53.875,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8959,0.9045,0.900201,1.4142,3.201,1798.750,189.000,58.125,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.5727,0.5204,0.545281,3.0414,4.031,1095.625,425.375,40.125,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7422,0.5121,0.606052,2.1213,1.771,1104.750,196.500,13.500,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8536,0.6401,0.731609,2.0000,3.232,2207.250,242.250,53.500,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8573,0.6457,0.736575,2.2913,3.089,1488.375,160.000,34.625,Lip Pursing,3
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9418,0.5885,0.724381,1.5000,1.667,1223.625,44.500,12.750,Lip Pursing,3
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9490,0.8949,0.921200,1.0000,1.264,965.000,46.375,11.500,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9341,0.8882,0.910577,1.6583,0.741,2289.250,143.500,16.125,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8688,0.8770,0.872859,2.0000,3.723,2368.125,313.625,89.000,Lip Pursing,3
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8927,0.6089,0.723972,3.3541,3.306,1142.000,83.625,25.750,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8329,0.7755,0.803191,1.6583,3.935,2142.500,333.250,78.500,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8587,0.8662,0.862419,2.4495,3.014,1550.000,221.000,47.125,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8524,0.7424,0.793615,1.4142,2.296,2369.000,304.500,47.375,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9221,0.8658,0.893068,3.0822,0.872,2029.250,148.500,16.625,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7006,0.6083,0.651177,3.9051,5.622,1920.875,499.250,93.750,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8131,0.8655,0.838454,2.9155,4.070,1255.250,249.750,54.375,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7431,0.1811,0.291225,5.0249,5.870,1459.125,91.375,20.875,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7404,0.5364,0.622110,4.5552,7.837,1182.125,222.375,67.125,Lip Pursing,3
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7620,0.4069,0.530523,5.1478,8.636,1152.000,146.375,53.125,Lip Pursing,3
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9430,0.8413,0.889239,2.1213,2.461,1930.125,98.125,42.375,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8029,0.5536,0.655391,5.2440,2.593,2139.000,290.625,38.250,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8322,0.4074,0.546982,1.7321,3.799,2466.750,202.625,45.875,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9604,0.8829,0.920033,1.5000,0.915,2392.750,87.125,20.125,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9382,0.9593,0.948613,2.9155,0.807,1924.375,121.625,15.875,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9197,0.5804,0.711698,3.2016,2.809,888.375,45.000,15.750,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.7754,0.6701,0.718889,2.9155,6.668,917.625,178.125,52.875,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9729,0.8724,0.919898,1.1180,0.658,1779.625,43.250,10.500,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9629,0.7801,0.861934,1.8028,1.724,1288.875,38.750,18.000,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8361,0.5017,0.627118,2.5000,1.243,1692.250,166.375,12.625,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9215,0.8484,0.883440,0.7071,1.420,1510.375,109.125,19.750,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8517,0.3293,0.474933,4.2426,0.717,1488.875,85.375,4.125,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9590,0.9875,0.973019,0.7071,0.194,938.125,39.625,1.875,Lip Pursing,3
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9560,0.8599,0.905408,1.1180,0.654,1507.625,59.625,8.875,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9725,0.9711,0.971800,1.1180,0.761,1858.625,51.000,14.125,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9486,0.9940,0.970791,0.5000,1.107,1153.500,62.125,13.375,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9243,0.5234,0.668321,1.8028,2.246,2122.500,91.000,27.000,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9465,0.8560,0.898989,1.2247,0.434,2167.750,104.875,8.500,Lip Pursing,3
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9456,0.8231,0.880119,4.7434,2.130,2426.625,114.875,45.000,Lip Pursing,3
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.6600,0.6258,0.642470,3.7417,11.625,1350.625,435.375,148.875,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9208,0.8689,0.894092,3.0000,0.509,1302.000,97.250,6.250,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8957,0.9374,0.916082,1.4142,0.690,1540.875,168.125,11.125,Lip Pursing,3
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9272,0.9246,0.925898,2.6926,3.463,1669.000,121.125,57.625,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.7230,0.4972,0.589206,6.0208,6.693,1292.750,246.250,59.500,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8325,0.6132,0.706249,2.0000,3.421,1086.250,134.000,27.375,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9340,0.9141,0.923904,1.6583,4.385,1444.500,93.375,62.000,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9498,0.9931,0.970945,0.7071,2.316,1192.500,62.625,28.875,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8973,0.7734,0.830768,3.0000,2.999,1557.000,137.875,40.250,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9278,0.8604,0.892793,2.0000,1.537,1517.250,101.625,21.625,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.9069,0.7648,0.829807,2.2913,1.253,804.500,63.125,8.500,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.8802,0.8497,0.864727,2.5000,0.895,1619.750,187.250,14.000,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9512,0.8931,0.921221,1.8708,1.303,1400.250,64.125,17.125,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8821,0.9448,0.912397,2.4495,3.138,1699.625,214.625,57.125,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8814,0.7346,0.801346,3.6056,2.344,1580.375,156.250,30.875,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.7817,0.7076,0.742826,4.0620,4.031,1079.125,213.250,39.375,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.7162,0.8771,0.788558,1.8708,3.839,1398.625,486.000,65.750,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8618,0.5932,0.702730,7.8899,5.657,1486.375,141.375,57.875,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8732,0.6951,0.774047,2.0000,1.766,1867.500,188.500,26.250,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9664,0.9680,0.967169,0.7071,0.975,1856.500,62.500,18.125,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.6113,0.7597,0.677459,2.7386,18.627,1787.000,863.125,413.625,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9310,0.6587,0.771513,1.7321,2.952,1490.500,72.750,31.125,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.5936,0.3620,0.449717,4.2426,3.669,2441.500,605.000,54.625,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.8277,0.6392,0.721353,3.7417,1.748,2064.375,274.750,27.875,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9238,0.9771,0.949695,1.7321,0.786,1382.625,111.500,11.500,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9557,0.9048,0.929532,1.0000,0.446,1303.875,54.750,5.500,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,P(3x4) (Patch-Based Core),0.7637,0.5061,0.608781,4.4721,18.082,1457.125,228.250,174.625,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,P(3x4) (Patch-Based Core),0.4922,0.5227,0.506972,4.6098,24.974,1569.625,846.375,416.250,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.7978,0.6340,0.706543,5.0249,4.032,756.875,121.625,24.250,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8136,0.5420,0.650610,2.1794,2.473,1130.750,140.375,18.625,Lip Pursing,3
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9321,0.6923,0.794494,2.5495,1.964,2553.375,128.875,37.250,Lip Pursing,3
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.8454,0.8176,0.831242,2.0616,4.004,1210.625,181.000,46.875,Lip Pursing,3
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.8746,0.8298,0.851586,3.5355,0.270,2387.875,284.125,6.125,Lip Pursing,3
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9343,0.9097,0.921844,1.7321,0.896,916.500,58.625,8.000,Lip Pursing,3
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.8155,0.7939,0.804566,3.7749,2.789,1242.875,223.250,33.750,Lip Pursing,3
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,P(3x4) (Patch-Based Core),0.9827,0.9887,0.985676,0.7071,0.140,4176.000,72.875,5.875,Lip Pursing,3
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,P(3x4) (Patch-Based Core),0.7521,0.9350,0.833633,2.1213,4.618,1611.125,496.500,92.500,Lip Pursing,3
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9197,0.9162,0.917931,0.8660,1.134,1870.125,149.625,21.125,Lip Pursing,3
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.8656,0.3948,0.542235,3.3166,2.989,1183.000,72.500,16.125,Lip Pursing,3
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,P(3x4) (Patch-Based Core),0.9292,0.8834,0.905759,1.4142,1.503,2073.875,139.500,29.625,Lip Pursing,3
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,P(3x4) (Patch-Based Core),0.8563,0.7344,0.790693,2.5000,0.711,1229.000,151.500,7.500,Lip Pursing,3
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.8300,0.7201,0.771149,2.8723,3.358,1175.750,173.375,34.250,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8987,0.9567,0.926804,2.8284,3.920,1722.125,185.750,71.875,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9356,0.9685,0.951762,2.2913,1.782,1511.375,100.750,27.875,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7556,0.8475,0.798895,3.0000,7.841,1300.500,356.500,114.375,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8385,0.8690,0.853489,4.1533,2.898,1344.000,225.000,40.375,Lip Pursing,3
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9138,0.9175,0.915633,2.2913,0.979,1055.750,91.375,10.375,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9525,0.9852,0.968563,0.7071,1.634,791.625,38.875,13.375,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9392,0.9229,0.930993,2.8284,2.101,520.750,31.125,10.750,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8084,0.8581,0.832513,2.6926,5.333,1391.375,282.875,78.750,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.4028,0.5538,0.466368,6.5383,13.151,1561.125,1281.750,282.250,Lip Pursing,3
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8656,0.9261,0.894818,2.0000,1.224,1833.250,263.625,24.000,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6621,0.6299,0.645608,5.8737,1.500,1944.750,625.125,27.750,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7054,0.8826,0.784108,2.5495,0.577,1696.750,625.375,12.250,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7946,0.9341,0.858720,3.1623,1.384,1290.750,311.750,21.000,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8028,0.7118,0.754606,3.7417,1.252,855.875,149.625,9.500,Lip Pursing,3
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8984,0.9310,0.914416,1.2247,1.267,1609.625,169.375,21.125,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9550,0.9626,0.958800,1.4142,1.170,805.375,36.500,9.500,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9416,0.8794,0.909405,3.2016,1.546,709.875,38.750,10.250,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8264,0.6497,0.727452,2.2361,6.773,1565.750,213.750,83.375,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8416,0.9284,0.882877,2.0000,7.306,933.750,163.125,75.250,Lip Pursing,3
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7735,0.7735,0.773522,3.4641,7.188,2408.625,545.500,173.125,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9295,0.9649,0.946891,1.7321,6.486,1258.750,92.125,84.750,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8948,0.9524,0.922682,2.8284,8.650,1650.875,184.875,152.000,Lip Pursing,3
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8519,0.6667,0.748015,3.2404,8.999,1041.875,120.750,73.375,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7765,0.8789,0.824549,1.5000,1.727,2097.000,530.500,41.000,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7935,0.8793,0.834223,5.0249,2.096,2233.000,510.875,51.875,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7890,0.9222,0.850424,3.3912,16.736,2068.375,510.125,404.625,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7197,0.5885,0.647529,3.8079,23.181,1109.125,254.250,210.250,Lip Pursing,3
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7201,0.7824,0.749943,2.0000,17.119,1313.125,399.375,244.250,Lip Pursing,3
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9260,0.9340,0.929981,3.0414,0.498,1517.125,113.250,7.625,Lip Pursing,3
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7532,0.8036,0.777594,2.6926,0.725,1793.250,472.250,13.875,Lip Pursing,3
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8227,0.8897,0.854885,3.5707,1.002,1337.500,256.500,14.500,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8952,0.9649,0.928742,2.5495,5.623,1336.375,151.000,81.000,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9242,0.9083,0.916156,6.3443,3.864,1142.125,85.125,43.375,Lip Pursing,3
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7267,0.9167,0.810723,4.5000,15.575,1841.250,634.750,361.750,Lip Pursing,3
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8415,0.7070,0.768412,3.1623,5.985,1824.375,243.000,91.750,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7113,0.7579,0.733842,3.2016,1.972,927.875,285.500,19.500,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9337,0.8878,0.910174,4.3875,0.829,903.750,57.000,7.125,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8288,0.7753,0.801173,2.6926,5.498,1849.625,296.125,95.125,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6753,0.7963,0.730823,4.8218,12.595,1280.875,490.500,190.250,Lip Pursing,3
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.6335,0.6164,0.624853,3.5000,2.975,1131.375,403.375,32.750,Lip Pursing,3
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7014,0.4655,0.559641,4.6904,3.906,1793.875,355.500,46.500,Lip Pursing,3
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8267,0.7942,0.810109,1.5811,5.868,1503.375,250.375,84.750,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8760,0.9078,0.891625,2.5000,0.375,2253.250,289.500,8.750,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8774,0.9128,0.894717,2.0000,0.424,2097.750,267.625,9.250,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8996,0.9527,0.925396,3.3541,2.681,1514.375,161.000,43.000,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7801,0.7865,0.783289,2.5000,4.392,1504.750,333.625,66.625,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8151,0.8639,0.838783,2.7386,10.639,1390.000,272.500,156.750,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8745,0.8697,0.872095,1.4142,6.442,1531.750,191.125,98.125,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9323,0.9709,0.951229,1.5000,0.225,2557.500,180.250,6.000,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8123,0.8542,0.832751,1.8028,0.831,3575.625,705.625,31.250,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.5532,0.5715,0.562201,9.4207,15.717,809.000,373.500,131.375,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8729,0.7541,0.809178,2.8723,4.173,1061.000,116.500,38.250,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6107,0.6025,0.606606,6.8920,7.663,1552.625,596.250,117.375,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6987,0.5862,0.637519,2.5000,4.651,1534.500,387.875,59.875,Lip Pursing,3
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9067,0.9396,0.922861,3.1623,0.957,831.625,80.375,8.250,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8714,0.8203,0.845096,2.0000,3.942,1259.875,152.500,46.750,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6795,0.8184,0.742465,4.6368,15.108,1512.625,584.000,275.250,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8959,0.9190,0.907335,1.4142,0.586,1807.875,193.000,10.875,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9397,0.8555,0.895623,3.3166,0.581,1535.250,84.250,8.125,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8178,0.8399,0.828736,2.5000,4.437,1305.625,244.250,59.500,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8291,0.8045,0.816617,2.2361,3.480,1762.250,292.250,59.500,Lip Pursing,3
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7548,0.7851,0.769681,6.3836,15.884,1548.000,394.750,255.750,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9295,0.8630,0.894981,2.5981,2.044,2345.375,153.625,44.500,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6810,0.8119,0.740706,3.7749,5.489,1946.375,740.250,127.375,Lip Pursing,3
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8795,0.9033,0.891227,3.5707,2.388,1055.000,130.625,25.875,Lip Pursing,3
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.6921,0.7050,0.698517,5.0990,7.519,1278.000,400.750,97.875,Lip Pursing,3
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7601,0.7812,0.770497,1.8708,1.537,561.625,138.500,8.875,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8557,0.9005,0.877549,2.0000,7.142,2079.125,315.625,156.250,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8758,0.8262,0.850282,3.6742,6.574,1912.625,224.125,118.625,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.2232,0.7218,0.340922,15.0333,3.596,1995.750,5014.375,232.125,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8955,0.8727,0.883977,2.1794,0.957,1701.250,173.250,15.875,Lip Pursing,3
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.3704,0.4725,0.415266,4.9497,35.003,1193.125,958.250,532.750,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7908,0.7734,0.781989,2.5495,11.127,1738.875,355.875,189.250,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8100,0.7158,0.760012,3.0000,12.498,1085.250,182.250,119.875,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9083,0.9714,0.938810,1.8028,4.230,1552.750,152.250,70.250,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9179,0.8548,0.885251,1.8028,4.335,1798.750,137.500,72.625,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.4462,0.6396,0.525645,6.9282,1.830,1095.625,869.875,28.750,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6977,0.8132,0.751032,4.0000,0.951,1104.750,389.250,12.250,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7528,0.5706,0.649141,3.1623,5.014,2207.250,413.500,83.875,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8580,0.7270,0.787052,3.3541,2.537,1488.375,179.125,32.000,Lip Pursing,3
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9363,0.9272,0.931732,2.0000,0.413,1223.625,77.125,5.000,Lip Pursing,3
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9165,0.9440,0.930066,2.0000,1.522,965.000,83.000,15.125,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9570,0.9362,0.946453,1.7321,1.278,2289.250,96.375,28.625,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7867,0.7613,0.773775,2.8723,7.146,2368.125,488.750,163.750,Lip Pursing,3
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8741,0.8375,0.855386,2.8284,3.393,1142.000,137.750,37.125,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7226,0.7593,0.740463,2.4495,4.475,2142.500,624.625,100.750,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8697,0.9503,0.908208,2.1213,3.085,1550.000,220.750,52.250,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7881,0.8733,0.828503,2.0616,3.585,2369.000,556.375,94.125,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7575,0.9385,0.838332,3.4641,4.614,2029.250,609.625,116.000,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.5744,0.4622,0.512223,5.4083,9.962,1920.875,658.000,154.000,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7386,0.8076,0.771573,3.9370,5.273,1255.250,358.750,72.375,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7924,0.6592,0.719697,2.0000,4.634,1459.125,252.000,56.250,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6969,0.5934,0.641005,3.9370,7.115,1182.125,305.125,71.625,Lip Pursing,3
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.5964,0.7917,0.680311,2.8723,18.009,1152.000,617.125,275.375,Lip Pursing,3
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9290,0.8944,0.911407,1.8028,3.390,1930.125,131.875,63.000,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7059,0.8838,0.784928,3.1623,2.376,2139.000,787.500,63.625,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.6300,0.8347,0.718003,2.5981,2.616,2466.750,1209.375,85.500,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9591,0.9820,0.970393,1.4142,0.658,2392.750,100.250,16.125,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8777,0.9518,0.913272,3.0822,2.043,1924.375,255.125,42.625,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8777,0.5238,0.656093,4.3301,4.338,888.375,64.875,23.000,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7406,0.7291,0.734761,4.2426,6.739,917.625,234.375,60.875,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9499,0.9294,0.939539,1.8028,1.579,1779.625,87.250,27.500,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9588,0.9396,0.949106,1.4142,1.346,1288.875,52.000,17.000,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6259,0.7029,0.662167,2.8284,3.446,1692.250,711.000,65.500,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9148,0.9108,0.912786,2.0616,0.191,1510.375,128.125,2.875,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8784,0.6149,0.723394,2.6926,0.732,1488.875,126.750,7.625,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9551,0.9230,0.938745,2.2361,0.400,938.125,40.750,3.625,Lip Pursing,3
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9539,0.9017,0.927070,1.4142,0.377,1507.625,65.625,5.375,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9247,0.9722,0.947838,2.2913,2.968,1858.625,147.125,58.000,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9456,0.8707,0.906629,2.1213,3.178,1153.500,57.750,33.750,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8115,0.8678,0.838702,2.1213,4.488,2122.500,428.000,101.875,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8439,0.8725,0.857961,2.5000,3.519,2167.750,349.875,78.875,Lip Pursing,3
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9237,0.9311,0.927399,1.5811,4.927,2426.625,186.500,120.500,Lip Pursing,3
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.1366,0.5500,0.218899,13.0192,54.495,1350.625,4693.875,2962.750,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8123,0.9143,0.860292,2.7386,0.751,1302.000,275.000,11.000,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8290,0.8910,0.858886,2.8723,0.936,1540.875,283.125,15.500,Lip Pursing,3
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8723,0.9359,0.902988,3.3912,5.466,1669.000,228.625,97.875,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7246,0.8339,0.775400,3.5707,5.923,1292.750,409.750,88.125,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8283,0.8568,0.842308,2.4495,2.848,1086.250,193.000,32.000,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9168,0.9177,0.917269,4.7697,4.919,1444.500,120.250,71.125,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9363,0.9791,0.957266,1.7321,3.960,1192.500,79.375,49.375,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8881,0.8778,0.882949,2.4495,1.308,1557.000,172.125,20.125,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9266,0.9669,0.946337,3.0000,1.398,1517.250,116.125,22.125,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.9181,0.9159,0.917010,2.0000,0.841,804.500,65.750,6.750,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.9235,0.9288,0.926125,1.0000,0.637,1619.750,124.625,10.375,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9000,0.8590,0.879002,8.1240,2.282,1400.250,133.625,30.500,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8538,0.8749,0.864221,3.0000,3.962,1699.625,254.625,69.000,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9054,0.8627,0.883551,3.9051,2.673,1580.375,142.375,40.250,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.7613,0.8048,0.782432,3.9051,5.927,1079.125,272.375,67.625,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.6268,0.6670,0.646287,5.4772,4.905,1398.625,555.375,73.000,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8029,0.8321,0.817262,6.2650,3.700,1486.375,303.625,57.000,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.7658,0.8124,0.788412,3.1623,4.927,1867.500,464.125,97.625,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9251,0.9578,0.941180,1.5811,1.606,1856.500,143.875,30.875,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.5333,0.6642,0.591596,4.2720,38.389,1787.000,1038.875,854.500,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8869,0.9261,0.906092,2.7386,7.662,1490.500,176.000,119.250,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.5480,0.4691,0.505476,6.3443,11.717,2441.500,944.625,244.875,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.6772,0.6831,0.680111,2.1794,7.245,2064.375,672.250,150.875,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8970,0.9087,0.902811,2.6926,0.125,1382.625,144.250,1.750,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9490,0.9434,0.946205,2.8284,0.164,1303.875,66.125,2.125,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,DUCK-Net (Multi-Scale),0.6540,0.4425,0.527835,8.4558,23.900,1457.125,341.125,235.625,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,DUCK-Net (Multi-Scale),0.1354,0.4585,0.209030,13.2759,59.256,1569.625,4596.125,3149.875,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.7227,0.8109,0.764262,4.8477,11.702,756.875,235.500,99.375,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.7255,0.7192,0.722327,3.2016,8.285,1130.750,307.750,92.875,Lip Pursing,3
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8720,0.9360,0.902862,3.2787,2.951,2553.375,350.750,80.875,Lip Pursing,3
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8447,0.8576,0.851112,4.8477,4.617,1210.625,190.875,56.750,Lip Pursing,3
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9233,0.7930,0.853200,4.8218,0.055,2387.875,157.375,1.125,Lip Pursing,3
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9110,0.9712,0.940128,1.6583,1.407,916.500,87.000,13.750,Lip Pursing,3
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8375,0.8489,0.843173,4.0000,2.798,1242.875,204.750,35.250,Lip Pursing,3
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,DUCK-Net (Multi-Scale),0.9843,0.9905,0.987378,0.7071,0.164,4176.000,66.000,6.875,Lip Pursing,3
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,DUCK-Net (Multi-Scale),0.7507,0.5661,0.645435,5.3151,2.593,1611.125,302.875,31.500,Lip Pursing,3
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8996,0.9390,0.918896,1.4142,1.921,1870.125,196.000,37.500,Lip Pursing,3
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8657,0.8076,0.835620,3.1623,1.744,1183.000,148.250,19.250,Lip Pursing,3
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,DUCK-Net (Multi-Scale),0.9597,0.9761,0.967848,1.4142,0.646,2073.875,85.000,13.625,Lip Pursing,3
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,DUCK-Net (Multi-Scale),0.8739,0.7986,0.834564,1.5811,1.291,1229.000,141.625,14.500,Lip Pursing,3
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.6274,0.6963,0.660048,2.6926,1.332,1175.750,486.125,17.375,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9179,0.9790,0.947457,2.0000,3.899,1722.125,150.875,71.625,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9546,0.9360,0.945210,3.0822,2.531,1511.375,67.250,37.500,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8599,0.7544,0.803707,4.0000,7.252,1300.500,159.875,82.750,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8635,0.7815,0.820485,2.5981,6.947,1344.000,166.000,84.500,Lip Pursing,3
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8491,0.8802,0.864368,2.2361,1.839,1055.750,165.125,20.125,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9722,0.9784,0.975287,1.4142,0.800,791.625,22.125,6.375,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9682,0.8041,0.878573,1.5811,0.116,520.750,13.750,0.500,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8912,0.7146,0.793179,3.3166,1.087,1391.375,121.375,12.125,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.5733,0.1910,0.286504,8.3666,25.817,1561.125,221.875,134.250,Lip Pursing,3
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9036,0.8612,0.881899,2.5495,0.415,1833.250,168.500,7.250,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7759,0.4170,0.542475,8.6747,0.861,1944.750,234.250,9.000,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8296,0.8295,0.829545,1.5811,1.245,1696.750,289.000,21.125,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8743,0.6962,0.775136,3.2404,1.557,1290.750,129.250,16.000,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8700,0.7352,0.796960,3.5707,0.398,855.875,94.000,2.875,Lip Pursing,3
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9469,0.9075,0.926798,1.4142,0.413,1609.625,81.875,6.375,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9568,0.8734,0.913178,1.6583,0.170,805.375,31.750,1.250,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9238,0.8428,0.881400,2.2913,3.918,709.875,49.375,25.375,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8929,0.5334,0.667833,3.3166,2.192,1565.750,100.125,20.500,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9347,0.9229,0.928735,2.0000,5.043,933.750,60.250,46.500,Lip Pursing,3
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8802,0.8620,0.871024,1.6583,0.657,2408.625,282.500,15.500,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9586,0.9244,0.941206,2.0616,0.535,1258.750,50.250,6.500,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9602,0.9493,0.954731,2.8723,2.535,1650.875,65.000,41.375,Lip Pursing,3
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8324,0.5314,0.648653,2.1794,4.416,1041.875,111.500,29.375,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8536,0.8009,0.826424,2.2913,1.118,2097.000,288.000,22.000,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8714,0.9141,0.892246,2.6926,0.213,2233.000,301.125,5.000,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8848,0.9439,0.913419,3.0000,2.017,2068.375,254.125,44.500,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.6363,0.4581,0.532730,5.3151,12.993,1109.125,290.375,103.750,Lip Pursing,3
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8339,0.5509,0.663457,2.1213,1.268,1313.125,144.125,11.000,Lip Pursing,3
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8916,0.9000,0.895768,4.2426,0.343,1517.125,166.000,5.250,Lip Pursing,3
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8403,0.6530,0.734889,2.1794,1.283,1793.250,222.625,17.875,Lip Pursing,3
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8367,0.8170,0.826745,1.6583,0.498,1337.500,213.250,6.500,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9378,0.8890,0.912749,2.5495,1.875,1336.375,78.750,23.750,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8974,0.8133,0.853255,4.2720,2.306,1142.125,106.250,23.875,Lip Pursing,3
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8497,0.8869,0.867925,3.2016,8.976,1841.250,288.750,172.500,Lip Pursing,3
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8244,0.4183,0.555000,3.0414,2.728,1824.375,162.500,25.250,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8260,0.8677,0.846331,3.0822,5.963,927.875,169.625,58.125,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9568,0.7318,0.829310,6.0000,0.796,903.750,29.875,5.500,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8185,0.7360,0.775034,2.0000,1.308,1849.625,301.875,21.750,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8090,0.5224,0.634843,4.4721,12.105,1280.875,158.000,100.125,Lip Pursing,3
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.6483,0.3456,0.450850,7.3485,1.264,1131.375,212.125,7.625,Lip Pursing,3
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7050,0.2543,0.373739,3.9370,3.864,1793.875,190.875,25.000,Lip Pursing,3
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8975,0.7365,0.809061,2.3452,2.725,1503.375,126.500,33.625,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9436,0.8230,0.879163,2.6926,1.317,2253.250,110.875,25.875,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9373,0.7156,0.811583,1.0000,0.062,2097.750,100.375,1.000,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9434,0.9492,0.946264,3.2787,2.018,1514.375,86.250,30.750,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.7996,0.6328,0.706515,3.1623,2.057,1504.750,238.625,24.500,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8415,0.7665,0.802297,4.0927,1.570,1390.000,200.625,19.875,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8743,0.8858,0.880016,1.6583,0.926,1531.750,195.125,14.375,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9542,0.9670,0.960553,1.5811,0.135,2557.500,118.750,3.500,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8781,0.7382,0.802089,2.5000,1.738,3575.625,366.250,52.250,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.5329,0.4555,0.491170,6.0828,11.117,809.000,323.000,76.875,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7744,0.5901,0.669832,4.7697,10.915,1061.000,182.375,88.250,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.6135,0.3558,0.450446,7.9687,11.494,1552.625,348.000,103.500,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7325,0.4303,0.542105,4.2426,1.692,1534.500,241.125,15.250,Lip Pursing,3
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9397,0.8776,0.907593,2.0616,2.253,831.625,46.875,17.500,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8866,0.7866,0.833605,1.6583,1.230,1259.875,126.750,13.750,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8497,0.7488,0.796047,7.0887,4.989,1512.625,200.375,66.500,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9353,0.8769,0.905185,1.2247,1.630,1807.875,109.625,27.625,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9428,0.8381,0.887376,2.1794,0.458,1535.250,78.125,6.250,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8415,0.7663,0.802125,2.4495,1.630,1305.625,188.500,19.375,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8697,0.6865,0.767304,3.2404,1.905,1762.250,181.250,26.500,Lip Pursing,3
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8681,0.8286,0.847924,2.9580,1.430,1548.000,194.875,21.125,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9112,0.7612,0.829457,2.6926,0.766,2345.375,174.000,15.000,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8056,0.8021,0.803849,4.9749,6.115,1946.375,376.625,118.500,Lip Pursing,3
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9337,0.9608,0.947036,1.6583,0.737,1055.000,72.000,8.000,Lip Pursing,3
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.6872,0.4715,0.559313,4.1833,0.699,1278.000,274.250,6.125,Lip Pursing,3
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8708,0.3089,0.456054,4.0000,1.945,561.625,25.750,3.875,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8328,0.7464,0.787229,2.7386,3.709,2079.125,311.625,69.125,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8481,0.7767,0.810807,4.6904,4.903,1912.625,266.125,85.875,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7845,0.2280,0.353375,7.0000,1.271,1995.750,125.000,7.375,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9287,0.8615,0.893844,2.5495,1.354,1701.250,112.500,21.375,Lip Pursing,3
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.4213,0.4601,0.439882,4.8218,6.658,1193.125,754.000,86.750,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8818,0.7005,0.780787,1.2247,4.036,1738.875,163.250,55.750,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8595,0.7482,0.800000,3.7417,11.061,1085.250,132.750,104.500,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9325,0.9709,0.951333,2.0616,0.719,1552.750,109.125,11.625,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8877,0.7946,0.838589,4.7170,2.438,1798.750,180.875,39.250,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.6181,0.6651,0.640765,4.0000,0.679,1095.625,450.250,8.000,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7242,0.5618,0.632726,3.9370,1.590,1104.750,236.375,13.625,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7690,0.3344,0.466117,6.9642,2.240,2207.250,221.750,21.500,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7782,0.6953,0.734410,4.6904,1.485,1488.375,295.000,19.750,Lip Pursing,3
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9618,0.8177,0.883883,2.6926,1.358,1223.625,39.750,14.125,Lip Pursing,3
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9228,0.9075,0.915099,2.5000,0.606,965.000,73.250,5.750,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9435,0.9116,0.927294,1.7321,1.407,2289.250,124.875,31.125,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8288,0.5610,0.669122,4.0620,12.226,2368.125,274.500,196.000,Lip Pursing,3
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8803,0.6764,0.765041,4.7434,0.541,1142.000,105.000,4.750,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8334,0.7624,0.796307,1.8708,3.132,2142.500,326.500,61.375,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8667,0.9590,0.910532,3.6401,6.268,1550.000,228.625,107.500,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8039,0.7483,0.775066,3.9051,3.543,2369.000,432.500,78.125,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9048,0.7853,0.840786,2.9155,0.419,2029.250,167.750,7.375,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.5095,0.4799,0.494219,10.1612,5.520,1920.875,887.500,99.875,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8110,0.6149,0.699479,4.1833,2.220,1255.250,179.875,21.125,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7912,0.7451,0.767439,2.3452,1.001,1459.125,286.875,13.750,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.6669,0.2216,0.332698,5.5453,10.977,1182.125,130.875,43.125,Lip Pursing,3
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.3501,0.6442,0.453622,14.3265,9.823,1152.000,1377.875,208.250,Lip Pursing,3
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9170,0.8646,0.890037,2.4495,2.898,1930.125,151.125,52.750,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7852,0.8537,0.818019,5.6125,0.559,2139.000,499.625,13.000,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7941,0.5228,0.630508,3.4641,4.203,2466.750,334.375,68.250,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9553,0.9319,0.943435,1.4142,0.910,2392.750,104.375,21.250,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9035,0.8487,0.875201,6.3836,2.572,1924.375,174.500,46.500,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9016,0.8138,0.855495,3.4641,4.801,888.375,78.875,38.500,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7925,0.7039,0.745545,3.4641,4.494,917.625,169.125,36.625,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9487,0.8611,0.902758,1.5811,1.370,1779.625,82.875,22.125,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9577,0.8655,0.909267,2.5495,0.268,1288.875,49.250,3.125,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8023,0.5943,0.682792,3.5355,3.999,1692.250,247.750,50.125,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9153,0.9251,0.920151,0.8660,0.974,1510.375,129.375,14.875,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8804,0.6591,0.753829,3.4641,3.466,1488.875,133.250,38.625,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9529,0.9410,0.946903,1.0000,0.391,938.125,43.625,3.625,Lip Pursing,3
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9686,0.9424,0.955287,1.5811,1.909,1507.625,46.125,28.000,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9668,0.8995,0.931926,1.4142,0.810,1858.625,57.500,14.000,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9490,0.8850,0.915891,1.2247,0.244,1153.500,54.875,2.625,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9084,0.8383,0.871949,2.4495,1.474,2122.500,179.500,28.875,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9114,0.7051,0.795084,2.8723,0.343,2167.750,148.625,5.750,Lip Pursing,3
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9552,0.9010,0.927314,1.4142,0.803,2426.625,102.500,18.375,Lip Pursing,3
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7041,0.5028,0.586685,3.5000,5.897,1350.625,285.375,56.875,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9299,0.8468,0.886388,2.5495,0.685,1302.000,83.125,8.125,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9364,0.7253,0.817463,3.2787,0.052,1540.875,75.875,0.625,Lip Pursing,3
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9286,0.8330,0.878203,2.9580,1.252,1669.000,106.875,18.750,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.7224,0.6664,0.693290,4.6098,1.855,1292.750,331.000,22.125,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8228,0.7456,0.782299,2.5495,0.838,1086.250,174.375,8.250,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9178,0.8219,0.867199,3.3166,5.353,1444.500,106.375,69.250,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9603,0.9649,0.962564,1.2247,1.001,1192.500,47.625,12.000,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8655,0.8692,0.867340,2.3452,6.043,1557.000,210.375,94.500,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9380,0.9298,0.933885,2.0000,1.006,1517.250,93.250,15.125,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.9135,0.8019,0.854046,2.2913,0.619,804.500,61.125,4.375,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.8075,0.9367,0.867341,3.2787,4.025,1619.750,361.625,75.625,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9617,0.9458,0.953688,1.5000,2.451,1400.250,52.750,33.750,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8959,0.6999,0.785829,2.8284,0.452,1699.625,138.250,6.000,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8787,0.8536,0.865958,4.3301,5.748,1580.375,186.250,88.250,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8119,0.7156,0.760744,4.0927,2.523,1079.125,178.875,24.000,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.7857,0.6556,0.714801,5.0498,0.846,1398.625,250.125,9.875,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8673,0.6138,0.718865,8.8459,1.164,1486.375,139.625,12.250,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8365,0.5950,0.695377,3.0000,0.075,1867.500,217.125,1.000,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9490,0.9101,0.929131,1.5000,0.449,1856.500,90.875,8.000,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.7188,0.5379,0.615348,6.0000,10.366,1787.000,376.000,138.625,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8945,0.5637,0.691532,2.4495,3.846,1490.500,99.125,36.125,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.5723,0.5754,0.573850,4.2426,15.101,2441.500,1049.625,370.625,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.7705,0.4972,0.604424,3.8406,1.135,2064.375,305.750,15.125,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9236,0.7891,0.851056,4.0927,0.296,1382.625,90.250,3.500,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9389,0.9617,0.950130,2.0000,0.646,1303.875,81.625,8.625,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,3DZ-Net (Variational Dense),0.5870,0.5735,0.580144,4.1533,37.650,1457.125,588.000,536.000,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,3DZ-Net (Variational Dense),0.5417,0.5288,0.535160,3.5000,25.510,1569.625,702.250,390.875,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8306,0.8799,0.854531,2.9580,5.581,756.875,135.875,44.750,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.7317,0.6335,0.679109,2.6926,1.762,1130.750,262.625,17.250,Lip Pursing,3
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9170,0.9183,0.917692,4.7697,0.259,2553.375,212.125,6.625,Lip Pursing,3
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8646,0.6497,0.741894,10.0623,7.984,1210.625,123.125,72.625,Lip Pursing,3
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9093,0.7638,0.830237,6.4807,0.037,2387.875,181.875,0.750,Lip Pursing,3
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9345,0.9517,0.943037,1.4142,1.741,916.500,61.125,16.250,Lip Pursing,3
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8508,0.8666,0.858652,4.6904,3.318,1242.875,188.875,42.000,Lip Pursing,3
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,3DZ-Net (Variational Dense),0.9851,0.9862,0.985670,1.0000,0.332,4176.000,62.250,13.875,Lip Pursing,3
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,3DZ-Net (Variational Dense),0.7999,0.6778,0.733809,5.5227,1.218,1611.125,273.125,16.625,Lip Pursing,3
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9287,0.9549,0.941603,1.7321,1.528,1870.125,137.125,29.375,Lip Pursing,3
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8399,0.7645,0.800420,3.3166,1.428,1183.000,172.375,15.375,Lip Pursing,3
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,3DZ-Net (Variational Dense),0.9609,0.9797,0.970245,1.5000,0.059,2073.875,82.625,1.250,Lip Pursing,3
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,3DZ-Net (Variational Dense),0.8646,0.6675,0.753372,2.9580,0.250,1229.000,128.500,2.375,Lip Pursing,3
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.7435,0.4342,0.548225,5.0990,1.038,1175.750,176.125,7.125,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9315,0.9808,0.955523,1.5000,1.503,1722.125,124.250,27.250,Lip Pursing,3
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9263,0.9555,0.940683,1.8028,1.291,1511.375,114.875,20.125,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8476,0.8411,0.844324,2.4495,4.339,1300.500,196.750,56.000,Lip Pursing,3
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8433,0.9352,0.886841,4.2426,5.694,1344.000,233.625,84.875,Lip Pursing,3
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8480,0.9281,0.886263,2.6926,2.607,1055.750,175.625,30.125,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9625,0.9771,0.969754,1.1180,0.684,791.625,30.125,5.500,Lip Pursing,3
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9546,0.9244,0.939268,2.1213,1.587,520.750,22.875,8.000,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8236,0.7215,0.769179,4.1533,7.127,1391.375,215.000,86.875,Lip Pursing,3
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.5551,0.3722,0.445574,10.4642,16.503,1561.125,465.750,172.750,Lip Pursing,3
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8641,0.9050,0.884034,2.2913,1.100,1833.250,261.000,21.125,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6861,0.5182,0.590450,8.7892,2.051,1944.750,461.000,30.125,Lip Pursing,3
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8040,0.8031,0.803553,2.4495,0.487,1696.750,332.125,8.250,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8362,0.7882,0.811506,4.3301,2.353,1290.750,199.250,28.625,Lip Pursing,3
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8522,0.5692,0.682487,2.4495,1.596,855.875,84.500,9.125,Lip Pursing,3
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9074,0.8684,0.887504,0.8660,1.615,1609.625,142.625,24.875,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9487,0.8619,0.903221,1.5000,1.179,805.375,37.500,8.625,Lip Pursing,3
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9232,0.9290,0.926101,1.5811,2.240,709.875,54.875,16.000,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7813,0.7698,0.775504,3.6056,9.787,1565.750,337.500,151.000,Lip Pursing,3
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8688,0.8645,0.866671,2.4495,6.216,933.750,121.875,57.750,Lip Pursing,3
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8063,0.8684,0.836169,2.0000,6.288,2408.625,502.625,163.125,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6544,0.7910,0.716213,8.4410,28.746,1258.750,525.875,437.375,Lip Pursing,3
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9127,0.8491,0.879736,2.4495,6.706,1650.875,134.125,103.000,Lip Pursing,3
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8501,0.6090,0.709632,2.8723,7.386,1041.875,111.875,55.125,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9000,0.7458,0.815660,1.4142,0.597,2097.000,173.750,10.375,Lip Pursing,3
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8227,0.8892,0.854653,2.8284,2.077,2233.000,428.000,50.125,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8258,0.8657,0.845273,2.5000,11.265,2068.375,377.625,244.250,Lip Pursing,3
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6958,0.4740,0.563883,4.5826,19.206,1109.125,229.875,145.125,Lip Pursing,3
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8463,0.6415,0.729803,2.0000,8.527,1313.125,153.000,84.875,Lip Pursing,3
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8750,0.8903,0.882591,3.1623,0.632,1517.125,193.000,9.750,Lip Pursing,3
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6695,0.8098,0.732997,1.4142,3.175,1793.250,717.000,68.875,Lip Pursing,3
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7820,0.8105,0.795961,2.5981,2.786,1337.500,302.250,38.625,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9359,0.8838,0.909126,2.2913,2.734,1336.375,80.875,34.500,Lip Pursing,3
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9106,0.7751,0.837413,3.8079,5.529,1142.125,86.875,53.750,Lip Pursing,3
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8625,0.8688,0.865666,2.9580,10.102,1841.250,255.000,187.375,Lip Pursing,3
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7434,0.6653,0.702198,2.5495,6.929,1824.375,418.875,113.125,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7405,0.7366,0.738570,4.0000,3.372,927.875,239.500,31.125,Lip Pursing,3
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9324,0.7607,0.837840,4.1533,1.221,903.750,49.875,9.000,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8215,0.8661,0.843203,1.5000,3.430,1849.625,348.000,66.875,Lip Pursing,3
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7660,0.6208,0.685785,3.3166,8.935,1280.875,242.875,92.750,Lip Pursing,3
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.5898,0.6350,0.611546,4.3012,5.634,1131.375,499.625,68.625,Lip Pursing,3
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.6240,0.5419,0.580048,4.2720,6.715,1793.875,585.875,104.625,Lip Pursing,3
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9051,0.7276,0.806692,2.4495,3.796,1503.375,114.750,45.875,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8956,0.9153,0.905345,2.1213,0.641,2253.250,240.375,14.750,Lip Pursing,3
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9155,0.8724,0.893452,1.5811,0.456,2097.750,168.875,9.125,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9221,0.9396,0.930782,2.2361,1.888,1514.375,120.125,29.125,Lip Pursing,3
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7697,0.8858,0.823684,2.2913,6.526,1504.750,398.750,113.000,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7754,0.7874,0.781367,2.0616,6.155,1390.000,317.000,86.875,Lip Pursing,3
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8879,0.7818,0.831489,2.0000,5.228,1531.750,151.125,70.500,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9437,0.9075,0.925250,1.4142,0.315,2557.500,138.375,7.750,Lip Pursing,3
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8328,0.7075,0.765055,1.8708,1.646,3575.625,507.875,50.000,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.6007,0.5108,0.552104,9.3941,11.882,809.000,274.750,81.750,Lip Pursing,3
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7459,0.2843,0.411669,8.2462,7.883,1061.000,102.750,31.875,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.4456,0.5880,0.506977,9.1924,12.069,1552.625,1135.750,247.250,Lip Pursing,3
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6706,0.4715,0.553690,4.0311,5.353,1534.500,355.375,57.750,Lip Pursing,3
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9048,0.8468,0.874845,1.5811,1.092,831.625,74.125,8.500,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8766,0.6556,0.750184,2.0000,3.091,1259.875,116.250,29.125,Lip Pursing,3
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8733,0.6865,0.768704,3.0414,6.371,1512.625,150.625,75.750,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9285,0.8503,0.887686,1.4142,0.468,1807.875,118.375,7.750,Lip Pursing,3
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9279,0.8870,0.907002,4.5000,0.843,1535.250,105.750,12.375,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8453,0.7860,0.814605,2.5000,4.386,1305.625,187.750,53.250,Lip Pursing,3
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8157,0.7085,0.758333,3.7749,6.632,1762.250,282.000,101.500,Lip Pursing,3
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8542,0.6361,0.729149,4.4721,8.013,1548.000,168.125,92.375,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9352,0.7393,0.825778,3.4641,0.978,2345.375,120.125,18.125,Lip Pursing,3
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8065,0.8445,0.825061,3.1623,3.901,1946.375,394.250,79.500,Lip Pursing,3
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9542,0.8934,0.922776,2.4495,0.936,1055.000,45.250,9.250,Lip Pursing,3
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7170,0.5787,0.640472,4.6904,9.790,1278.000,292.000,101.000,Lip Pursing,3
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7797,0.6492,0.708526,3.0414,1.577,561.625,103.000,7.375,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8666,0.8359,0.850970,2.8284,5.416,2079.125,267.625,108.625,Lip Pursing,3
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7841,0.6094,0.685813,6.2048,11.259,1912.625,321.000,167.375,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.3154,0.6421,0.423051,13.7204,6.791,1995.750,2781.125,275.875,Lip Pursing,3
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8875,0.8050,0.844230,3.2016,1.077,1701.250,173.625,16.625,Lip Pursing,3
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.4737,0.2286,0.308388,5.1235,26.010,1193.125,303.000,149.750,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8422,0.7680,0.803354,2.8284,6.196,1738.875,250.250,98.250,Lip Pursing,3
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7474,0.7146,0.730613,4.4721,15.504,1085.250,262.125,160.875,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9530,0.9787,0.965725,1.7321,2.195,1552.750,74.875,35.000,Lip Pursing,3
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9140,0.8159,0.862168,1.8028,4.717,1798.750,138.125,75.750,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.4689,0.4262,0.446569,3.7417,3.113,1095.625,528.875,31.000,Lip Pursing,3
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7524,0.6560,0.700919,3.5707,1.181,1104.750,238.500,11.375,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7509,0.4814,0.586701,3.0822,5.768,2207.250,352.500,81.625,Lip Pursing,3
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7310,0.5581,0.632948,4.0311,7.525,1488.375,305.625,85.500,Lip Pursing,3
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9306,0.8470,0.886833,2.0000,0.629,1223.625,77.250,7.000,Lip Pursing,3
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9139,0.9141,0.914001,3.3912,2.305,965.000,83.125,22.250,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9078,0.9657,0.935841,1.8028,2.217,2289.250,224.625,54.000,Lip Pursing,3
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7940,0.7635,0.778430,2.9580,5.089,2368.125,469.125,115.875,Lip Pursing,3
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8482,0.2361,0.369381,9.9624,6.410,1142.000,48.250,20.375,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8084,0.5322,0.641852,2.5495,5.264,2142.500,270.250,74.250,Lip Pursing,3
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8745,0.9263,0.899663,3.4641,3.350,1550.000,206.000,55.000,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7923,0.8467,0.818620,2.0616,2.661,2369.000,525.750,67.375,Lip Pursing,3
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8668,0.8274,0.846644,3.0000,3.472,2029.250,258.000,67.250,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6817,0.7625,0.719828,4.5826,4.596,1920.875,683.875,98.750,Lip Pursing,3
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6439,0.6793,0.661175,4.6098,9.279,1255.250,471.500,122.875,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7673,0.5326,0.628774,4.3012,4.986,1459.125,235.625,50.500,Lip Pursing,3
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6022,0.4290,0.501050,5.1235,10.598,1182.125,335.000,89.250,Lip Pursing,3
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6478,0.2528,0.363693,6.9642,11.537,1152.000,158.375,51.875,Lip Pursing,3
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9312,0.9314,0.931296,1.8028,3.101,1930.125,132.875,59.875,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8197,0.8765,0.847138,3.1623,2.536,2139.000,412.500,58.000,Lip Pursing,3
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7307,0.8241,0.774602,3.0000,3.258,2466.750,749.000,90.625,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9597,0.9829,0.971120,1.1180,0.709,2392.750,98.875,17.375,Lip Pursing,3
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8993,0.8895,0.894390,3.2787,1.780,1924.375,191.625,33.875,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8823,0.8217,0.850940,2.9155,4.819,888.375,97.375,39.875,Lip Pursing,3
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.6418,0.7030,0.671000,3.4641,9.985,917.625,360.125,100.375,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9687,0.9691,0.968890,1.4142,1.411,1779.625,55.750,25.125,Lip Pursing,3
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9593,0.8557,0.904552,1.4142,0.913,1288.875,46.750,10.500,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7097,0.8209,0.761243,2.9155,1.865,1692.250,568.250,36.500,Lip Pursing,3
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8905,0.9100,0.900123,1.4142,1.150,1510.375,169.000,17.750,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8453,0.8079,0.826186,2.5495,1.537,1488.875,220.125,21.875,Lip Pursing,3
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9570,0.9315,0.944092,1.6583,0.465,938.125,39.250,4.250,Lip Pursing,3
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9628,0.9604,0.961604,0.8660,0.507,1507.625,55.875,7.625,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9520,0.9040,0.927386,2.0616,2.004,1858.625,84.750,35.375,Lip Pursing,3
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9203,0.9154,0.917803,1.2247,4.075,1153.500,91.500,46.750,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8766,0.8481,0.862129,2.5000,4.011,2122.500,253.375,82.375,Lip Pursing,3
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9117,0.7553,0.826138,2.2361,2.993,2167.750,158.625,53.750,Lip Pursing,3
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9194,0.9266,0.922986,2.0616,3.869,2426.625,197.250,94.625,Lip Pursing,3
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6109,0.6918,0.648843,2.9155,12.717,1350.625,595.125,194.500,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9365,0.8843,0.909639,2.0000,0.722,1302.000,78.125,8.875,Lip Pursing,3
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8964,0.7682,0.827363,2.1213,1.268,1540.875,136.875,16.750,Lip Pursing,3
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8942,0.8453,0.869056,2.8284,4.279,1669.000,166.875,67.500,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8015,0.7794,0.790333,3.1623,4.445,1292.750,249.500,55.875,Lip Pursing,3
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8172,0.7136,0.761887,2.6926,7.420,1086.250,173.375,70.375,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8959,0.8709,0.883194,2.6926,6.525,1444.500,146.250,91.625,Lip Pursing,3
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9275,0.9550,0.941073,1.8028,4.866,1192.500,89.000,59.750,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8605,0.9076,0.883410,2.7386,3.638,1557.000,229.125,59.750,Lip Pursing,3
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9389,0.9242,0.931495,2.6926,1.682,1517.250,91.250,25.125,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.7841,0.7638,0.773808,2.1213,2.026,804.500,169.250,15.875,Lip Pursing,3
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.8373,0.9309,0.881596,1.4142,1.319,1619.750,293.000,23.750,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9362,0.9201,0.928099,1.8028,1.508,1400.250,87.750,20.750,Lip Pursing,3
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.4160,0.8577,0.560269,11.3688,20.091,1699.625,2046.375,704.000,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8565,0.6790,0.757467,5.1962,2.495,1580.375,179.750,31.250,Lip Pursing,3
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.4190,0.5422,0.472709,15.5242,11.350,1079.125,811.375,158.500,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.6611,0.4117,0.507435,4.2720,3.903,1398.625,295.250,34.000,Lip Pursing,3
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8396,0.6610,0.739660,6.5955,2.927,1486.375,187.750,34.250,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.7868,0.7037,0.742942,2.7386,3.974,1867.500,356.000,66.375,Lip Pursing,3
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9628,0.9401,0.951317,1.5811,1.110,1856.500,67.375,20.125,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.6984,0.5013,0.583679,4.9497,17.940,1787.000,386.875,230.125,Lip Pursing,3
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8609,0.6869,0.764157,3.1623,7.536,1490.500,165.375,89.625,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.7133,0.5965,0.649678,5.0000,4.836,2441.500,585.500,98.750,Lip Pursing,3
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.7494,0.6318,0.685590,6.0208,7.807,2064.375,436.125,135.875,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9212,0.8786,0.899398,3.5355,0.379,1382.625,103.875,5.000,Lip Pursing,3
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9353,0.8869,0.910442,2.8284,0.354,1303.875,80.000,4.375,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,Ensemble-nnU-Net (Baseline),0.4945,0.4968,0.495614,5.3151,32.855,1457.125,740.125,481.000,Lip Pursing,3
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,Ensemble-nnU-Net (Baseline),0.4113,0.1987,0.267948,6.9642,29.773,1569.625,446.375,225.750,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.7312,0.8604,0.790592,4.1833,10.119,756.875,239.375,90.125,Lip Pursing,3
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8176,0.6105,0.699070,2.4495,4.338,1130.750,154.000,36.625,Lip Pursing,3
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8995,0.8922,0.895820,3.7417,1.446,2553.375,254.625,36.625,Lip Pursing,3
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8588,0.4994,0.631586,7.5000,3.853,1210.625,99.375,27.125,Lip Pursing,3
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9025,0.7227,0.802640,5.1962,0.222,2387.875,186.375,4.250,Lip Pursing,3
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9204,0.9299,0.925102,2.1213,1.755,916.500,73.750,16.250,Lip Pursing,3
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8270,0.8656,0.845897,2.5981,2.575,1242.875,225.000,33.500,Lip Pursing,3
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,Ensemble-nnU-Net (Baseline),0.9811,0.9875,0.984291,0.8660,0.110,4176.000,79.375,4.625,Lip Pursing,3
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,Ensemble-nnU-Net (Baseline),0.7748,0.3612,0.492671,5.3385,2.081,1611.125,169.125,15.625,Lip Pursing,3
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8868,0.9549,0.919636,1.5000,2.464,1870.125,227.875,49.625,Lip Pursing,3
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8558,0.7580,0.803945,4.3589,1.944,1183.000,151.125,20.375,Lip Pursing,3
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,Ensemble-nnU-Net (Baseline),0.9264,0.9796,0.952219,1.4142,1.009,2073.875,161.500,22.125,Lip Pursing,3
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,Ensemble-nnU-Net (Baseline),0.8499,0.6698,0.749147,1.7321,1.549,1229.000,145.375,15.000,Lip Pursing,3
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.6063,0.5860,0.595989,4.0620,2.002,1175.750,447.375,22.750,Lip Pursing,3

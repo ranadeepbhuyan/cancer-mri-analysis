@@ -1,0 +1,776 @@
+Subject_ID,Volume_ID,Source,Split,Model,Precision,Recall,Dice,HD95_mm,SSR_pct,GT_Vol_mm3,FP_Vol_mm3,Spill_Vol_mm3,Motor_Task,Run
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9431,0.9854,0.963748,0.5000,1.032,1101.125,65.500,11.875,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9686,0.9654,0.966972,1.6583,0.862,1978.875,62.000,17.000,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9520,0.9200,0.935720,2.2361,0.936,1424.125,66.000,12.875,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7699,0.7978,0.783560,1.2247,4.971,1946.250,464.125,100.250,Foot Movement,1
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9586,0.9378,0.948072,1.4142,0.625,1247.250,50.500,7.625,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9717,0.9867,0.979183,1.0000,0.809,867.000,24.875,7.125,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9757,0.9655,0.970583,0.7071,0.653,696.250,16.750,4.500,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9195,0.9089,0.914199,1.2247,1.844,1789.875,142.375,32.625,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8880,0.9066,0.897186,1.4142,2.639,1553.875,177.750,41.875,Foot Movement,1
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9733,0.9538,0.963460,1.2247,0.402,2947.625,77.000,11.625,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8432,0.6298,0.721033,2.4495,0.848,1895.250,222.000,12.000,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8528,0.8963,0.874022,1.1180,0.778,2353.125,364.000,19.250,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9408,0.9026,0.921322,2.0000,0.476,1286.000,73.000,5.875,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9031,0.8653,0.883830,1.1180,1.024,1362.750,126.500,13.375,Foot Movement,1
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9760,0.9882,0.982059,0.5000,0.319,1859.125,45.125,6.000,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9713,0.9510,0.961028,0.7071,0.774,1385.625,39.000,10.500,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8992,0.8884,0.893746,1.0000,2.035,1081.750,107.750,21.750,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9323,0.9250,0.928637,1.4142,1.920,1850.750,124.375,35.250,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9526,0.9366,0.944545,1.2247,1.480,1426.375,66.500,20.750,Foot Movement,1
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8084,0.7575,0.782080,1.8708,5.148,2283.125,410.000,110.125,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9798,0.9767,0.978242,1.0000,1.424,1593.875,32.125,22.625,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8600,0.7981,0.827885,2.1794,9.266,2112.000,274.500,181.625,Foot Movement,1
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8949,0.8993,0.897095,2.9155,5.891,1558.250,164.625,92.250,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9166,0.9420,0.929105,1.0000,1.079,4338.875,372.125,48.125,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9456,0.9244,0.934873,2.5981,1.112,4175.250,222.125,45.375,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8993,0.8885,0.893887,1.6583,5.959,3142.250,312.625,185.000,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7555,0.8221,0.787417,2.1794,13.799,2209.375,587.750,331.750,Foot Movement,1
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9547,0.9461,0.950404,1.4142,1.838,2196.375,98.500,40.000,Foot Movement,1
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9281,0.9204,0.924235,1.0000,0.549,2317.000,165.125,12.625,Foot Movement,1
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8935,0.7919,0.839624,2.8284,1.246,2263.125,213.625,25.000,Foot Movement,1
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9411,0.9063,0.923363,1.0000,0.620,1611.875,91.500,9.625,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9423,0.9413,0.941837,1.5811,2.360,1649.250,95.000,38.875,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9427,0.9220,0.932220,1.5811,2.001,2331.875,130.625,45.625,Foot Movement,1
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9589,0.8939,0.925228,1.4142,1.690,2110.250,80.875,33.250,Foot Movement,1
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9651,0.9402,0.952491,0.8660,1.150,1595.250,54.250,17.875,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8835,0.8351,0.858652,1.4142,1.326,887.875,97.750,11.125,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9333,0.9384,0.935855,1.1180,0.851,1153.375,77.375,9.875,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9558,0.8875,0.920389,1.0000,1.114,1825.375,74.875,18.875,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8939,0.9001,0.896967,1.8028,3.593,1488.875,159.125,53.875,Foot Movement,1
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8566,0.8383,0.847325,1.5000,1.865,1821.875,255.750,33.250,Foot Movement,1
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8331,0.9037,0.866955,2.4495,2.125,1442.125,261.125,33.250,Foot Movement,1
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9675,0.9671,0.967288,1.0000,1.165,2329.625,75.625,27.125,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9484,0.8463,0.894446,3.1623,0.539,2704.625,124.625,13.000,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8717,0.8933,0.882373,1.4142,0.818,3311.750,435.375,27.750,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9884,0.9777,0.983022,0.5000,0.237,2927.625,33.625,6.875,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9141,0.8614,0.886995,1.4142,1.423,2498.875,202.250,33.500,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9031,0.8869,0.894919,2.0616,4.383,1617.500,153.875,69.625,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8688,0.7711,0.817054,3.1623,6.409,1986.625,231.250,113.000,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8914,0.9028,0.897088,1.5811,1.091,3347.875,368.250,37.000,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8656,0.8720,0.868802,1.7321,1.194,3958.250,536.000,47.625,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.7658,0.5789,0.659389,2.9580,6.180,1819.250,322.125,85.000,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9005,0.7586,0.823473,2.1213,2.440,1550.375,130.000,31.875,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7601,0.6559,0.704204,2.6926,4.234,1481.250,306.625,54.125,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.6980,0.4801,0.568917,4.3875,5.264,2906.875,603.750,105.250,Foot Movement,1
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9161,0.8881,0.901885,1.6583,1.443,1081.000,87.875,15.125,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9826,0.9830,0.982797,0.5000,0.507,2019.625,35.125,10.250,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9720,0.9167,0.943547,1.0000,0.787,2206.125,58.250,16.375,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9609,0.9288,0.944586,1.7321,0.601,2796.375,105.750,16.250,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9374,0.9047,0.920742,0.7071,0.411,2174.875,131.500,8.625,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9195,0.8329,0.874049,1.2247,1.429,1526.375,111.250,19.750,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8925,0.9097,0.901015,1.4142,3.144,1914.875,209.875,61.375,Foot Movement,1
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9112,0.8246,0.865749,0.5000,2.471,2341.625,188.250,52.375,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9466,0.9224,0.934340,1.4142,1.235,2473.250,128.625,29.750,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9623,0.8328,0.892879,2.0616,0.810,2549.125,83.125,17.875,Foot Movement,1
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9706,0.9693,0.969984,0.8660,0.610,1189.750,34.875,7.250,Foot Movement,1
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8391,0.7665,0.801147,2.1794,3.782,2323.000,341.375,80.250,Foot Movement,1
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9644,0.9848,0.974483,0.5000,0.443,993.750,36.125,4.500,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8904,0.8152,0.851137,1.8708,3.196,1986.750,199.250,58.125,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9581,0.8870,0.921147,1.4142,1.259,3731.375,144.875,43.500,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8692,0.8607,0.864937,2.0000,1.671,2129.750,275.875,35.250,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8849,0.8857,0.885334,0.7071,0.797,2304.000,265.375,18.375,Foot Movement,1
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8021,0.7943,0.798155,1.4142,7.387,1702.000,333.625,124.500,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9220,0.8476,0.883242,1.7321,3.469,1873.625,134.375,59.750,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9660,0.9092,0.936746,1.4142,1.888,1864.000,59.625,33.125,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8354,0.7394,0.784467,1.7321,6.125,2001.250,291.625,108.500,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9521,0.9319,0.941916,1.0000,1.592,2189.250,102.625,34.125,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8288,0.7477,0.786175,4.5552,1.158,1376.500,212.625,14.375,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.5643,0.4568,0.504928,4.2720,2.203,1268.500,447.375,22.625,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9456,0.9294,0.937385,0.7071,0.812,1817.250,97.250,14.500,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9386,0.9406,0.939591,1.4142,1.040,1403.500,86.375,14.625,Foot Movement,1
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9691,0.9461,0.957465,0.5000,0.301,1614.875,48.750,4.750,Foot Movement,1
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9374,0.8965,0.916468,1.6583,1.877,1204.750,72.125,21.625,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9318,0.8853,0.907964,1.5811,1.983,3423.125,221.750,64.500,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9422,0.8997,0.920421,0.8660,0.991,2218.500,122.500,21.000,Foot Movement,1
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9692,0.9537,0.961349,1.1180,0.607,1486.625,45.125,8.875,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8248,0.8227,0.823723,4.1833,5.173,2662.125,465.375,137.375,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8711,0.7686,0.816667,2.3452,3.288,2279.000,259.250,66.125,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8501,0.8931,0.871057,2.5000,3.521,2351.875,370.500,87.000,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9707,0.9688,0.969782,2.0000,0.809,2105.500,61.500,17.000,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8440,0.7625,0.801167,2.5981,3.752,2341.750,330.000,79.375,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7468,0.8461,0.793322,2.8284,6.324,2320.250,665.750,166.250,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9368,0.8943,0.915072,1.1180,1.356,1574.500,95.000,20.375,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8990,0.8307,0.863514,1.7321,2.198,1427.500,133.250,29.000,Foot Movement,1
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9105,0.9006,0.905565,1.1180,2.817,1830.625,162.000,51.000,Foot Movement,1
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9125,0.8464,0.878200,1.2247,3.940,2421.500,196.500,88.500,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9276,0.8729,0.899424,1.1180,0.677,3745.125,255.125,23.875,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9524,0.9242,0.938098,1.2247,0.528,3047.750,140.875,15.625,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9756,0.9516,0.963422,1.1180,0.614,2838.875,67.625,17.000,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8978,0.9286,0.912930,1.2247,2.256,2115.750,223.625,49.375,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9743,0.9858,0.980019,0.5000,0.652,1685.375,43.875,11.125,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9107,0.9086,0.909609,1.5000,2.523,1295.875,115.500,32.625,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9776,0.9783,0.977943,0.5000,0.670,2702.375,60.500,18.125,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8849,0.9359,0.909695,1.0000,2.871,2140.625,260.500,65.000,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.5312,0.8796,0.662400,9.6307,7.634,2118.125,1644.125,267.750,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9140,0.8483,0.879934,2.6926,1.230,1729.500,138.000,19.750,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9587,0.9700,0.964340,0.8660,0.357,1765.000,73.750,6.375,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8974,0.8547,0.875539,1.0000,0.761,1173.375,114.625,8.500,Foot Movement,1
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9748,0.9696,0.972164,0.5000,0.266,2172.500,54.500,5.750,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9230,0.9320,0.927467,0.7071,2.262,2977.250,231.500,68.000,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9358,0.8869,0.910675,1.5000,1.790,1944.875,118.375,33.000,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9674,0.9660,0.966732,1.2247,0.798,2524.875,82.125,20.125,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9076,0.9158,0.911690,0.8660,1.983,2998.625,279.500,60.000,Foot Movement,1
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9418,0.9402,0.940990,0.8660,1.922,2214.375,128.750,42.500,Foot Movement,1
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8310,0.6870,0.752190,2.5981,5.463,1538.875,215.000,69.500,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8733,0.9182,0.895211,2.0000,1.626,1805.500,240.500,30.875,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9372,0.9264,0.931770,1.1180,0.423,1854.625,115.125,7.750,Foot Movement,1
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9593,0.9336,0.946304,1.4142,1.621,1584.375,62.750,25.000,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.7848,0.8015,0.793071,3.6401,5.417,1877.625,412.750,103.875,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9148,0.9186,0.916682,1.4142,1.898,1363.875,116.750,26.000,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9127,0.8899,0.901161,1.5811,4.592,1946.000,165.625,87.125,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.5484,0.9316,0.690368,12.5100,23.488,1814.750,1392.375,724.125,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9456,0.9492,0.947428,1.4142,1.118,2439.625,133.125,27.375,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9155,0.8913,0.903211,1.7321,1.551,2193.500,180.500,33.125,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.9613,0.9536,0.957463,1.4142,0.517,1414.750,54.250,7.250,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.8860,0.9669,0.924707,1.5811,1.021,1771.875,220.375,19.750,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9749,0.9742,0.974565,0.5000,0.465,1777.250,44.500,8.250,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9291,0.8949,0.911655,1.4142,2.134,2049.750,140.000,42.125,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8680,0.8163,0.841391,1.1180,2.046,2078.625,258.000,40.000,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9733,0.9508,0.961928,1.4142,0.508,1587.750,41.375,7.875,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8765,0.8551,0.865684,2.0000,1.773,2463.625,296.875,42.625,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9256,0.8651,0.894324,2.3452,1.082,2052.625,142.625,20.750,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9291,0.8773,0.902471,0.7071,1.820,2021.750,135.375,34.750,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9363,0.9307,0.933497,1.2247,1.384,2707.125,171.500,37.250,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9249,0.9090,0.916897,1.4142,4.046,2187.875,161.375,87.000,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9493,0.9217,0.935333,1.1180,2.604,2952.000,145.250,74.625,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.7758,0.6628,0.714828,2.7386,3.920,2896.375,554.875,97.000,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.8490,0.5556,0.671637,3.2016,2.759,1530.125,151.250,27.625,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9336,0.9314,0.932507,1.8028,0.525,1717.000,113.750,9.000,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9575,0.9280,0.942537,0.7071,0.206,1377.500,56.750,2.750,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,P(4x6) (State-of-the-Art),0.8530,0.9025,0.877034,1.1180,6.759,2537.875,394.750,181.500,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,P(4x6) (State-of-the-Art),0.6883,0.4863,0.569897,2.8284,11.364,2720.000,599.000,218.375,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.4382,0.8484,0.577897,8.0000,20.023,1449.875,1577.250,562.125,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9019,0.7568,0.822992,1.5000,3.384,1443.750,118.875,41.000,Foot Movement,1
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9402,0.9153,0.927624,1.2247,0.980,2464.375,143.375,23.500,Foot Movement,1
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9327,0.9438,0.938227,1.5000,1.614,1890.875,128.750,30.875,Foot Movement,1
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8923,0.8146,0.851680,1.6583,0.406,2765.125,271.750,10.250,Foot Movement,1
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9695,0.9660,0.967760,0.8660,0.397,1990.625,60.500,7.875,Foot Movement,1
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9251,0.8774,0.900620,1.6583,0.938,1377.000,97.750,12.250,Foot Movement,1
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,P(4x6) (State-of-the-Art),0.9878,0.9875,0.987647,0.5000,0.217,5009.375,61.250,10.875,Foot Movement,1
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,P(4x6) (State-of-the-Art),0.8972,0.8837,0.890386,1.8708,1.313,3468.875,351.250,44.875,Foot Movement,1
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9863,0.9902,0.988240,0.5000,0.313,2986.250,41.000,9.375,Foot Movement,1
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8994,0.7943,0.843626,1.5000,1.076,2682.750,238.250,25.500,Foot Movement,1
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,P(4x6) (State-of-the-Art),0.9615,0.8877,0.923130,1.0000,0.589,2459.625,87.375,13.375,Foot Movement,1
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,P(4x6) (State-of-the-Art),0.8993,0.9237,0.911328,1.5000,1.771,1999.250,206.875,36.375,Foot Movement,1
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9759,0.9580,0.966893,1.0000,0.246,2383.500,56.375,5.750,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9510,0.9814,0.965976,0.7071,0.913,1101.125,55.625,10.375,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9753,0.8928,0.932230,2.0000,0.552,1978.875,44.750,10.000,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9432,0.8361,0.886428,2.0616,0.634,1424.125,71.750,8.000,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7618,0.7276,0.744259,1.4142,4.801,1946.250,442.875,89.250,Foot Movement,1
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9708,0.9538,0.962236,1.0000,0.316,1247.250,35.750,3.875,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9733,0.9573,0.965257,1.1180,1.129,867.000,22.750,9.625,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9690,0.9440,0.956348,1.2247,0.516,696.250,21.000,3.500,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9020,0.5408,0.676214,2.5495,1.165,1789.875,105.125,12.500,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9121,0.7298,0.810833,1.6583,1.890,1553.875,109.250,23.500,Foot Movement,1
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9781,0.9274,0.952091,1.2247,0.711,2947.625,61.250,19.875,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8686,0.5830,0.697739,1.4142,0.501,1895.250,167.125,6.375,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8049,0.7362,0.769026,1.0000,0.964,2353.125,419.875,20.750,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9151,0.5760,0.706991,3.2016,0.201,1286.000,68.750,1.625,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9219,0.8829,0.901977,0.7071,0.996,1362.750,101.875,13.000,Foot Movement,1
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9770,0.9644,0.970698,0.5000,0.388,1859.125,42.125,7.125,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9761,0.8401,0.903035,0.8660,0.356,1385.625,28.500,4.250,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8811,0.8962,0.888583,0.7071,2.465,1081.750,130.875,27.125,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9279,0.8421,0.882909,1.8708,2.791,1850.750,121.125,46.875,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9622,0.8229,0.887104,2.2913,0.871,1426.375,46.125,10.625,Foot Movement,1
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7696,0.4787,0.590272,1.8028,7.138,2283.125,327.250,101.375,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9786,0.9764,0.977506,1.1180,1.344,1593.875,34.000,21.375,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8220,0.8589,0.840058,2.1213,11.816,2112.000,392.750,260.750,Foot Movement,1
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8969,0.9279,0.912152,3.2787,7.165,1558.250,166.125,115.500,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9348,0.8756,0.904201,1.5000,0.504,4338.875,265.125,20.500,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9467,0.8274,0.883024,3.6401,1.059,4175.250,194.500,38.625,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9159,0.5053,0.651268,2.0616,5.033,3142.250,145.875,87.250,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7125,0.7704,0.740316,2.0616,18.920,2209.375,686.875,452.000,Foot Movement,1
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9646,0.7934,0.870651,1.7321,2.104,2196.375,63.875,38.000,Foot Movement,1
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9366,0.7980,0.861746,1.4142,0.361,2317.000,125.125,7.125,Foot Movement,1
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8850,0.5226,0.657152,4.0000,0.748,2263.125,153.750,10.000,Foot Movement,1
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9270,0.7708,0.841731,1.4142,0.690,1611.875,97.875,9.250,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9587,0.9124,0.934954,2.8284,1.784,1649.250,64.875,28.000,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9526,0.8150,0.878463,1.7321,0.883,2331.875,94.500,17.625,Foot Movement,1
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9603,0.6552,0.778944,1.7321,1.728,2110.250,57.125,24.875,Foot Movement,1
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9624,0.8694,0.913545,0.8660,1.249,1595.250,54.125,18.000,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8937,0.5800,0.703492,2.2913,1.236,887.875,61.250,7.125,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9430,0.9361,0.939519,1.2247,0.819,1153.375,65.250,9.375,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9409,0.8417,0.888527,1.1180,1.768,1825.375,96.500,28.875,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8722,0.6649,0.754573,2.8284,3.370,1488.875,145.125,38.250,Foot Movement,1
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8382,0.8073,0.822452,1.4142,1.532,1821.875,283.875,26.875,Foot Movement,1
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8343,0.9139,0.872306,2.2361,0.775,1442.125,261.750,12.250,Foot Movement,1
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9675,0.9435,0.955341,1.7321,1.007,2329.625,73.875,22.875,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9244,0.7847,0.848844,2.6926,0.871,2704.625,173.625,20.000,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8756,0.9399,0.906635,1.2247,0.672,3311.750,442.250,23.875,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9870,0.9433,0.964632,0.5000,0.286,2927.625,36.375,8.000,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8891,0.7473,0.812089,1.4142,1.077,2498.875,232.875,22.625,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8742,0.7046,0.780264,3.6742,5.724,1617.500,164.000,74.625,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8650,0.4138,0.559779,4.8990,8.906,1986.625,128.250,84.625,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8888,0.7400,0.807604,2.0616,0.942,3347.875,309.875,26.250,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9051,0.8803,0.892535,2.4495,1.454,3958.250,365.500,56.000,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.6998,0.2204,0.335249,3.3166,7.853,1819.250,172.000,45.000,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8975,0.2507,0.391883,2.5000,2.223,1550.375,44.375,9.625,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7619,0.2584,0.385910,4.0927,3.633,1481.250,119.625,18.250,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.6248,0.4599,0.529833,5.6569,6.980,2906.875,803.000,149.375,Foot Movement,1
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9051,0.6574,0.761605,2.5000,1.735,1081.000,74.500,13.625,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9832,0.9566,0.969727,0.8660,0.471,2019.625,33.000,9.250,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9665,0.9278,0.946748,1.1180,1.003,2206.125,70.875,21.250,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9717,0.8838,0.925652,1.7321,0.767,2796.375,72.000,19.500,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9503,0.6721,0.787369,0.7071,0.252,2174.875,76.375,3.875,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8928,0.6122,0.726292,1.4142,2.699,1526.375,112.250,28.250,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8576,0.7222,0.784125,1.4142,1.837,1914.875,229.625,29.625,Foot Movement,1
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9093,0.7424,0.817410,0.7071,2.897,2341.625,173.375,55.375,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9325,0.8974,0.914570,2.4495,1.492,2473.250,160.750,35.500,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9569,0.4407,0.603505,2.0000,2.001,2549.125,50.625,23.500,Foot Movement,1
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9620,0.9724,0.967135,1.1180,0.821,1189.750,45.750,9.875,Foot Movement,1
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8303,0.2815,0.420431,3.9051,3.587,2323.000,133.625,28.250,Foot Movement,1
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9649,0.9681,0.966470,0.7071,0.401,993.750,35.000,4.000,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8922,0.7256,0.800305,2.9580,2.623,1986.750,174.125,42.375,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9545,0.7864,0.862322,1.0000,1.578,3731.375,140.000,48.500,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8537,0.6095,0.711184,4.1833,1.710,2129.750,222.500,26.000,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8481,0.8613,0.854651,1.0000,0.999,2304.000,355.500,23.375,Foot Movement,1
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8054,0.3780,0.514520,2.4495,7.855,1702.000,155.500,62.750,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9405,0.7165,0.813345,2.1794,2.531,1873.625,84.875,36.125,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9804,0.8297,0.898776,1.5811,1.062,1864.000,31.000,16.750,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8411,0.4044,0.546229,2.7386,6.599,2001.250,152.875,63.500,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9605,0.8768,0.916781,1.6583,0.625,2189.250,78.875,12.500,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8052,0.6886,0.742340,6.7823,0.796,1376.500,229.375,9.375,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.6075,0.7117,0.655473,3.7417,2.961,1268.500,583.250,44.000,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9423,0.8307,0.882983,0.7071,0.983,1817.250,92.500,15.750,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9391,0.9426,0.940884,1.1180,0.577,1403.500,85.750,8.125,Foot Movement,1
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9789,0.9495,0.964008,0.7071,0.096,1614.875,33.000,1.500,Foot Movement,1
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9432,0.8438,0.890751,2.0000,1.763,1204.750,61.250,19.000,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9112,0.4982,0.644159,2.4495,4.221,3423.125,166.125,79.000,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9394,0.5168,0.666764,1.2247,1.004,2218.500,74.000,12.250,Foot Movement,1
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9717,0.9617,0.966657,0.8660,0.102,1486.625,41.625,1.500,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8054,0.7065,0.752726,5.5902,6.996,2662.125,454.500,163.375,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8674,0.1478,0.252507,4.1231,4.153,2279.000,51.500,16.125,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8576,0.6104,0.713199,2.7386,3.704,2351.875,238.375,62.000,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9582,0.8105,0.878168,3.5707,1.628,2105.500,74.500,29.000,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8394,0.6804,0.751577,2.5981,2.450,2341.750,304.750,46.500,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7552,0.7108,0.732329,2.5000,3.474,2320.250,534.625,75.875,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9271,0.7423,0.824479,1.5811,3.123,1574.500,91.875,39.375,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8994,0.4744,0.621188,1.8708,1.295,1427.500,75.750,9.750,Foot Movement,1
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9503,0.9828,0.966297,0.8660,1.136,1830.625,94.000,21.500,Foot Movement,1
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9274,0.9117,0.919461,1.0000,3.355,2421.500,172.875,79.875,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8850,0.6575,0.754452,1.4142,0.508,3745.125,319.875,14.125,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9309,0.8525,0.889959,2.1213,1.102,3047.750,192.875,30.750,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9719,0.7029,0.815822,3.6742,0.481,2838.875,57.625,9.875,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9111,0.6033,0.725929,1.5811,2.257,2115.750,124.625,31.625,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9586,0.9933,0.975633,0.7071,0.544,1685.375,72.375,9.500,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9385,0.8147,0.872250,2.0616,1.100,1295.875,69.125,12.375,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9774,0.9784,0.977925,0.7071,0.772,2702.375,61.125,20.875,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8977,0.9166,0.907053,0.7071,2.671,2140.625,223.625,58.375,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9361,0.9451,0.940565,1.2247,0.555,2118.125,136.750,11.875,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9331,0.6365,0.756757,3.4641,1.240,1729.500,78.875,14.625,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9622,0.9132,0.937103,1.5811,0.142,1765.000,63.250,2.375,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8622,0.6786,0.759463,1.5811,1.272,1173.375,127.250,11.750,Foot Movement,1
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9781,0.9716,0.974859,0.7071,0.353,2172.500,47.250,7.625,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9291,0.9419,0.935432,0.8660,2.369,2977.250,214.125,71.500,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9377,0.5581,0.699706,1.8028,0.929,1944.875,72.125,10.750,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9710,0.8987,0.933433,1.7321,0.332,2524.875,67.750,7.750,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9108,0.6061,0.727823,1.4142,2.424,2998.625,178.000,48.375,Foot Movement,1
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9487,0.7667,0.848053,1.2247,2.752,2214.375,91.750,49.250,Foot Movement,1
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8592,0.3599,0.507328,3.3541,3.316,1538.875,90.750,21.375,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8600,0.9395,0.897992,1.5811,1.394,1805.500,276.125,27.500,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9328,0.9283,0.930514,0.8660,0.305,1854.625,124.125,5.625,Foot Movement,1
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9525,0.6481,0.771362,2.2361,1.472,1584.375,51.250,15.875,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.7921,0.6864,0.735476,4.5552,8.166,1877.625,338.375,132.875,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9355,0.9422,0.938813,0.8660,1.147,1363.875,88.625,15.750,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9081,0.5286,0.668264,2.6926,2.240,1946.000,104.125,25.375,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9218,0.8638,0.891868,1.4142,3.455,1814.750,133.000,58.750,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9647,0.8035,0.876751,1.4142,0.437,2439.625,71.750,8.875,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9335,0.9071,0.920111,2.0000,1.097,2193.500,141.625,23.375,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.9669,0.9178,0.941710,1.8708,0.456,1414.750,44.500,6.125,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.8576,0.9420,0.897801,2.0000,0.816,1771.875,277.250,15.875,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9807,0.9425,0.961194,0.7071,0.227,1777.250,33.000,3.875,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9193,0.9018,0.910479,1.5811,3.842,2049.750,162.250,77.250,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8884,0.5758,0.698727,1.2247,1.503,2078.625,150.375,20.250,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9816,0.9358,0.958123,1.1180,0.297,1587.750,27.875,4.500,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8604,0.7699,0.812617,2.0000,1.009,2463.625,307.875,22.250,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9367,0.6209,0.746750,2.9155,0.515,2052.625,86.125,7.000,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.5744,0.4833,0.524913,6.3246,18.538,2021.750,724.125,315.375,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9103,0.8596,0.884229,1.6583,3.080,2707.125,229.375,78.750,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8975,0.9281,0.912507,1.1180,6.420,2187.875,232.000,145.250,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9336,0.8442,0.886641,2.0000,3.620,2952.000,177.375,96.625,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.7040,0.3122,0.432578,3.5355,1.713,2896.375,380.125,22.000,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.8382,0.2839,0.424117,4.9497,2.822,1530.125,83.875,14.625,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9163,0.8204,0.865714,2.4495,0.764,1717.000,128.625,11.750,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9529,0.6668,0.784582,1.4142,0.311,1377.500,45.375,3.000,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,P(3x4) (Patch-Based Core),0.7657,0.9330,0.841107,0.8660,12.316,2537.875,724.625,380.875,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,P(3x4) (Patch-Based Core),0.5967,0.2600,0.362164,4.4721,13.481,2720.000,477.875,159.750,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.7965,0.7851,0.790760,2.5981,7.427,1449.875,290.750,106.125,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8871,0.3811,0.533188,2.3452,5.200,1443.750,70.000,32.250,Foot Movement,1
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9029,0.9521,0.926849,1.6583,1.159,2464.375,252.375,30.125,Foot Movement,1
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9127,0.9872,0.948522,1.0000,1.711,1890.875,178.500,35.000,Foot Movement,1
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9135,0.6563,0.763791,2.1794,0.277,2765.125,171.875,5.500,Foot Movement,1
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9699,0.7833,0.866671,2.1213,0.171,1990.625,48.375,2.750,Foot Movement,1
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9306,0.9264,0.928487,1.5000,0.492,1377.000,95.125,6.750,Foot Movement,1
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,P(3x4) (Patch-Based Core),0.9875,0.9252,0.955323,0.5000,0.189,5009.375,58.875,8.875,Foot Movement,1
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,P(3x4) (Patch-Based Core),0.8785,0.5226,0.655355,3.6742,1.545,3468.875,250.750,31.875,Foot Movement,1
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9874,0.9118,0.948140,0.8660,0.118,2986.250,34.625,3.250,Foot Movement,1
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.8810,0.5445,0.672983,1.7321,1.282,2682.750,197.375,21.250,Foot Movement,1
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,P(3x4) (Patch-Based Core),0.9598,0.7555,0.845500,1.0000,0.458,2459.625,77.750,8.875,Foot Movement,1
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,P(3x4) (Patch-Based Core),0.8964,0.7625,0.824042,1.6583,1.852,1999.250,176.125,31.500,Foot Movement,1
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9813,0.9318,0.955883,1.1180,0.066,2383.500,42.375,1.500,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9679,0.9815,0.974636,0.7071,0.481,1101.125,35.875,5.375,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9398,0.9916,0.964992,1.4142,1.084,1978.875,125.750,22.625,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8379,0.8369,0.837395,3.7417,3.304,1424.125,230.625,47.000,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7634,0.9390,0.842117,1.4142,6.417,1946.250,566.500,153.625,Foot Movement,1
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8954,0.6852,0.776314,1.2247,1.048,1247.250,99.875,10.000,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9300,0.9843,0.956363,1.2247,3.269,867.000,64.250,30.000,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9773,0.9820,0.979672,0.7071,0.518,696.250,15.875,3.625,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7829,0.9292,0.849780,1.4142,4.095,1789.875,461.250,87.000,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7744,0.8597,0.814806,2.5495,5.145,1553.875,389.250,88.750,Foot Movement,1
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9579,0.8702,0.911984,1.7321,0.429,2947.625,112.625,11.500,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6058,0.4955,0.545131,3.9051,0.532,1895.250,611.125,8.250,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8177,0.8735,0.844668,1.0000,0.557,2353.125,458.375,14.000,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8667,0.4462,0.589066,1.5811,1.114,1286.000,88.250,7.375,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9149,0.8579,0.885491,1.5000,0.440,1362.750,108.750,5.625,Foot Movement,1
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9599,0.9833,0.971436,0.7071,0.630,1859.125,76.375,12.000,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9664,0.9921,0.979078,0.8660,1.099,1385.625,47.750,15.625,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8890,0.9154,0.902021,0.7071,1.504,1081.750,123.625,16.750,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8537,0.8486,0.851172,1.6583,6.339,1850.750,269.125,116.625,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9214,0.7601,0.833037,2.1794,2.687,1426.375,92.500,31.625,Foot Movement,1
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7474,0.8759,0.806534,1.5811,9.310,2283.125,676.000,249.125,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9613,0.9476,0.954386,2.0616,3.294,1593.875,60.875,51.750,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7529,0.8281,0.788748,1.5811,20.982,2112.000,573.875,487.375,Foot Movement,1
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8546,0.8558,0.855230,3.9051,9.516,1558.250,226.875,148.500,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9452,0.9249,0.934912,1.5000,0.421,4338.875,232.750,17.875,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9005,0.9769,0.937103,4.5000,1.512,4175.250,450.875,68.500,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8933,0.9955,0.941621,1.5000,8.092,3142.250,373.750,283.375,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.5406,0.7745,0.636742,2.4495,36.486,2209.375,1454.125,1154.875,Foot Movement,1
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9367,0.9240,0.930293,2.0000,3.087,2196.375,137.125,66.875,Foot Movement,1
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9585,0.8724,0.913405,1.4142,0.219,2317.000,87.500,4.625,Foot Movement,1
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8279,0.8341,0.830958,1.4142,0.899,2263.125,392.500,20.500,Foot Movement,1
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9001,0.7692,0.829521,2.4495,0.417,1611.875,137.625,5.750,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8568,0.9659,0.908080,1.6583,6.347,1649.250,266.250,118.000,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8206,0.7412,0.778911,4.5552,10.243,2331.875,377.875,215.750,Foot Movement,1
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8971,0.8989,0.898041,2.5000,6.183,2110.250,217.500,130.750,Foot Movement,1
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9385,0.9596,0.948898,0.8660,3.219,1595.250,100.375,52.500,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8751,0.8408,0.857615,2.2361,1.334,887.875,106.500,11.375,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9220,0.9164,0.919230,2.8284,1.036,1153.375,89.375,11.875,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7844,0.8676,0.823931,2.2361,7.021,1825.375,435.250,141.750,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8961,0.6272,0.737949,1.8708,3.862,1488.875,108.250,40.250,Foot Movement,1
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7818,0.9801,0.869817,1.0000,2.496,1821.875,498.250,57.000,Foot Movement,1
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.6909,0.6882,0.689535,3.5355,3.089,1442.125,444.125,44.375,Foot Movement,1
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9383,0.9900,0.963446,1.6583,3.036,2329.625,151.625,74.625,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9359,0.9325,0.934161,2.8284,0.301,2704.625,172.875,8.125,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8581,0.8685,0.863264,1.2247,0.388,3311.750,475.500,13.000,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9851,0.9968,0.990895,0.5000,0.401,2927.625,44.125,11.875,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8165,0.9363,0.872282,1.4142,2.796,2498.875,525.875,80.125,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7822,0.6512,0.710719,2.1794,12.855,1617.500,293.375,173.125,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7224,0.9030,0.802662,2.9155,14.561,1986.625,689.500,361.625,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8259,0.9454,0.881635,2.4495,1.014,3347.875,667.125,38.875,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9047,0.7851,0.840651,2.8723,0.491,3958.250,327.500,16.875,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.6583,0.8782,0.752532,2.5981,10.060,1819.250,829.125,244.125,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.1765,0.2008,0.187908,12.5897,32.240,1550.375,1452.375,568.625,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.5404,0.7569,0.630554,2.4495,5.537,1481.250,953.625,114.875,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.5964,0.7638,0.669809,2.8284,7.082,2906.875,1502.375,263.625,Foot Movement,1
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9321,0.7000,0.799577,2.2913,1.124,1081.000,55.125,9.125,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9629,0.9205,0.941206,2.1213,1.081,2019.625,71.625,20.875,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8476,0.9821,0.909893,1.4142,4.973,2206.125,389.625,127.125,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9467,0.9886,0.967202,0.8660,0.518,2796.375,155.750,15.125,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8321,0.3990,0.539409,1.2247,0.623,2174.875,175.125,6.500,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7836,0.8987,0.837199,1.1180,4.284,1526.375,378.875,75.000,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9359,0.8396,0.885142,1.2247,1.375,1914.875,110.125,23.625,Foot Movement,1
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8125,0.9799,0.888400,0.8660,7.206,2341.625,529.500,203.500,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9386,0.8979,0.917756,2.7386,1.606,2473.250,145.375,38.000,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8336,0.9480,0.887094,3.8079,3.609,2549.125,482.500,104.625,Foot Movement,1
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9784,0.9960,0.987140,1.8708,0.537,1189.750,26.125,6.500,Foot Movement,1
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7974,0.7260,0.760027,2.4495,6.359,2323.000,428.500,134.500,Foot Movement,1
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9153,0.9758,0.944600,2.0000,0.437,993.750,89.750,4.625,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7655,0.7870,0.776099,3.3541,9.266,1986.750,478.875,189.250,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8847,0.8158,0.848827,2.0000,5.707,3731.375,396.875,196.375,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8391,0.9412,0.887217,1.4142,1.151,2129.750,384.375,27.500,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9586,0.3609,0.524378,1.5000,0.216,2304.000,35.875,1.875,Foot Movement,1
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.5660,0.8282,0.672431,2.1213,20.246,1702.000,1081.000,504.250,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8509,0.9029,0.876092,1.7321,7.520,1873.625,296.500,149.500,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8957,0.9488,0.921489,2.0616,6.628,1864.000,206.000,130.875,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7823,0.7070,0.742765,2.5495,9.165,2001.250,393.625,165.750,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9436,0.9682,0.955755,1.8028,2.382,2189.250,126.625,53.500,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7315,0.7459,0.738636,5.2202,0.704,1376.500,376.875,9.875,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.5784,0.4178,0.485154,2.6926,0.859,1268.500,386.375,7.875,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9639,0.9787,0.971263,0.8660,0.508,1817.250,66.625,9.375,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8948,0.9852,0.937855,2.0616,1.408,1403.500,162.500,21.750,Foot Movement,1
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9607,0.9900,0.975145,0.5000,0.383,1614.875,65.375,6.375,Foot Movement,1
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9047,0.9716,0.936962,0.8660,2.106,1204.750,123.250,27.250,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7980,0.9878,0.882822,1.2247,4.139,3423.125,855.875,175.375,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8987,0.9667,0.931459,3.1623,2.776,2218.500,241.750,66.250,Foot Movement,1
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9235,0.8969,0.910037,1.5000,2.346,1486.625,110.375,33.875,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6697,0.9026,0.768895,3.3166,8.208,2662.125,1185.000,294.500,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7692,0.8032,0.785812,3.7749,4.974,2279.000,549.375,118.375,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8897,0.5319,0.665780,4.4721,1.982,2351.875,155.125,27.875,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9797,0.9978,0.988676,1.5000,0.344,2105.500,43.500,7.375,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8504,0.6804,0.755923,2.2361,4.770,2341.750,280.375,89.375,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8611,0.9321,0.895173,1.5811,3.096,2320.250,348.875,77.750,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8282,0.9944,0.903680,0.5000,2.856,1574.500,324.875,54.000,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8101,0.9482,0.873684,1.2247,5.184,1427.500,317.375,86.625,Foot Movement,1
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8684,0.9385,0.902110,1.1180,4.871,1830.625,260.375,96.375,Foot Movement,1
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8437,0.8483,0.846001,2.2913,9.749,2421.500,380.625,237.375,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9022,0.8663,0.883860,1.7321,0.361,3745.125,351.875,13.000,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8869,0.8980,0.892399,1.4142,0.899,3047.750,349.125,27.750,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8881,0.8568,0.872145,2.5000,2.843,2838.875,306.500,77.875,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8924,0.9502,0.920370,1.4142,1.881,2115.750,242.500,42.375,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9243,0.5018,0.650483,4.6368,2.199,1685.375,69.250,20.125,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9069,0.7084,0.795451,1.2247,3.285,1295.875,94.250,33.250,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9774,0.9953,0.986249,0.5000,0.886,2702.375,62.250,24.375,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9432,0.7697,0.847653,1.4142,2.383,2140.625,99.250,41.625,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9300,0.9390,0.934457,1.1180,0.438,2118.125,149.750,9.375,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8679,0.5363,0.662944,1.4142,0.807,1729.500,141.125,8.625,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9243,0.8525,0.886973,8.1394,0.499,1765.000,123.250,8.125,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8907,0.7810,0.832217,0.8660,0.838,1173.375,112.500,8.625,Foot Movement,1
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9381,0.9134,0.925575,0.8660,0.727,2172.500,131.000,15.375,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8846,0.9189,0.901423,2.0616,4.389,2977.250,357.000,135.750,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8708,0.8684,0.869610,2.2913,4.421,1944.875,250.625,85.750,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9482,0.9950,0.971035,0.7071,1.590,2524.875,137.250,42.125,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8509,0.9331,0.890130,1.4142,3.642,2998.625,490.250,119.750,Foot Movement,1
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9125,0.9530,0.932325,0.7071,3.870,2214.375,202.375,89.500,Foot Movement,1
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8274,0.7775,0.801675,1.1180,7.831,1538.875,249.625,113.250,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8824,0.9672,0.922874,2.0000,1.124,1805.500,232.625,22.250,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9369,0.9193,0.928049,1.0000,0.419,1854.625,114.750,7.625,Foot Movement,1
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8769,0.9201,0.897975,2.5495,7.903,1584.375,204.625,131.375,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7552,0.6726,0.711504,2.2361,6.668,1877.625,409.375,111.500,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8670,0.9567,0.909638,2.4495,2.948,1363.875,200.250,44.375,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8232,0.9119,0.865267,1.5000,9.208,1946.000,381.125,198.500,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9417,0.9694,0.955368,1.0000,3.326,1814.750,108.875,62.125,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9204,0.9935,0.955549,0.8660,1.139,2439.625,209.625,30.000,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8623,0.8122,0.836508,1.4142,2.323,2193.500,284.375,48.000,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.9277,0.9313,0.929500,1.0000,0.502,1414.750,102.750,7.125,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.8912,0.9816,0.934202,1.4142,1.076,1771.875,212.375,21.000,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9703,0.9895,0.979838,0.8660,0.738,1777.250,53.750,13.375,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8661,0.9523,0.907110,2.0000,3.771,2049.750,301.875,85.000,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8923,0.7834,0.834289,1.2247,1.973,2078.625,196.625,36.000,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9026,0.9387,0.920269,2.1213,2.029,1587.750,160.875,33.500,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9231,0.9748,0.948226,1.7321,1.076,2463.625,200.125,28.000,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9189,0.8869,0.902600,2.3452,1.382,2052.625,160.625,27.375,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8553,0.2993,0.443437,10.6066,2.597,2021.750,102.375,18.375,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8680,0.6086,0.715523,2.8284,1.804,2707.125,250.625,34.250,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9386,0.8137,0.871718,1.6583,4.310,2187.875,116.500,81.750,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9169,0.9737,0.944470,1.7321,5.726,2952.000,260.375,179.500,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.7053,0.7903,0.745416,6.0000,6.355,2896.375,956.375,206.250,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.5381,0.7557,0.628589,3.6401,7.405,1530.125,992.500,159.125,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9232,0.9780,0.949836,1.5811,0.179,1717.000,139.625,3.250,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9262,0.9237,0.924943,1.0000,0.155,1377.500,101.375,2.125,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,DUCK-Net (Multi-Scale),0.9021,0.5795,0.705653,2.5000,5.574,2537.875,159.625,90.875,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,DUCK-Net (Multi-Scale),0.4285,0.4761,0.451038,2.5981,32.746,2720.000,1726.875,989.500,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8592,0.6916,0.766335,3.3541,4.648,1449.875,164.375,54.250,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8033,0.8455,0.823857,1.4142,7.452,1443.750,299.000,113.250,Foot Movement,1
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8761,0.6458,0.743503,2.2913,1.762,2464.375,225.000,32.000,Foot Movement,1
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8073,0.9764,0.883823,1.5811,6.455,1890.875,440.750,147.625,Foot Movement,1
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8284,0.8326,0.830481,2.2913,0.135,2765.125,477.000,3.750,Foot Movement,1
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9448,0.7529,0.838022,1.1180,0.985,1990.625,87.500,15.625,Foot Movement,1
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9286,0.9168,0.922620,1.5811,0.846,1377.000,97.125,11.500,Foot Movement,1
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,DUCK-Net (Multi-Scale),0.9878,0.9910,0.989399,1.4142,0.112,5009.375,61.125,5.625,Foot Movement,1
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,DUCK-Net (Multi-Scale),0.8547,0.7382,0.792197,2.6926,1.869,3468.875,435.500,56.000,Foot Movement,1
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9792,0.9937,0.986392,0.7071,0.367,2986.250,63.000,11.125,Foot Movement,1
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8032,0.8724,0.836360,1.4142,2.625,2682.750,573.625,76.500,Foot Movement,1
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,DUCK-Net (Multi-Scale),0.9311,0.9745,0.952301,1.5811,0.995,2459.625,177.500,25.625,Foot Movement,1
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,DUCK-Net (Multi-Scale),0.9000,0.9696,0.933482,2.0616,1.091,1999.250,215.375,23.500,Foot Movement,1
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9201,0.9110,0.915487,1.5811,0.403,2383.500,188.625,9.500,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9557,0.9432,0.949437,1.5811,1.369,1101.125,48.125,14.875,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9790,0.9853,0.982181,1.4142,0.471,1978.875,41.750,9.375,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9326,0.8147,0.869671,2.4495,1.145,1424.125,83.875,14.250,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9198,0.7252,0.811032,1.5000,1.360,1946.250,123.000,20.875,Foot Movement,1
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9467,0.8610,0.901800,1.8708,0.287,1247.250,60.500,3.250,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9679,0.9599,0.963880,3.2787,0.785,867.000,27.625,6.750,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9822,0.9402,0.960741,0.5000,0.300,696.250,11.875,2.000,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8827,0.9251,0.903430,1.4142,1.959,1789.875,220.000,36.750,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9050,0.7251,0.805145,1.8708,2.671,1553.875,118.250,33.250,Foot Movement,1
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9780,0.9629,0.970405,1.4142,0.370,2947.625,63.875,10.750,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.3404,0.5524,0.421204,7.1414,6.104,1895.250,2028.750,187.750,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8151,0.9278,0.867811,1.5000,2.021,2353.125,495.250,54.125,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9413,0.5781,0.716324,1.1180,0.443,1286.000,46.375,3.500,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9196,0.8519,0.884434,1.4142,1.248,1362.750,101.500,15.750,Foot Movement,1
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9821,0.9566,0.969210,0.5000,0.166,1859.125,32.375,3.000,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9813,0.9830,0.982154,1.1180,0.594,1385.625,26.000,8.250,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8092,0.5096,0.625355,1.4142,4.661,1081.750,130.000,31.750,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9088,0.9454,0.926744,1.1180,2.850,1850.750,175.625,54.875,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9570,0.8913,0.923000,1.4142,1.938,1426.375,57.125,25.750,Foot Movement,1
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8048,0.5947,0.683962,5.4772,2.578,2283.125,329.375,43.500,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9835,0.9321,0.957078,1.4142,1.258,1593.875,25.000,19.000,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8106,0.7492,0.778704,2.1213,15.118,2112.000,369.750,295.125,Foot Movement,1
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8942,0.7461,0.813451,5.4083,6.653,1558.250,137.625,86.500,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9676,0.9044,0.934910,0.8660,0.543,4338.875,131.375,22.000,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9254,0.8782,0.901137,3.2787,1.688,4175.250,295.750,66.875,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8819,0.8754,0.878663,1.5000,8.936,3142.250,368.375,278.750,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.6550,0.1637,0.261905,5.3852,23.704,2209.375,190.500,130.875,Foot Movement,1
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9129,0.8029,0.854348,1.7321,3.947,2196.375,168.250,76.250,Foot Movement,1
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9518,0.8174,0.879491,2.0000,0.408,2317.000,95.875,8.125,Foot Movement,1
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8626,0.8746,0.868544,2.1213,1.035,2263.125,315.250,23.750,Foot Movement,1
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9406,0.4731,0.629586,1.5811,0.663,1611.875,48.125,5.375,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9460,0.9402,0.943095,2.0616,2.753,1649.250,88.500,45.125,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9463,0.6860,0.795426,1.7321,2.218,2331.875,90.750,37.500,Foot Movement,1
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9344,0.9071,0.920561,1.8708,2.727,2110.250,134.375,55.875,Foot Movement,1
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9693,0.9359,0.952320,0.5000,1.079,1595.250,47.250,16.625,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8308,0.8465,0.838575,2.0000,4.808,887.875,153.125,43.500,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9711,0.9369,0.953721,1.2247,0.404,1153.375,32.125,4.500,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9453,0.8753,0.908975,2.0000,2.840,1825.375,92.375,48.000,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8811,0.7323,0.799872,1.2247,4.354,1488.875,147.125,53.875,Foot Movement,1
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8051,0.8697,0.836175,1.8028,2.325,1821.875,383.500,45.750,Foot Movement,1
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8004,0.8876,0.841759,3.0414,5.605,1442.125,319.125,89.625,Foot Movement,1
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9555,0.8569,0.903511,3.6056,1.232,2329.625,93.000,25.750,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9370,0.7962,0.860877,2.2913,0.408,2704.625,144.750,9.375,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8994,0.7655,0.827094,1.8028,0.506,3311.750,283.500,14.250,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9857,0.9839,0.984786,0.5000,0.205,2927.625,41.875,6.000,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8810,0.7775,0.826040,1.7321,2.256,2498.875,262.500,49.750,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8709,0.6566,0.748733,3.2404,6.375,1617.500,157.500,77.750,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8188,0.6581,0.729715,2.8284,4.752,1986.625,289.250,75.875,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8979,0.8055,0.849203,2.0000,0.812,3347.875,306.625,24.375,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9381,0.7152,0.811661,1.6583,0.377,3958.250,186.750,11.375,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7276,0.3305,0.454524,4.0000,10.316,1819.250,225.125,85.250,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7692,0.4063,0.531708,4.8477,4.320,1550.375,189.000,35.375,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7363,0.3844,0.505101,3.3912,8.390,1481.250,203.875,64.875,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7458,0.5251,0.616297,4.3012,7.372,2906.875,520.125,150.875,Foot Movement,1
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9085,0.9351,0.921648,1.0000,1.921,1081.000,101.750,21.375,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9708,0.9429,0.956672,1.0000,0.898,2019.625,57.250,17.625,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9154,0.8610,0.887325,1.5811,3.699,2206.125,175.625,76.750,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9643,0.9431,0.953560,1.5000,0.484,2796.375,97.750,13.250,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.4240,0.4442,0.433884,7.1239,5.459,2174.875,1312.375,124.375,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8828,0.5348,0.666123,1.1180,1.933,1526.375,108.375,17.875,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9451,0.8615,0.901380,1.5000,1.568,1914.875,95.875,27.375,Foot Movement,1
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8948,0.7587,0.821123,0.8660,4.420,2341.625,208.875,87.750,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8857,0.8791,0.882384,2.7386,2.841,2473.250,280.625,69.750,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9471,0.7876,0.860034,3.9051,1.616,2549.125,112.125,34.250,Foot Movement,1
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9497,0.9619,0.955737,1.5000,0.882,1189.750,60.625,10.625,Foot Movement,1
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8623,0.8624,0.862332,4.0927,2.384,2323.000,319.875,55.375,Foot Movement,1
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9702,0.9621,0.966149,0.7071,0.431,993.750,29.375,4.250,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8607,0.7070,0.776331,2.0000,6.319,1986.750,227.250,103.125,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9174,0.9214,0.919374,2.0000,2.265,3731.375,309.625,84.875,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9107,0.6270,0.742674,3.2787,0.631,2129.750,131.000,9.250,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9138,0.3553,0.511661,1.5811,0.335,2304.000,77.250,3.000,Foot Movement,1
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7437,0.5171,0.610059,2.2361,7.912,1702.000,303.250,93.625,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9110,0.8488,0.878773,1.4142,3.036,1873.625,155.375,53.000,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9187,0.7857,0.846991,3.4641,4.658,1864.000,129.625,74.250,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9225,0.6881,0.788237,2.0000,3.802,2001.250,115.625,56.750,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9554,0.8334,0.890244,1.8708,1.630,2189.250,85.125,31.125,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8110,0.4022,0.537728,4.4721,2.838,1376.500,129.000,19.375,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7034,0.2300,0.346651,4.6904,1.025,1268.500,123.000,4.250,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9588,0.9631,0.960950,1.1180,1.246,1817.250,75.250,22.750,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9030,0.9679,0.934359,1.4142,2.617,1403.500,145.875,39.375,Foot Movement,1
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9586,0.9008,0.928848,1.0000,0.206,1614.875,62.750,3.125,Foot Movement,1
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9456,0.9161,0.930593,1.0000,1.050,1204.750,63.500,12.250,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9142,0.8058,0.856605,1.8708,2.444,3423.125,258.750,73.750,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9489,0.9180,0.933215,1.4142,1.019,2218.500,109.625,21.875,Foot Movement,1
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9443,0.8814,0.911803,1.8028,1.090,1486.625,77.250,15.125,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7578,0.7290,0.743120,5.0000,8.678,2662.125,620.375,222.250,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9341,0.6192,0.744706,2.5495,1.746,2279.000,99.625,26.375,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9569,0.8350,0.891778,2.0000,0.743,2351.875,88.500,15.250,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9847,0.9824,0.983566,1.8708,0.649,2105.500,32.125,13.625,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8577,0.4243,0.567745,3.0000,3.971,2341.750,164.875,46.000,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7573,0.7623,0.759759,2.2913,6.439,2320.250,566.875,150.375,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9174,0.8854,0.901099,1.0000,1.654,1574.500,125.500,25.125,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8902,0.5678,0.693328,2.7386,3.020,1427.500,100.000,27.500,Foot Movement,1
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8820,0.7493,0.810278,1.1180,5.120,1830.625,183.500,79.625,Foot Movement,1
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8630,0.8036,0.832215,2.0000,7.207,2421.500,309.000,162.500,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8979,0.5426,0.676431,1.2247,1.232,3745.125,231.125,27.875,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9213,0.9375,0.929319,1.5811,1.024,3047.750,244.125,31.750,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9616,0.8985,0.928957,1.2247,1.173,2838.875,101.875,31.125,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8947,0.9190,0.906680,1.4142,1.467,2115.750,228.875,31.875,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9177,0.8951,0.906285,0.8660,2.623,1685.375,135.250,43.125,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9478,0.8114,0.874337,3.2404,0.755,1295.875,57.875,8.375,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9826,0.9736,0.978067,0.7071,0.840,2702.375,46.625,22.500,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9271,0.9417,0.934326,1.1180,3.869,2140.625,158.500,84.125,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9436,0.7004,0.804024,1.7321,0.843,2118.125,88.750,13.250,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9189,0.7626,0.833478,2.1794,1.272,1729.500,116.375,18.250,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9280,0.9552,0.941439,1.4142,1.060,1765.000,130.750,19.250,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9269,0.7204,0.810694,1.4142,0.850,1173.375,66.625,7.750,Foot Movement,1
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9736,0.9433,0.958181,1.1180,0.309,2172.500,55.625,6.500,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9591,0.8507,0.901675,1.1180,1.605,2977.250,107.875,42.375,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9389,0.5084,0.659606,3.3912,2.184,1944.875,64.375,23.000,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9474,0.9410,0.944215,1.1180,2.387,2524.875,131.875,59.875,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9026,0.8679,0.884922,0.7071,2.541,2998.625,280.750,73.250,Foot Movement,1
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9287,0.8881,0.907979,1.1180,1.629,2214.375,150.875,34.500,Foot Movement,1
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8215,0.6233,0.708789,1.2247,6.424,1538.875,208.375,75.000,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9211,0.8328,0.874741,3.5000,0.804,1805.500,128.750,13.125,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8944,0.7584,0.820818,2.6926,1.049,1854.625,166.125,16.500,Foot Movement,1
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9206,0.8085,0.860923,1.7321,4.087,1584.375,110.500,56.875,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8331,0.6607,0.736940,2.5000,6.002,1877.625,248.500,89.375,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9358,0.7988,0.861904,1.7321,0.945,1363.875,74.750,11.000,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8820,0.7875,0.832061,2.0000,5.395,1946.000,205.125,93.750,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9429,0.9067,0.924471,1.0000,3.023,1814.750,99.625,52.750,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9620,0.8424,0.898244,2.0000,0.860,2439.625,81.125,18.375,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9220,0.7513,0.827896,3.7417,2.035,2193.500,139.500,36.375,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.9636,0.9254,0.944114,1.8708,0.451,1414.750,49.500,6.125,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.9151,0.8550,0.883986,2.4495,1.352,1771.875,140.625,22.375,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9817,0.9699,0.975765,1.1180,0.833,1777.250,32.125,14.625,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8858,0.6958,0.779357,3.2016,3.960,2049.750,183.875,63.750,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9294,0.7724,0.843678,1.6583,1.107,2078.625,122.000,19.125,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9413,0.9501,0.945657,2.0000,1.630,1587.750,94.125,26.125,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8879,0.9371,0.911851,2.1213,2.408,2463.625,291.500,62.625,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8710,0.8294,0.849710,3.2787,1.330,2052.625,252.125,26.000,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9340,0.7586,0.837189,5.2202,1.789,2021.750,108.375,29.375,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9358,0.5804,0.716464,1.4142,1.571,2707.125,107.750,26.375,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9218,0.8528,0.885954,2.4495,4.248,2187.875,158.375,86.000,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9610,0.9494,0.955160,1.4142,2.512,2952.000,113.625,73.250,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.7308,0.6027,0.660628,3.2787,7.802,2896.375,643.000,186.375,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.7589,0.5252,0.620770,2.0616,14.070,1530.125,255.375,149.000,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9399,0.9763,0.957755,1.2247,0.498,1717.000,107.125,8.875,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9273,0.8654,0.895283,1.7321,0.496,1377.500,93.500,6.375,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,3DZ-Net (Variational Dense),0.8265,0.5800,0.681641,1.8028,6.177,2537.875,308.875,110.000,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,3DZ-Net (Variational Dense),0.6356,0.3051,0.412247,2.8284,15.789,2720.000,475.750,206.125,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.7979,0.7000,0.745752,2.1213,10.221,1449.875,257.000,130.000,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.4991,0.7774,0.607942,8.7892,23.020,1443.750,1126.250,517.625,Foot Movement,1
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8634,0.7087,0.778449,2.1213,3.794,2464.375,276.250,76.750,Foot Movement,1
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8964,0.8538,0.874623,2.0000,3.498,1890.875,186.500,63.000,Foot Movement,1
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8364,0.8019,0.818805,2.4495,0.575,2765.125,433.625,15.250,Foot Movement,1
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9661,0.8301,0.892972,1.2247,1.403,1990.625,58.000,24.000,Foot Movement,1
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8769,0.9039,0.890170,1.4142,2.959,1377.000,174.750,42.000,Foot Movement,1
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,3DZ-Net (Variational Dense),0.9808,0.9929,0.986856,0.7071,0.626,5009.375,97.125,31.750,Foot Movement,1
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,3DZ-Net (Variational Dense),0.8971,0.6487,0.752912,2.9580,2.053,3468.875,258.125,51.500,Foot Movement,1
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9802,0.9688,0.974465,1.4142,0.305,2986.250,58.500,9.000,Foot Movement,1
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8450,0.5130,0.638427,2.5000,3.807,2682.750,252.375,62.000,Foot Movement,1
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,3DZ-Net (Variational Dense),0.9664,0.8809,0.921674,1.4142,0.647,2459.625,75.250,14.500,Foot Movement,1
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,3DZ-Net (Variational Dense),0.9440,0.8913,0.916932,1.5000,0.967,1999.250,105.625,18.250,Foot Movement,1
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9708,0.9212,0.945320,0.8660,0.298,2383.500,66.125,6.750,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9765,0.9651,0.970770,0.7071,0.471,1101.125,25.625,5.125,Foot Movement,1
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9760,0.9509,0.963269,1.7321,0.486,1978.875,46.250,9.375,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8691,0.7089,0.780915,2.0616,2.733,1424.125,152.000,31.750,Foot Movement,1
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7513,0.7191,0.734856,2.0616,5.066,1946.250,463.375,94.375,Foot Movement,1
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9123,0.7742,0.837580,2.0000,1.122,1247.250,92.875,11.875,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9745,0.9589,0.966645,2.5000,0.806,867.000,21.750,6.875,Foot Movement,1
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9501,0.8549,0.900019,1.1180,1.317,696.250,31.250,8.250,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8558,0.8032,0.828662,2.0000,3.155,1789.875,242.250,53.000,Foot Movement,1
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8144,0.7863,0.800147,2.2361,4.291,1553.875,278.375,64.375,Foot Movement,1
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9254,0.9139,0.919584,1.8028,0.850,2947.625,217.250,24.750,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7581,0.6772,0.715366,2.7386,1.144,1895.250,409.625,19.375,Foot Movement,1
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9035,0.9059,0.904697,1.4142,0.440,2353.125,227.750,10.375,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9195,0.7724,0.839514,2.8723,0.752,1286.000,87.000,8.125,Foot Movement,1
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8748,0.8514,0.862960,1.5000,0.848,1362.750,166.000,11.250,Foot Movement,1
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9388,0.9076,0.922909,1.1180,0.849,1859.125,110.000,15.250,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9398,0.9836,0.961210,1.1180,1.284,1385.625,87.250,18.625,Foot Movement,1
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7663,0.5907,0.667145,2.2361,4.782,1081.750,194.875,39.875,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7682,0.9153,0.835306,2.4495,7.068,1850.750,511.250,155.875,Foot Movement,1
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8742,0.8042,0.837776,2.2361,5.211,1426.375,165.000,68.375,Foot Movement,1
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7858,0.5935,0.676232,2.5495,5.632,2283.125,369.375,97.125,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9746,0.9453,0.959752,1.5000,1.892,1593.875,39.250,29.250,Foot Movement,1
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6116,0.7433,0.671013,2.7386,27.077,2112.000,997.000,695.000,Foot Movement,1
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8809,0.9604,0.918944,2.4495,6.343,1558.250,202.250,107.750,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9179,0.8407,0.877618,2.6926,1.079,4338.875,326.375,42.875,Foot Movement,1
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9266,0.9030,0.914640,3.7417,1.425,4175.250,298.875,58.000,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8704,0.9212,0.895116,1.5000,8.555,3142.250,430.875,284.500,Foot Movement,1
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.1639,0.4380,0.238570,9.4340,62.090,2209.375,4934.875,3664.875,Foot Movement,1
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9149,0.8580,0.885547,3.3541,4.072,2196.375,175.250,83.875,Foot Movement,1
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9040,0.9343,0.918873,1.4142,0.715,2317.000,230.000,17.125,Foot Movement,1
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8430,0.8246,0.833673,2.6926,1.101,2263.125,347.625,24.375,Foot Movement,1
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8974,0.7048,0.789506,2.0616,0.583,1611.875,129.875,7.375,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8944,0.9499,0.921307,1.6583,4.903,1649.250,185.000,85.875,Foot Movement,1
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8782,0.7735,0.822527,2.0616,5.282,2331.875,250.250,108.500,Foot Movement,1
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9038,0.9497,0.926143,1.4142,5.051,2110.250,213.375,112.000,Foot Movement,1
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9613,0.9370,0.948972,1.6583,1.543,1595.250,60.250,24.000,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8167,0.8389,0.827696,1.5811,1.631,887.875,167.125,14.875,Foot Movement,1
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9145,0.8214,0.865430,2.0000,0.977,1153.375,88.625,10.125,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8889,0.8747,0.881748,2.0000,3.222,1825.375,199.500,57.875,Foot Movement,1
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7865,0.6923,0.736414,2.3452,7.430,1488.875,279.750,97.375,Foot Movement,1
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7072,0.6823,0.694510,2.5495,2.695,1821.875,514.625,47.375,Foot Movement,1
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7573,0.7060,0.730755,3.8406,3.161,1442.125,326.250,42.500,Foot Movement,1
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9462,0.9483,0.947287,1.8708,1.729,2329.625,125.500,40.375,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8673,0.7888,0.826217,3.5355,0.691,2704.625,326.375,17.000,Foot Movement,1
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8470,0.6788,0.753630,2.5000,0.702,3311.750,406.250,18.625,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9881,0.9722,0.980114,0.7071,0.200,2927.625,34.250,5.750,Foot Movement,1
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8581,0.6643,0.748900,1.8028,2.875,2498.875,274.500,55.625,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8382,0.5546,0.667504,4.2426,7.242,1617.500,173.125,77.500,Foot Movement,1
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8850,0.6006,0.715592,4.3012,5.534,1986.625,155.125,74.625,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7920,0.8588,0.824048,2.2913,1.457,3347.875,754.875,52.875,Foot Movement,1
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8928,0.6396,0.745267,2.5495,0.696,3958.250,304.000,19.750,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7326,0.3306,0.455639,4.5277,7.841,1819.250,219.500,64.375,Foot Movement,1
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8187,0.5991,0.691899,3.9051,5.156,1550.375,205.750,58.500,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.5158,0.4642,0.488652,2.7386,6.807,1481.250,645.500,90.750,Foot Movement,1
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.5131,0.4114,0.456674,4.5000,7.835,2906.875,1135.000,182.625,Foot Movement,1
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9054,0.9533,0.928744,2.0000,1.527,1081.000,107.625,17.375,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9729,0.9402,0.956281,0.8660,0.685,2019.625,52.875,13.375,Foot Movement,1
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8786,0.9083,0.893185,1.7321,3.837,2206.125,276.875,87.500,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9442,0.9267,0.935370,1.6583,0.647,2796.375,153.250,17.750,Foot Movement,1
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9239,0.7517,0.828928,1.4142,0.459,2174.875,134.625,8.125,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8090,0.8214,0.815149,1.7321,4.960,1526.375,296.000,76.875,Foot Movement,1
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9381,0.8920,0.914475,1.7321,1.394,1914.875,112.750,25.375,Foot Movement,1
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8759,0.6157,0.723072,1.0000,4.040,2341.625,204.250,66.500,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9300,0.8908,0.909959,2.1794,1.224,2473.250,165.875,29.000,Foot Movement,1
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9435,0.8116,0.872575,2.6926,1.055,2549.125,124.000,23.125,Foot Movement,1
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9225,0.9499,0.935970,1.8708,1.714,1189.750,95.000,21.000,Foot Movement,1
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7348,0.7228,0.728787,2.6926,5.356,2323.000,605.875,122.375,Foot Movement,1
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9513,0.9474,0.949332,1.1180,0.316,993.750,48.250,3.125,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8006,0.6901,0.741231,3.5707,6.445,1986.750,341.500,110.375,Foot Movement,1
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8861,0.8997,0.892871,2.7386,3.764,3731.375,431.500,142.625,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.4414,0.8461,0.580115,11.2805,6.295,2129.750,2280.500,257.000,Foot Movement,1
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9195,0.6088,0.732537,1.2247,0.516,2304.000,122.875,7.875,Foot Movement,1
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.6125,0.5933,0.602775,2.0000,14.579,1702.000,638.875,240.375,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9090,0.8758,0.892083,1.7321,4.840,1873.625,164.250,87.375,Foot Movement,1
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8628,0.9199,0.890432,1.6583,8.057,1864.000,272.750,160.125,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9136,0.6849,0.782922,2.1794,3.507,2001.250,129.625,52.625,Foot Movement,1
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9498,0.9060,0.927384,1.8708,1.999,2189.250,104.875,41.750,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7473,0.5232,0.615459,2.4495,1.271,1376.500,243.500,12.250,Foot Movement,1
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.5526,0.2572,0.351019,4.0000,2.223,1268.500,264.125,13.125,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9523,0.9355,0.943858,0.8660,0.854,1817.250,85.125,15.250,Foot Movement,1
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8834,0.9066,0.894857,2.0000,2.109,1403.500,167.875,30.375,Foot Movement,1
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9651,0.7010,0.812124,1.0000,0.298,1614.875,40.875,3.500,Foot Movement,1
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9564,0.9774,0.966798,1.1180,0.995,1204.750,53.625,12.250,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9063,0.8575,0.881234,2.2913,2.389,3423.125,303.625,77.375,Foot Movement,1
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9339,0.8411,0.885068,1.2247,1.214,2218.500,132.125,24.250,Foot Movement,1
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9217,0.9121,0.916913,1.5811,2.150,1486.625,115.125,31.625,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6276,0.7805,0.695785,6.3836,8.684,2662.125,1232.750,287.500,Foot Movement,1
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9411,0.7385,0.827561,2.2913,1.195,2279.000,105.375,21.375,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8130,0.8244,0.818674,2.9155,4.020,2351.875,445.875,95.875,Foot Movement,1
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9586,0.9684,0.963497,2.0000,0.782,2105.500,88.000,16.625,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8631,0.7136,0.781252,2.1213,2.299,2341.750,265.000,44.500,Foot Movement,1
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8102,0.7857,0.797801,4.3012,5.077,2320.250,427.000,114.250,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8269,0.8524,0.839451,1.4142,2.865,1574.500,281.000,46.500,Foot Movement,1
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7143,0.7009,0.707505,2.2913,6.952,1427.500,400.250,97.375,Foot Movement,1
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8905,0.8598,0.874870,1.0000,3.055,1830.625,193.625,54.000,Foot Movement,1
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7537,0.7391,0.746299,3.9051,13.219,2421.500,584.875,313.875,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8059,0.6254,0.704253,2.1213,1.488,3745.125,564.125,43.250,Foot Movement,1
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9275,0.9283,0.927889,1.8708,0.561,3047.750,221.250,17.125,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9341,0.8598,0.895431,2.4495,1.153,2838.875,172.250,30.125,Foot Movement,1
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7383,0.8917,0.807782,2.1794,4.862,2115.750,668.750,124.250,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9628,0.9676,0.965191,1.2247,0.856,1685.375,63.000,14.500,Foot Movement,1
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7918,0.7405,0.765289,1.5000,5.683,1295.875,252.375,68.875,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9739,0.9650,0.969401,1.1180,0.906,2702.375,70.000,24.250,Foot Movement,1
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9658,0.8100,0.881062,1.2247,1.156,2140.625,61.375,20.750,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8520,0.8038,0.827184,1.1180,1.001,2118.125,295.750,20.000,Foot Movement,1
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8665,0.7246,0.789184,2.8284,1.219,1729.500,193.125,17.625,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8207,0.9077,0.861995,1.6583,1.210,1765.000,350.125,23.625,Foot Movement,1
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8857,0.7328,0.802029,1.8708,0.695,1173.375,111.000,6.750,Foot Movement,1
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9559,0.8763,0.914358,1.1180,0.628,2172.500,87.875,12.500,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8985,0.9523,0.924645,1.4142,2.991,2977.250,320.125,94.375,Foot Movement,1
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8756,0.7336,0.798349,1.7321,4.825,1944.875,202.625,78.625,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9149,0.9816,0.947074,1.0000,2.460,2524.875,230.500,66.625,Foot Movement,1
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7538,0.8816,0.812704,1.5000,4.405,2998.625,863.500,154.500,Foot Movement,1
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8867,0.9373,0.911306,1.4142,4.251,2214.375,265.125,99.500,Foot Movement,1
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8749,0.5026,0.638465,1.5811,4.609,1538.875,110.625,40.750,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9191,0.7271,0.811874,3.9370,0.446,1805.500,115.625,6.375,Foot Movement,1
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9267,0.7256,0.813896,2.2361,0.465,1854.625,106.375,6.750,Foot Movement,1
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9374,0.7917,0.858426,3.2016,2.896,1584.375,83.750,38.750,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.6701,0.5829,0.623491,3.4641,7.194,1877.625,538.750,117.500,Foot Movement,1
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8647,0.6564,0.746275,2.6926,3.236,1363.875,140.125,33.500,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8759,0.8495,0.862519,2.1794,6.703,1946.000,234.125,126.500,Foot Movement,1
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9646,0.8469,0.901962,1.6583,1.710,1814.750,56.375,27.250,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9609,0.9000,0.929439,1.8708,0.853,2439.625,89.375,19.500,Foot Movement,1
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9045,0.9556,0.929335,2.0000,1.575,2193.500,221.250,36.500,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.8682,0.9090,0.888122,2.5495,1.451,1414.750,195.250,21.500,Foot Movement,1
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.9283,0.9693,0.948338,1.5000,0.649,1771.875,132.750,12.000,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9316,0.9754,0.952963,1.5000,1.921,1777.250,127.375,35.750,Foot Movement,1
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.7996,0.7942,0.796904,3.2404,4.888,2049.750,407.875,99.500,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8470,0.8533,0.850099,1.7321,2.382,2078.625,320.500,49.875,Foot Movement,1
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8851,0.9088,0.896795,1.5811,2.630,1587.750,187.375,42.875,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9008,0.9187,0.909644,2.1794,1.209,2463.625,249.250,30.375,Foot Movement,1
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8893,0.7809,0.831555,3.7417,1.193,2052.625,199.625,21.500,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.2640,0.8459,0.402376,11.7792,20.972,2021.750,4768.250,1358.625,Foot Movement,1
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.7622,0.8625,0.809289,1.4142,4.182,2707.125,728.375,128.125,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8560,0.7671,0.809112,2.5495,8.856,2187.875,282.250,173.625,Foot Movement,1
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9291,0.7790,0.847502,1.4142,4.020,2952.000,175.375,99.500,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.5112,0.8606,0.641387,3.6056,12.078,2896.375,2383.875,589.000,Foot Movement,1
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.6527,0.3247,0.433692,4.1533,6.913,1530.125,264.375,52.625,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9244,0.9692,0.946298,2.1794,0.472,1717.000,136.000,8.500,Foot Movement,1
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9653,0.7211,0.825534,1.6583,0.170,1377.500,35.750,1.750,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,Ensemble-nnU-Net (Baseline),0.7681,0.7424,0.755016,1.8708,11.650,2537.875,568.750,285.750,Foot Movement,1
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,Ensemble-nnU-Net (Baseline),0.4324,0.3803,0.404675,2.6926,26.666,2720.000,1357.750,637.875,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.4017,0.6243,0.488827,7.4330,24.558,1449.875,1348.250,553.375,Foot Movement,1
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.7980,0.5330,0.639120,3.3166,6.897,1443.750,194.750,66.500,Foot Movement,1
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8561,0.7003,0.770437,2.9155,2.995,2464.375,290.000,60.375,Foot Movement,1
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8991,0.9218,0.910302,1.8028,3.043,1890.875,195.625,59.000,Foot Movement,1
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8431,0.8444,0.843760,2.5981,0.149,2765.125,434.625,4.125,Foot Movement,1
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9259,0.9089,0.917329,1.4142,1.158,1990.625,144.875,22.625,Foot Movement,1
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8857,0.8674,0.876445,2.6926,1.650,1377.000,154.125,22.250,Foot Movement,1
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,Ensemble-nnU-Net (Baseline),0.9872,0.9877,0.987440,1.4142,0.212,5009.375,64.375,10.625,Foot Movement,1
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,Ensemble-nnU-Net (Baseline),0.7251,0.6416,0.680814,2.8284,3.140,3468.875,843.875,96.375,Foot Movement,1
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9303,0.9720,0.950689,1.2247,1.126,2986.250,217.625,35.125,Foot Movement,1
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.7438,0.7383,0.741073,2.6926,3.014,2682.750,682.125,80.250,Foot Movement,1
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,Ensemble-nnU-Net (Baseline),0.9565,0.7192,0.821048,1.5000,0.791,2459.625,80.500,14.625,Foot Movement,1
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,Ensemble-nnU-Net (Baseline),0.9544,0.8347,0.890534,1.4142,0.679,1999.250,79.750,11.875,Foot Movement,1
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9594,0.9237,0.941220,1.1180,0.234,2383.500,93.250,5.375,Foot Movement,1

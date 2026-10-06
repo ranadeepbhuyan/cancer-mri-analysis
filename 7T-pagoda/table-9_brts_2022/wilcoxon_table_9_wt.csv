@@ -1,0 +1,49 @@
+Run,test,reference,comparator,metric,n,n_ties,W,p,p_holm,median_diff,ci95_lo,ci95_hi,effect_r,wins,ties,losses,mean_ref,mean_comp,median_ref,median_comp,correction,zero_method,errors_ref,errors_comp,discordant_comp_only,discordant_ref_only,both
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",Dice,130,23,1423,3.29467e-10,2.63573e-09,0.0154665,0.00679551,0.020984,0.551164,86,23,21,0.931086,0.871925,0.967969,0.950438,Holm over 8 tests,pratt,,,,,
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",HD95_mm,98,23,1492.5,0.00454919,0.0136476,-0.1954,-0.3179,0,-0.286614,50,23,25,2.19446,3.0986,1.4142,1.7321,Holm over 8 tests,pratt,,,,,
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_1mm,98,0,1945.5,0.0889581,0.0889581,0.0255,-0.0028,0.0442038,0.171819,58,0,40,0.872206,0.858194,0.90765,0.88045,Holm over 8 tests,pratt,,,,,
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_2mm,98,0,1659.5,0.00663965,0.0136476,0.00375,0.0011,0.0084,0.274196,62,0,36,0.970214,0.959677,0.98565,0.9809,Holm over 8 tests,pratt,,,,,
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),Dice,130,24,2425,8.7596e-05,0.000613172,0.0034165,0,0.01017,0.344035,70,24,36,0.931086,0.914683,0.967969,0.959747,Holm over 8 tests,pratt,,,,,
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),HD95_mm,100,19,1346.5,0.000183576,0.00110146,-0.3179,-0.4142,0,-0.374061,59,19,22,2.19243,2.68013,1.4142,1.7321,Holm over 8 tests,pratt,,,,,
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_1mm,100,0,1651.5,0.00266998,0.0106799,0.02845,0.0023,0.05005,0.300338,60,0,40,0.872422,0.838189,0.90765,0.85585,Holm over 8 tests,pratt,,,,,
+1,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_2mm,100,1,1448.5,0.000215889,0.00110146,0.00895,0.004,0.0145,0.369966,68,1,31,0.969893,0.957078,0.98475,0.9752,Holm over 8 tests,pratt,,,,,
+1,mcnemar_exact,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",hallucination_WT_absent,27,,,0.375,,,,,,,,,,,,,,,1,4,4,1,0
+1,mcnemar_exact,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",complete_miss_WT_present,103,,,0.625,,,,,,,,,,,,,,,2,4,3,1,1
+1,mcnemar_exact,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),hallucination_WT_absent,27,,,1,,,,,,,,,,,,,,,1,2,2,1,0
+1,mcnemar_exact,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),complete_miss_WT_present,103,,,1,,,,,,,,,,,,,,,2,1,1,2,0
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",Dice,130,22,3030,0.0103182,0.0515912,0.000608,0,0.00564638,0.224963,67,22,41,0.928027,0.894473,0.96397,0.954393,Holm over 8 tests,pratt,,,,,
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",HD95_mm,100,14,1359.5,0.000126115,0.000882805,-0.3179,-0.5858,-0.13395,-0.383392,60,14,26,2.5614,3.75226,1.7321,2.0236,Holm over 8 tests,pratt,,,,,
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_1mm,100,0,1795.5,0.0121327,0.0515912,0.0251,0.0097,0.0427,0.250826,66,0,34,0.852152,0.831703,0.89205,0.85285,Holm over 8 tests,pratt,,,,,
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_2mm,100,1,1384,8.80251e-05,0.000704201,0.011,0.00455,0.0172,0.392143,69,1,30,0.959097,0.943536,0.98085,0.9646,Holm over 8 tests,pratt,,,,,
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),Dice,130,20,2894,0.00338853,0.0203312,0.0004935,0,0.007668,0.256987,67,20,43,0.928027,0.884526,0.96397,0.952093,Holm over 8 tests,pratt,,,,,
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),HD95_mm,101,21,2397.5,0.831463,1,0,-0.2134,0,-0.021177,42,21,38,2.49623,2.52068,1.7321,1.7321,Holm over 8 tests,pratt,,,,,
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_1mm,101,0,2273.5,0.306276,0.918827,0.0112,-0.0143,0.0347,0.101799,54,0,47,0.854113,0.844259,0.8918,0.8716,Holm over 8 tests,pratt,,,,,
+2,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_2mm,101,0,2517,0.842906,1,0.0028,-0.003,0.0069,0.0197194,54,0,47,0.960867,0.96009,0.9808,0.9802,Holm over 8 tests,pratt,,,,,
+2,mcnemar_exact,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",hallucination_WT_absent,27,,,1,,,,,,,,,,,,,,,2,3,3,2,0
+2,mcnemar_exact,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",complete_miss_WT_present,103,,,0.25,,,,,,,,,,,,,,,0,3,3,0,0
+2,mcnemar_exact,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),hallucination_WT_absent,27,,,0.453125,,,,,,,,,,,,,,,2,5,5,2,0
+2,mcnemar_exact,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),complete_miss_WT_present,103,,,0.5,,,,,,,,,,,,,,,0,2,2,0,0
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",Dice,130,23,2264,1.53046e-05,0.000122437,0.0072235,0,0.01428,0.379263,75,23,32,0.918102,0.908436,0.9629,0.948448,Holm over 8 tests,pratt,,,,,
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",HD95_mm,101,15,1541.5,0.000946196,0.00567718,-0.3179,-0.4495,0,-0.328965,55,15,31,2.5288,3.56458,1.7321,2.2361,Holm over 8 tests,pratt,,,,,
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_1mm,101,0,1870,0.016849,0.067396,0.0323,0.0111,0.0509,0.237813,65,0,36,0.853758,0.830655,0.874,0.8523,Holm over 8 tests,pratt,,,,,
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_2mm,101,1,1583,0.000777868,0.00544507,0.0054,0.001,0.0135,0.334387,62,1,38,0.96039,0.941941,0.973,0.9666,Holm over 8 tests,pratt,,,,,
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),Dice,130,25,3155.5,0.0284306,0.067396,0,0,0.00343689,-0.192189,63,25,42,0.918102,0.92091,0.9629,0.954607,Holm over 8 tests,pratt,,,,,
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),HD95_mm,101,11,1874,0.0233753,0.067396,-0.3179,-0.4142,0,-0.225599,56,11,34,2.5288,2.95486,1.7321,2,Holm over 8 tests,pratt,,,,,
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_1mm,101,0,1886.5,0.0195912,0.067396,0.0287,-0.0032,0.0522,0.23225,57,0,44,0.853758,0.824105,0.874,0.86,Holm over 8 tests,pratt,,,,,
+3,wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_2mm,101,0,1834.5,0.0120646,0.0603229,0.0061,0.0019,0.0139,0.249779,63,0,38,0.96039,0.949359,0.973,0.9729,Holm over 8 tests,pratt,,,,,
+3,mcnemar_exact,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",hallucination_WT_absent,27,,,1,,,,,,,,,,,,,,,2,2,2,2,0
+3,mcnemar_exact,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",complete_miss_WT_present,103,,,0.5,,,,,,,,,,,,,,,2,0,0,2,0
+3,mcnemar_exact,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),hallucination_WT_absent,27,,,1,,,,,,,,,,,,,,,2,2,1,1,1
+3,mcnemar_exact,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),complete_miss_WT_present,103,,,0.5,,,,,,,,,,,,,,,2,0,0,2,0
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",Dice,130,19,2000,4.81556e-07,3.85245e-06,0.00848933,0.00242017,0.0150333,0.441469,80,19,31,0.925738,0.891612,0.961103,0.946895,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",HD95_mm,103,2,1602.5,0.000409952,0.00245971,-0.211933,-0.4142,-0.138067,-0.348175,66,2,35,2.5009,3.53749,1.8214,2.14983,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_1mm,103,0,1952,0.0169182,0.0546702,0.0231667,0.00616667,0.0449333,0.235344,64,0,39,0.855809,0.835124,0.886,0.8628,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",NSD_2mm,103,0,1439.5,4.61e-05,0.0003227,0.00926667,0.00463333,0.0137333,0.401479,68,0,35,0.960768,0.94586,0.9781,0.966033,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),Dice,130,18,2806.5,0.00148492,0.00742461,0.00296183,0,0.00936917,0.278695,72,18,40,0.925738,0.906706,0.961103,0.949761,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),HD95_mm,103,1,1928,0.0136676,0.0546702,-0.211933,-0.35,-0.138067,-0.242971,66,1,36,2.5009,2.77623,1.8214,1.9107,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_1mm,103,0,2022,0.0309133,0.0546702,0.0225667,-0.00436667,0.0359,0.212652,59,0,44,0.855809,0.832505,0.886,0.8561,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_signed_rank,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),NSD_2mm,103,0,1943,0.0156021,0.0546702,0.00613333,0.00146667,0.0113333,0.238262,63,0,40,0.960768,0.953486,0.9781,0.9749,Holm over 8 tests,pratt,,,,,
+run-mean (3 runs),wilcoxon_on_error_frequency,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",hallucination_WT_absent,27,,,0.157299,,0,,,,,,,,,,,,,1.66667,3,,,
+run-mean (3 runs),wilcoxon_on_error_frequency,PAGODA Net (RA-I 4x6),"Ensemble (DeepSeg, nnU-Net, DeepSCAN)",complete_miss_WT_present,103,,,0.414268,,0,,,,,,,,,,,,,1.33333,2.33333,,,
+run-mean (3 runs),wilcoxon_on_error_frequency,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),hallucination_WT_absent,27,,,0.297638,,0,,,,,,,,,,,,,1.66667,3,,,
+run-mean (3 runs),wilcoxon_on_error_frequency,PAGODA Net (RA-I 4x6),PAGODA Net (RA-I 3x6),complete_miss_WT_present,103,,,0.992139,,0,,,,,,,,,,,,,1.33333,1,,,

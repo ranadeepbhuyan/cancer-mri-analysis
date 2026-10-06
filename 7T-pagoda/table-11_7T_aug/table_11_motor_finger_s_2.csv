@@ -1,0 +1,776 @@
+Subject_ID,Volume_ID,Source,Split,Model,Precision,Recall,Dice,HD95_mm,SSR_pct,GT_Vol_mm3,FP_Vol_mm3,Spill_Vol_mm3,Motor_Task,Run
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9793,0.9632,0.971183,1.0000,0.470,2569.625,52.250,11.875,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9780,0.9738,0.975865,0.5000,0.423,2462.875,54.000,10.375,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9450,0.9373,0.941157,1.2247,1.352,2628.875,143.375,35.250,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9659,0.8867,0.924629,1.6583,0.720,2060.500,64.500,13.625,Finger Tapping,2
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9730,0.9509,0.961798,0.8660,0.335,1567.125,41.375,5.125,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9651,0.9794,0.972216,1.1180,0.743,1027.125,36.375,7.750,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9891,0.9757,0.982388,0.5000,0.194,1107.625,11.875,2.125,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9154,0.8733,0.893828,2.1213,2.171,3186.125,257.250,66.000,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9316,0.9185,0.924986,1.8708,1.284,2419.875,163.250,30.625,Finger Tapping,2
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9692,0.9562,0.962639,0.8660,0.179,3407.125,103.500,6.000,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9569,0.9120,0.933904,0.7071,0.183,3437.625,141.125,6.000,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9546,0.9375,0.945975,1.1180,0.225,3615.125,161.250,8.000,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9673,0.9656,0.966450,1.2247,0.254,1924.125,62.875,4.875,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9507,0.9171,0.933559,1.2247,0.571,2177.625,103.625,12.000,Finger Tapping,2
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9399,0.9404,0.940140,0.5000,0.603,2673.250,160.750,16.125,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9163,0.8906,0.903253,1.1180,1.377,1672.125,136.000,22.375,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9714,0.9648,0.968063,0.7071,0.440,1600.375,45.500,7.000,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9766,0.9762,0.976378,0.5000,0.763,2228.250,52.125,17.000,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9595,0.9515,0.955494,0.7071,1.030,2006.750,80.500,20.500,Finger Tapping,2
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9419,0.9161,0.928860,0.8660,0.990,3258.375,184.000,31.375,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9722,0.9312,0.951283,1.0000,1.550,2231.875,59.375,33.125,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9831,0.9744,0.978731,0.5000,0.921,2998.750,50.375,27.375,Finger Tapping,2
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8881,0.8838,0.885983,1.2247,4.118,2107.875,234.625,86.375,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9405,0.9645,0.952362,0.7071,0.896,4273.500,260.875,39.250,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9865,0.9937,0.990105,0.7071,0.165,4902.500,66.500,8.125,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9168,0.8949,0.905710,2.1794,5.509,3663.625,297.500,197.000,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8788,0.7993,0.837146,2.1213,6.717,2892.875,319.000,176.750,Finger Tapping,2
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9533,0.9251,0.938966,0.7071,1.233,2684.750,121.750,32.125,Finger Tapping,2
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9854,0.9862,0.985761,0.5000,0.112,3242.500,47.500,3.625,Finger Tapping,2
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9534,0.8853,0.918100,1.2247,0.169,2709.000,117.125,4.250,Finger Tapping,2
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9241,0.9081,0.916017,1.1180,0.402,2530.500,188.875,10.000,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9475,0.9341,0.940735,1.5000,1.875,2683.875,139.000,49.625,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9658,0.9576,0.961698,1.1180,0.947,2330.250,79.000,21.875,Finger Tapping,2
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8964,0.8669,0.881420,1.0000,3.055,3165.000,317.000,93.500,Finger Tapping,2
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9818,0.9764,0.979095,0.8660,0.646,3189.875,57.750,20.500,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9349,0.9436,0.939270,1.1180,0.836,1585.750,104.125,13.375,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9757,0.9283,0.951422,0.7071,0.199,2042.625,47.125,3.875,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9642,0.9498,0.956948,0.7071,0.916,2160.375,76.125,19.500,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9574,0.8653,0.908999,1.0000,1.248,2992.875,115.250,33.750,Finger Tapping,2
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9594,0.9527,0.956067,1.1180,0.505,2195.625,88.500,11.000,Finger Tapping,2
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.7771,0.6709,0.720087,2.4495,2.624,2046.875,394.000,46.375,Finger Tapping,2
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9774,0.9859,0.981622,0.7071,0.783,3023.750,69.000,23.875,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9647,0.9312,0.947660,1.1180,0.255,4477.000,152.375,11.000,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9472,0.9296,0.938296,0.5000,0.149,3849.375,199.500,5.625,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9750,0.9681,0.971579,0.7071,0.398,3888.500,96.375,15.375,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9684,0.9442,0.956116,1.5811,0.608,4176.750,128.750,24.750,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9780,0.9690,0.973492,0.5000,0.492,2977.375,64.875,14.500,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9168,0.9190,0.917899,1.6583,3.050,3479.250,290.250,106.375,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9891,0.9812,0.985159,0.5000,0.062,6308.500,68.000,3.875,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9668,0.9479,0.957298,0.7071,0.161,6178.375,200.875,9.750,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9176,0.9529,0.934917,1.5811,2.025,1848.500,158.250,38.875,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.8931,0.9089,0.900916,2.6926,2.208,1785.750,194.250,40.125,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8279,0.7673,0.796463,1.7321,1.986,3741.875,596.875,68.875,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8136,0.7204,0.764176,1.6583,3.022,2980.125,492.000,79.750,Finger Tapping,2
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9785,0.9717,0.975086,0.5000,0.164,1689.125,36.125,2.750,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7534,0.8897,0.815934,10.6536,6.688,2454.625,714.750,193.875,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9414,0.9405,0.940939,0.7071,1.223,3621.000,211.875,44.250,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9766,0.9810,0.978790,0.5000,0.264,3728.250,87.500,9.875,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9513,0.9430,0.947096,1.4142,0.353,3928.750,189.750,13.750,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9837,0.9587,0.971063,0.5000,0.267,2833.125,44.875,7.375,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9522,0.9523,0.952264,1.2247,1.025,2342.250,111.875,24.000,Finger Tapping,2
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9114,0.9062,0.908786,1.2247,3.281,4528.375,399.000,147.750,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9688,0.9641,0.966447,0.8660,0.477,4683.125,145.375,22.250,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9606,0.9605,0.960578,1.0000,0.705,4466.375,175.750,31.500,Finger Tapping,2
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9485,0.9607,0.954571,0.7071,0.819,2289.625,119.500,19.000,Finger Tapping,2
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8917,0.9440,0.917119,1.4142,2.015,2842.625,325.750,60.625,Finger Tapping,2
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9786,0.9513,0.964760,1.4142,0.256,1356.125,28.250,3.375,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9516,0.9227,0.936911,0.8660,1.146,4771.125,224.000,53.000,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9623,0.9655,0.963902,1.0000,0.902,3426.000,129.500,31.000,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9481,0.9417,0.944910,1.0000,0.366,4019.625,207.000,14.625,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8572,0.7762,0.814679,1.8708,1.110,3720.000,481.000,37.375,Finger Tapping,2
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.7855,0.5690,0.659949,2.5000,6.288,3287.625,510.750,149.750,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9338,0.9236,0.928639,1.2247,2.872,2798.625,183.375,79.500,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9359,0.9179,0.926821,0.7071,2.888,2325.750,146.250,65.875,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9266,0.9197,0.923176,1.5811,2.907,3019.750,219.875,87.125,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9066,0.8336,0.868537,1.5811,2.494,3205.500,275.375,73.500,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7810,0.8734,0.824634,2.3452,1.243,2319.875,568.000,32.250,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8924,0.9140,0.903071,0.7071,0.482,1721.500,189.625,8.500,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9666,0.9626,0.964601,0.5000,0.418,2521.125,83.875,10.500,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9760,0.9508,0.963240,0.8660,0.437,2673.375,62.375,11.375,Finger Tapping,2
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9460,0.9483,0.947178,1.2247,0.707,2485.250,134.500,17.625,Finger Tapping,2
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9589,0.9446,0.951695,0.8660,0.717,2334.625,94.625,16.500,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9675,0.9378,0.952415,0.8660,0.676,4791.375,151.000,31.375,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9461,0.9078,0.926564,1.4142,1.221,4106.000,212.500,48.125,Finger Tapping,2
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9211,0.9013,0.911094,1.2247,1.520,1915.750,148.000,28.500,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9796,0.9675,0.973507,0.8660,0.471,3522.500,71.125,16.375,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8152,0.6874,0.745867,1.7321,2.823,3712.000,578.625,88.375,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9636,0.9426,0.952974,0.8660,0.598,4505.250,160.625,26.375,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9571,0.9704,0.963694,0.7071,0.501,3988.500,173.500,20.250,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9176,0.8828,0.899834,1.4142,1.225,3500.125,277.500,41.250,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9244,0.8756,0.899353,1.5811,0.903,2718.375,194.625,23.250,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9041,0.8773,0.890517,1.1180,1.560,2468.500,229.625,37.375,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8912,0.6918,0.778931,1.6583,1.971,2793.625,236.000,42.750,Finger Tapping,2
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9513,0.9683,0.959741,0.7071,1.422,2426.500,120.250,35.125,Finger Tapping,2
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9669,0.9718,0.969308,0.5000,1.002,4009.625,133.500,40.375,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9780,0.9673,0.972615,0.5000,0.172,4263.875,92.750,7.250,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9296,0.9190,0.924257,0.8660,0.557,4310.375,300.125,23.750,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9737,0.9640,0.968845,0.5000,0.392,4348.875,113.125,16.875,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9547,0.9578,0.956220,0.8660,0.911,3255.375,148.000,29.750,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9451,0.9218,0.933301,0.7071,1.432,2076.875,111.125,29.000,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9294,0.8815,0.904844,1.8028,1.932,1862.125,124.625,34.125,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9772,0.9355,0.955867,1.0000,0.611,3972.125,86.875,23.250,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9534,0.9460,0.949706,1.2247,1.074,3659.000,169.125,39.000,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9503,0.9225,0.936176,0.7071,0.322,3802.125,183.625,11.875,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9302,0.9306,0.930401,2.4495,0.719,4065.250,283.875,29.250,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9583,0.9412,0.949691,0.8660,0.333,2864.250,117.250,9.375,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9214,0.8673,0.893520,0.5000,0.413,2156.375,159.625,8.375,Finger Tapping,2
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9745,0.9583,0.966328,0.8660,0.363,3223.125,80.750,11.500,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9762,0.9615,0.968821,0.5000,0.651,3393.250,79.375,21.750,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.7846,0.9436,0.856746,8.0932,7.826,2494.125,646.250,234.750,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9721,0.9488,0.960294,0.5000,0.412,4698.125,128.125,18.875,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9787,0.9848,0.981725,0.8660,0.525,3859.375,82.875,20.375,Finger Tapping,2
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9858,0.9755,0.980636,0.5000,0.415,4075.375,57.125,16.750,Finger Tapping,2
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.8861,0.8166,0.849935,2.6926,4.591,3122.750,327.875,132.125,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9225,0.8416,0.880188,1.1180,0.397,2724.625,192.625,9.875,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,P(4x6) (State-of-the-Art),0.9534,0.9448,0.949086,0.8660,0.306,4528.000,209.125,13.750,Finger Tapping,2
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9696,0.9484,0.958867,1.0000,1.157,2828.250,84.125,32.000,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.8682,0.7932,0.828993,1.8028,3.084,2533.250,305.125,71.375,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9240,0.8986,0.911134,1.2247,1.314,1799.125,133.000,23.000,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9655,0.9472,0.956298,0.8660,1.480,2522.375,85.250,36.625,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,P(4x6) (State-of-the-Art),0.9653,0.9575,0.961389,0.5000,1.041,3354.625,115.375,34.625,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9612,0.9698,0.965503,0.7071,0.614,3630.750,142.125,22.500,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,P(4x6) (State-of-the-Art),0.9878,0.9807,0.984204,0.5000,0.116,3693.000,44.875,4.250,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.9520,0.9281,0.939867,2.6926,0.457,1739.875,81.500,7.750,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.9600,0.9283,0.943890,0.5000,0.274,2121.375,82.000,5.625,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9696,0.9707,0.970155,0.7071,0.414,3315.125,101.000,13.750,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9491,0.9521,0.950596,0.7071,1.027,2621.000,133.750,27.000,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9533,0.9271,0.940059,0.8660,0.680,2534.125,115.000,16.750,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9726,0.9706,0.971607,0.8660,0.386,1981.000,54.125,7.625,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8671,0.8778,0.872407,1.5811,1.782,2917.250,392.375,52.625,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8850,0.8724,0.878667,0.8660,0.889,3124.125,354.250,27.375,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9153,0.9453,0.930071,0.8660,1.142,3465.500,303.125,40.875,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9729,0.9539,0.963333,1.1180,0.489,3182.750,84.500,15.250,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9592,0.9346,0.946713,0.5000,1.351,3304.125,131.500,43.500,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9664,0.9792,0.972779,0.5000,1.547,4737.500,161.125,74.250,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.8578,0.8834,0.870424,2.0000,2.472,3352.875,491.000,85.375,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,P(4x6) (State-of-the-Art),0.8924,0.8209,0.855177,3.1623,2.932,3226.125,319.250,87.000,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9598,0.9482,0.953938,0.7071,0.265,2338.500,92.875,6.125,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9480,0.9684,0.958065,0.5000,0.199,3009.500,160.000,6.125,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,P(4x6) (State-of-the-Art),0.9620,0.9259,0.943596,0.8660,1.436,3636.375,132.875,50.250,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,P(4x6) (State-of-the-Art),0.8388,0.6083,0.705217,4.0000,7.712,3433.250,401.250,192.000,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.9110,0.8617,0.885701,1.0000,1.570,1827.125,153.750,27.125,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,P(4x6) (State-of-the-Art),0.8643,0.8469,0.855513,1.2247,3.860,1583.125,210.500,59.875,Finger Tapping,2
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9612,0.9736,0.967328,0.8660,0.616,3708.250,145.875,23.125,Finger Tapping,2
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.8176,0.9228,0.867044,7.0887,5.882,2219.875,456.875,147.375,Finger Tapping,2
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9722,0.9372,0.954385,0.7071,0.051,4799.625,128.750,2.375,Finger Tapping,2
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9738,0.9793,0.976520,0.8660,0.461,3044.625,80.250,14.125,Finger Tapping,2
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9062,0.9205,0.913298,0.8660,1.438,1908.125,181.875,27.875,Finger Tapping,2
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,P(4x6) (State-of-the-Art),0.9934,0.9890,0.991206,0.5000,0.074,7977.875,52.375,5.875,Finger Tapping,2
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,P(4x6) (State-of-the-Art),0.9319,0.9062,0.918871,1.8708,0.859,6243.250,413.125,52.125,Finger Tapping,2
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9819,0.9817,0.981793,0.5000,0.245,3930.750,71.250,9.625,Finger Tapping,2
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9591,0.9290,0.943837,0.8660,0.409,2872.750,113.750,11.375,Finger Tapping,2
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,P(4x6) (State-of-the-Art),0.9780,0.9786,0.978340,0.7071,0.282,3014.375,66.250,8.500,Finger Tapping,2
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,P(4x6) (State-of-the-Art),0.9492,0.8635,0.904322,0.7071,0.591,2535.375,117.125,13.625,Finger Tapping,2
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,P(4x6) (State-of-the-Art),0.9818,0.9803,0.981040,0.7071,0.132,3219.875,58.500,4.250,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9776,0.9076,0.941325,1.4142,0.440,2569.625,53.375,10.500,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9756,0.9779,0.976757,0.5000,0.420,2462.875,60.250,10.375,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9363,0.8974,0.916410,1.4142,1.950,2628.875,160.625,49.125,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9555,0.4512,0.612988,3.4641,0.758,2060.500,43.250,7.375,Finger Tapping,2
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9606,0.8266,0.888574,1.5000,0.306,1567.125,53.125,4.125,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9569,0.8908,0.922670,1.5000,1.007,1027.125,41.250,9.625,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9900,0.9452,0.967034,0.8660,0.165,1107.625,10.625,1.750,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9328,0.7779,0.848372,1.8708,2.230,3186.125,178.500,59.250,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9519,0.7230,0.821796,2.4495,0.741,2419.875,88.375,13.625,Finger Tapping,2
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9672,0.9638,0.965508,1.4142,0.033,3407.125,111.375,1.125,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9608,0.8480,0.900898,0.7071,0.111,3437.625,119.000,3.375,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9508,0.9166,0.933364,1.4142,0.183,3615.125,171.500,6.375,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9668,0.9451,0.955816,0.8660,0.166,1924.125,62.500,3.125,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9425,0.8000,0.865402,1.8708,0.615,2177.625,106.250,11.375,Finger Tapping,2
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9459,0.9263,0.935979,0.5000,0.325,2673.250,141.750,8.500,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9261,0.5707,0.706198,2.0616,0.983,1672.125,76.125,10.125,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9696,0.9028,0.935043,0.7071,0.445,1600.375,45.250,6.625,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9740,0.9418,0.957620,0.7071,0.957,2228.250,56.125,20.625,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9625,0.9379,0.950028,0.7071,1.061,2006.750,73.375,20.750,Finger Tapping,2
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9372,0.8984,0.917364,0.7071,1.357,3258.375,196.250,42.375,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9687,0.9243,0.946005,0.7071,1.661,2231.875,66.625,35.375,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9810,0.9321,0.955947,0.5000,0.934,2998.750,54.125,26.625,Finger Tapping,2
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.8763,0.7890,0.830343,1.1180,3.879,2107.875,234.875,73.625,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9403,0.9174,0.928682,0.8660,1.085,4273.500,249.000,45.250,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9780,0.9948,0.986323,0.5000,0.271,4902.500,109.625,13.500,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9381,0.8564,0.895409,2.0000,4.006,3663.625,207.000,134.000,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8990,0.4372,0.588290,3.1623,5.811,2892.875,142.125,81.750,Finger Tapping,2
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9634,0.7863,0.865874,0.7071,0.941,2684.750,80.250,20.625,Finger Tapping,2
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9856,0.9588,0.972018,0.5000,0.048,3242.500,45.500,1.500,Finger Tapping,2
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9374,0.8408,0.886473,1.8708,0.149,2709.000,152.000,3.625,Finger Tapping,2
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9206,0.8974,0.908845,0.7071,0.269,2530.500,195.750,6.625,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9328,0.9253,0.929037,1.8708,1.559,2683.875,178.875,41.500,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9547,0.9716,0.963099,1.1180,1.049,2330.250,107.375,24.875,Finger Tapping,2
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8922,0.8518,0.871535,1.2247,2.395,3165.000,325.625,72.375,Finger Tapping,2
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9782,0.9366,0.956980,0.7071,0.888,3189.875,66.500,27.125,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9243,0.9495,0.936734,0.8660,0.675,1585.750,123.250,11.000,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9633,0.9327,0.947797,0.7071,0.164,2042.625,72.500,3.250,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9629,0.9471,0.954903,1.0000,0.959,2160.375,78.875,20.375,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9304,0.9151,0.922704,0.8660,1.699,2992.875,204.875,50.000,Finger Tapping,2
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9381,0.9065,0.922030,1.2247,0.789,2195.625,131.375,16.750,Finger Tapping,2
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.6867,0.4604,0.551238,3.0414,5.639,2046.875,429.875,77.375,Finger Tapping,2
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9788,0.9909,0.984778,0.5000,0.559,3023.750,65.000,17.125,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9589,0.9155,0.936698,1.1180,0.298,4477.000,175.875,12.750,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9495,0.9265,0.937889,0.5000,0.153,3849.375,189.500,5.750,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9691,0.9373,0.952923,0.7071,0.442,3888.500,116.375,16.625,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9662,0.7820,0.864421,2.9155,0.969,4176.750,114.250,32.750,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9834,0.9624,0.972756,0.5000,0.305,2977.375,48.500,8.875,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9037,0.8338,0.867341,1.7321,2.788,3479.250,309.000,89.500,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9880,0.9690,0.978402,0.5000,0.091,6308.500,74.250,5.625,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9605,0.7135,0.818778,1.0000,0.147,6178.375,181.250,6.750,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9233,0.9588,0.940716,2.2913,1.706,1848.500,147.125,32.750,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9096,0.9355,0.922355,1.6583,1.123,1785.750,166.000,20.625,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8302,0.6974,0.758011,1.4142,1.098,3741.875,533.750,34.500,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7801,0.3359,0.469581,3.5355,3.565,2980.125,282.250,45.750,Finger Tapping,2
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9682,0.9485,0.958245,0.7071,0.332,1689.125,52.625,5.500,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9613,0.9160,0.938121,1.2247,0.700,2454.625,90.500,16.375,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9213,0.9534,0.937095,0.5000,3.032,3621.000,294.875,113.625,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9711,0.9719,0.971497,0.5000,0.194,3728.250,107.875,7.250,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9538,0.7615,0.846841,1.5811,0.235,3928.750,145.000,7.375,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9817,0.8698,0.922379,0.5000,0.219,2833.125,45.875,5.500,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9595,0.9479,0.953636,1.4142,0.848,2342.250,93.750,19.625,Finger Tapping,2
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9079,0.8779,0.892647,1.8028,3.103,4528.375,403.500,135.875,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9764,0.8569,0.912761,1.1180,0.246,4683.125,97.125,10.125,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9461,0.9391,0.942598,1.0000,0.888,4466.375,239.000,39.375,Finger Tapping,2
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9404,0.9530,0.946638,0.7071,1.142,2289.625,138.375,26.500,Finger Tapping,2
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8770,0.8829,0.879895,1.5811,2.909,2842.625,352.125,83.250,Finger Tapping,2
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9774,0.9756,0.976474,1.4142,0.222,1356.125,30.625,3.000,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9526,0.8884,0.919392,0.8660,1.037,4771.125,210.750,46.125,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9618,0.9555,0.958672,1.4142,0.779,3426.000,129.875,26.500,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9426,0.8088,0.870594,1.1180,0.431,4019.625,198.000,14.875,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8712,0.5522,0.675962,1.7321,0.880,3720.000,303.750,20.750,Finger Tapping,2
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.7978,0.2043,0.325282,2.4495,5.909,3287.625,170.250,49.750,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9433,0.8939,0.917901,1.4142,2.234,2798.625,150.500,59.250,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9467,0.8090,0.872461,0.8660,2.918,2325.750,106.000,58.000,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8878,0.7849,0.833183,1.8028,3.596,3019.750,299.625,96.000,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8952,0.5968,0.716191,1.5811,2.954,3205.500,223.875,63.125,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.7669,0.8458,0.804397,2.3452,1.119,2319.875,596.500,28.625,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8958,0.8187,0.855495,1.1180,0.826,1721.500,164.000,13.000,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9620,0.9516,0.956754,0.5000,0.602,2521.125,94.750,15.000,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9695,0.9431,0.956130,0.7071,0.308,2673.375,79.375,8.000,Finger Tapping,2
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9481,0.8556,0.899511,1.5811,0.518,2485.250,116.375,11.625,Finger Tapping,2
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9647,0.9107,0.936903,1.2247,0.408,2334.625,77.875,9.000,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9689,0.8326,0.895608,1.5000,0.540,4791.375,128.000,22.250,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9405,0.8149,0.873230,2.0616,1.198,4106.000,211.500,42.625,Finger Tapping,2
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9118,0.8527,0.881284,1.2247,1.779,1915.750,158.000,31.875,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9797,0.8736,0.923651,1.4142,0.378,3522.500,63.625,11.875,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8271,0.5739,0.677667,2.0000,2.650,3712.000,445.250,68.250,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9554,0.9328,0.943986,1.2247,0.554,4505.250,196.125,24.375,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9504,0.8243,0.882851,0.8660,0.379,3988.500,171.625,13.125,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9184,0.8571,0.886709,1.4142,0.995,3500.125,266.625,32.500,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9092,0.7740,0.836173,1.8708,0.789,2718.375,210.250,18.250,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8867,0.8130,0.848259,1.1180,1.552,2468.500,256.375,35.125,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8866,0.2584,0.400222,2.6926,2.456,2793.625,92.375,20.000,Finger Tapping,2
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9612,0.9159,0.938008,1.0000,1.125,2426.500,89.625,26.000,Finger Tapping,2
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9646,0.9772,0.970869,0.5000,0.840,4009.625,143.625,34.125,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9695,0.9548,0.962114,0.5000,0.226,4263.875,127.875,9.500,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9414,0.9428,0.942088,1.0000,0.541,4310.375,253.125,23.375,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9703,0.9557,0.962974,0.5000,0.353,4348.875,127.125,15.125,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9520,0.8663,0.907117,0.5000,0.933,3255.375,142.125,27.625,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9335,0.7471,0.829968,1.1180,1.504,2076.875,110.500,25.000,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9217,0.7960,0.854230,2.5000,1.158,1862.125,126.000,18.625,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9719,0.7509,0.847231,1.5000,0.672,3972.125,86.125,20.625,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9479,0.9632,0.955487,1.0000,0.925,3659.000,193.750,34.375,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9449,0.8164,0.875990,1.1180,0.438,3802.125,180.875,14.375,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9411,0.9144,0.927542,2.5495,0.592,4065.250,232.625,23.375,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9437,0.8863,0.914120,1.2247,0.293,2864.250,151.375,7.875,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9100,0.6966,0.789138,0.5000,0.439,2156.375,148.500,7.250,Finger Tapping,2
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9701,0.9255,0.947287,0.5000,0.504,3223.125,92.000,15.500,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9783,0.9232,0.949926,0.7071,0.652,3393.250,69.500,20.875,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9725,0.9140,0.942359,0.8660,0.805,2494.125,64.375,18.875,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9685,0.9520,0.960177,0.5000,0.493,4698.125,145.500,22.750,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9819,0.9935,0.987684,0.5000,0.403,3859.375,70.500,15.750,Finger Tapping,2
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9811,0.9364,0.958223,0.5000,0.598,4075.375,73.500,23.250,Finger Tapping,2
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.8552,0.8632,0.859215,2.6926,6.326,3122.750,456.250,199.375,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9105,0.6864,0.782757,1.2247,0.432,2724.625,183.750,8.875,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,P(3x4) (Patch-Based Core),0.9571,0.7931,0.867404,1.2247,0.197,4528.000,160.875,7.375,Finger Tapping,2
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9569,0.9283,0.942369,1.2247,1.749,2828.250,118.375,48.000,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.8390,0.7519,0.793047,1.8708,3.513,2533.250,365.625,79.750,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9363,0.5476,0.691070,2.2361,1.342,1799.125,67.000,14.125,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9668,0.9403,0.953374,1.0000,1.559,2522.375,81.500,38.250,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,P(3x4) (Patch-Based Core),0.9594,0.9688,0.964089,0.5000,1.472,3354.625,137.625,49.875,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9586,0.9309,0.944563,0.8660,0.557,3630.750,146.000,19.625,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,P(3x4) (Patch-Based Core),0.9802,0.9811,0.980665,0.5000,0.260,3693.000,73.125,9.625,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.9526,0.7890,0.863093,3.4641,0.520,1739.875,68.375,7.500,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.9513,0.8809,0.914765,0.5000,0.229,2121.375,95.625,4.500,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9725,0.9253,0.948332,1.0000,0.289,3315.125,86.625,9.125,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9290,0.8985,0.913472,0.7071,1.223,2621.000,180.000,31.000,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9554,0.8624,0.906512,0.7071,0.579,2534.125,102.000,13.250,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9650,0.9666,0.965828,0.8660,0.643,1981.000,69.375,12.750,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8724,0.6912,0.771302,2.0000,1.498,2917.250,294.875,34.625,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8833,0.8169,0.848775,1.0000,0.740,3124.125,337.250,21.375,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9086,0.9309,0.919615,1.2247,0.458,3465.500,324.625,16.250,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9771,0.8858,0.929219,1.4142,0.286,3182.750,66.000,8.250,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9630,0.8491,0.902471,0.7071,1.103,3304.125,107.750,32.125,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9591,0.9117,0.934787,0.7071,2.123,4737.500,184.250,95.625,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.8441,0.7989,0.820862,1.6583,2.060,3352.875,494.875,65.375,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,P(3x4) (Patch-Based Core),0.8804,0.6948,0.776681,2.3452,3.628,3226.125,304.375,92.375,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9588,0.8569,0.905016,0.5000,0.114,2338.500,86.000,2.375,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.9505,0.9263,0.938241,0.5000,0.209,3009.500,145.250,6.125,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,P(3x4) (Patch-Based Core),0.9605,0.4572,0.619466,6.5574,1.639,3636.375,68.375,28.375,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,P(3x4) (Patch-Based Core),0.8206,0.3179,0.458289,6.1033,7.452,3433.250,238.625,99.125,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8868,0.8532,0.869665,0.7071,2.325,1827.125,199.000,40.875,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,P(3x4) (Patch-Based Core),0.8569,0.8389,0.847830,1.2247,4.920,1583.125,221.750,76.250,Finger Tapping,2
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9648,0.9263,0.945160,0.8660,0.727,3708.250,125.500,25.875,Finger Tapping,2
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9738,0.8463,0.905585,1.4142,0.713,2219.875,50.625,13.750,Finger Tapping,2
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9730,0.8679,0.917475,0.5000,0.041,4799.625,115.375,1.750,Finger Tapping,2
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9766,0.9315,0.953518,1.0000,0.306,3044.625,67.875,8.875,Finger Tapping,2
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.8726,0.8365,0.854171,0.8660,1.551,1908.125,233.000,28.375,Finger Tapping,2
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,P(3x4) (Patch-Based Core),0.9907,0.9934,0.992043,0.5000,0.047,7977.875,74.125,3.750,Finger Tapping,2
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,P(3x4) (Patch-Based Core),0.9362,0.9011,0.918291,1.6583,0.541,6243.250,383.500,32.500,Finger Tapping,2
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9811,0.9684,0.974698,0.5000,0.271,3930.750,73.375,10.500,Finger Tapping,2
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9533,0.7154,0.817420,1.2247,0.400,2872.750,100.625,8.625,Finger Tapping,2
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,P(3x4) (Patch-Based Core),0.9770,0.9629,0.969906,0.5000,0.316,3014.375,68.375,9.375,Finger Tapping,2
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,P(3x4) (Patch-Based Core),0.9362,0.5494,0.692413,0.8660,0.849,2535.375,95.000,12.625,Finger Tapping,2
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,P(3x4) (Patch-Based Core),0.9819,0.9620,0.971860,0.7071,0.111,3219.875,57.000,3.500,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9691,0.9281,0.948140,2.7386,0.747,2569.625,76.000,18.375,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9726,0.9786,0.975562,1.4142,0.691,2462.875,68.000,17.125,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8816,0.8752,0.878379,3.5000,2.759,2628.875,309.000,72.000,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9220,0.9083,0.915108,1.5811,1.385,2060.500,158.375,28.125,Finger Tapping,2
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8456,0.9210,0.881677,2.3452,1.333,1567.125,263.500,22.750,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9766,0.9748,0.975699,1.5000,0.597,1027.125,24.000,6.125,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9876,0.9894,0.988499,0.5000,0.360,1107.625,13.750,4.000,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8124,0.9508,0.876211,2.0000,2.776,3186.125,699.375,103.500,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8011,0.8323,0.816376,2.9155,5.474,2419.875,500.125,137.625,Finger Tapping,2
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9627,0.9409,0.951649,1.4142,0.293,3407.125,124.375,9.750,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9046,0.9069,0.905760,1.4142,0.127,3437.625,328.750,4.375,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9621,0.9730,0.967508,1.5811,0.096,3615.125,138.500,3.500,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9424,0.9836,0.962586,1.4142,0.373,1924.125,115.625,7.500,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.3592,0.9210,0.516848,9.3408,4.648,2177.625,3577.375,259.500,Finger Tapping,2
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8828,0.9563,0.918053,1.4142,0.885,2673.250,339.500,25.625,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8354,0.9873,0.904992,1.1180,5.623,1672.125,325.375,111.125,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9240,0.8550,0.888195,1.7321,1.823,1600.375,112.500,27.000,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9581,0.9314,0.944563,1.2247,2.043,2228.250,90.875,44.250,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9745,0.9518,0.963005,0.7071,0.842,2006.750,50.000,16.500,Finger Tapping,2
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8787,0.8689,0.873770,1.0000,2.941,3258.375,390.750,94.750,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9482,0.9562,0.952176,1.5000,4.187,2231.875,116.625,94.250,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9778,0.9199,0.947979,0.5000,1.551,2998.750,62.500,43.750,Finger Tapping,2
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7338,0.8109,0.770431,1.5000,15.139,2107.875,620.000,352.625,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9342,0.9772,0.955198,0.7071,0.707,4273.500,294.375,31.625,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9884,0.9756,0.981958,0.8660,0.065,4902.500,56.000,3.125,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8989,0.8297,0.862907,2.5981,8.635,3663.625,342.000,292.000,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7422,0.8334,0.785157,3.2787,16.367,2892.875,837.375,531.625,Finger Tapping,2
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9200,0.8294,0.872331,0.7071,2.851,2684.750,193.625,69.000,Finger Tapping,2
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9424,0.9916,0.966355,1.1180,0.231,3242.500,196.500,7.875,Finger Tapping,2
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9385,0.9544,0.946374,1.4142,0.145,2709.000,169.375,4.000,Finger Tapping,2
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7865,0.9392,0.856075,1.0000,1.175,2530.500,645.250,35.500,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8227,0.9375,0.876374,3.5707,9.556,2683.875,542.125,292.250,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8675,0.9525,0.908026,2.1794,7.163,2330.250,338.875,183.250,Finger Tapping,2
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6617,0.8766,0.754120,1.4142,14.920,3165.000,1418.750,625.625,Finger Tapping,2
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9751,0.9465,0.960590,3.1623,0.912,3189.875,77.250,28.250,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8852,0.8883,0.886764,1.5811,1.233,1585.750,182.625,19.625,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9431,0.9706,0.956661,0.8660,0.500,2042.625,119.500,10.500,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8985,0.9386,0.918131,1.1180,2.210,2160.375,229.000,49.875,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6343,0.7461,0.685679,2.5981,16.312,2992.875,1287.375,574.250,Finger Tapping,2
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9432,0.9406,0.941904,2.0000,0.268,2195.625,124.250,5.875,Finger Tapping,2
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.6021,0.3355,0.430919,1.7321,2.466,2046.875,453.750,28.125,Finger Tapping,2
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9089,0.9751,0.940848,1.5000,3.264,3023.750,295.500,105.875,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9758,0.9721,0.973942,1.8028,0.078,4477.000,107.875,3.500,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8546,0.8325,0.843373,1.5811,0.403,3849.375,545.375,15.125,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9420,0.9833,0.962191,1.0000,0.967,3888.500,235.625,39.250,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9165,0.6446,0.756839,7.0356,1.745,4176.750,245.250,51.250,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9399,0.9709,0.955166,1.0000,1.544,2977.375,184.750,47.500,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9039,0.9098,0.906858,1.6583,5.600,3479.250,336.500,196.125,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9801,0.9832,0.981660,1.0000,0.073,6308.500,125.625,4.625,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9143,0.9715,0.941998,1.4142,0.299,6178.375,562.750,19.625,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8415,0.8322,0.836801,3.4641,3.098,1848.500,289.750,56.625,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8760,0.7634,0.815829,2.6926,5.012,1785.750,193.000,78.000,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9026,0.8683,0.885109,1.4142,0.872,3741.875,350.750,31.375,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.5291,0.1389,0.220007,4.9244,4.810,2980.125,368.375,37.625,Finger Tapping,2
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9807,0.9825,0.981590,0.5000,0.118,1689.125,32.625,2.000,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8393,0.9457,0.889309,0.8660,2.824,2454.625,444.625,78.125,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9477,0.9252,0.936347,1.1180,0.587,3621.000,184.750,20.750,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9494,0.9723,0.960709,2.5495,0.485,3728.250,193.125,18.500,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9199,0.9634,0.941160,3.0822,0.623,3928.750,329.375,25.625,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9749,0.9802,0.977538,0.7071,0.320,2833.125,71.625,9.125,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8608,0.9604,0.907880,2.1213,2.669,2342.250,363.750,69.750,Finger Tapping,2
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8886,0.8809,0.884749,2.0000,5.606,4528.375,499.875,251.625,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9501,0.9820,0.965821,1.1180,0.566,4683.125,241.375,27.375,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9378,0.9130,0.925254,2.2913,0.805,4466.375,270.500,35.000,Finger Tapping,2
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9569,0.9764,0.966548,1.1180,0.974,2289.625,100.750,22.750,Finger Tapping,2
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9275,0.9694,0.948032,1.4142,1.544,2842.625,215.250,45.875,Finger Tapping,2
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9786,0.9096,0.942818,1.8708,0.109,1356.125,27.000,1.375,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8976,0.7871,0.838701,2.1213,3.666,4771.125,428.375,153.375,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9362,0.9283,0.932232,1.7321,1.763,3426.000,216.625,59.875,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9483,0.9623,0.955269,1.1180,0.276,4019.625,210.750,11.250,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6777,0.6039,0.638687,4.4721,1.799,3720.000,1068.250,59.625,Finger Tapping,2
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.4664,0.3841,0.421268,3.4641,24.170,3287.625,1444.625,654.375,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7699,0.8448,0.805588,2.8284,15.353,2798.625,706.750,471.500,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7220,0.9533,0.821671,1.7321,13.217,2325.750,853.750,405.875,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7656,0.9532,0.849156,3.2787,12.415,3019.750,881.250,466.750,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7932,0.8963,0.841566,1.4142,8.945,3205.500,749.250,324.000,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7396,0.9618,0.836163,2.9155,0.584,2319.875,785.750,17.625,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7496,0.8609,0.801419,1.1180,0.531,1721.500,495.125,10.500,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8536,0.9700,0.908091,1.4142,1.510,2521.125,419.250,43.250,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9468,0.9567,0.951765,1.7321,0.981,2673.375,143.625,26.500,Finger Tapping,2
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9099,0.7672,0.832483,5.3619,1.366,2485.250,188.875,28.625,Finger Tapping,2
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9568,0.9913,0.973755,0.8660,0.656,2334.625,104.375,15.875,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9098,0.9790,0.943150,0.8660,1.983,4791.375,465.000,102.250,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7824,0.9248,0.847687,1.5811,3.348,4106.000,1056.000,162.500,Finger Tapping,2
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9500,0.9205,0.935012,1.0000,1.078,1915.750,92.750,20.000,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9583,0.9430,0.950597,2.5981,0.977,3522.500,144.375,33.875,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.6320,0.8222,0.714689,1.6583,5.073,3712.000,1777.000,245.000,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.8551,0.8897,0.872034,1.7321,1.672,4505.250,679.375,78.375,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9675,0.9532,0.960282,1.0000,0.328,3988.500,127.875,12.875,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8393,0.7754,0.806052,3.0414,3.522,3500.125,519.750,113.875,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7511,0.8154,0.781938,2.5495,5.697,2718.375,734.375,168.125,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9303,0.8445,0.885338,1.0000,1.456,2468.500,156.250,32.625,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8814,0.7981,0.837713,1.7321,1.784,2793.625,299.875,45.125,Finger Tapping,2
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9653,0.9514,0.958281,0.8660,1.291,2426.500,83.000,30.875,Finger Tapping,2
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9334,0.9508,0.942009,0.8660,3.149,4009.625,272.000,128.625,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9087,0.9598,0.933550,1.2247,0.341,4263.875,411.375,15.375,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9281,0.8234,0.872624,2.0000,0.595,4310.375,274.875,22.750,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9026,0.9665,0.933444,1.4142,1.718,4348.875,453.625,80.000,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9204,0.9759,0.947349,1.7321,1.347,3255.375,274.625,46.500,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9474,0.9374,0.942369,1.1180,1.478,2076.875,108.125,30.375,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.5977,0.9017,0.718904,8.0932,14.743,1862.125,1129.875,414.125,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9646,0.9821,0.973258,2.4495,0.801,3972.125,143.250,32.375,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8841,0.8786,0.881331,1.4142,1.781,3659.000,421.625,64.750,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9365,0.8601,0.896646,1.4142,0.197,3802.125,221.875,6.875,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.8109,0.7862,0.798339,5.6789,1.430,4065.250,745.375,56.375,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9450,0.8637,0.902499,2.4495,0.287,2864.250,144.000,7.500,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7488,0.7064,0.727002,1.2247,1.125,2156.375,510.875,22.875,Finger Tapping,2
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9113,0.9581,0.934112,1.4142,0.904,3223.125,300.500,30.625,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9234,0.8768,0.899475,1.4142,3.422,3393.250,246.875,110.250,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9334,0.9156,0.924404,1.5811,2.718,2494.125,163.000,66.500,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9118,0.9625,0.936476,0.8660,1.031,4698.125,437.500,51.125,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9782,0.9719,0.975061,1.5000,0.639,3859.375,83.500,24.500,Finger Tapping,2
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9209,0.9390,0.929853,1.0000,4.641,4075.375,328.750,192.875,Finger Tapping,2
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.7023,0.6200,0.658587,5.7009,13.990,3122.750,820.500,385.625,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.7884,0.8603,0.822763,2.8723,0.551,2724.625,629.250,16.375,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,DUCK-Net (Multi-Scale),0.9864,0.8690,0.923989,1.6583,0.041,4528.000,54.125,1.625,Finger Tapping,2
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8988,0.9372,0.917584,2.2361,5.231,2828.250,298.375,154.250,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.8934,0.6987,0.784140,1.7321,2.360,2533.250,211.250,46.750,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.7896,0.9530,0.863628,1.1180,3.154,1799.125,457.000,68.500,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9382,0.9875,0.962215,1.6583,3.395,2522.375,164.125,90.125,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,DUCK-Net (Multi-Scale),0.9008,0.8839,0.892291,0.7071,5.654,3354.625,326.500,186.125,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9206,0.9761,0.947562,1.5000,1.507,3630.750,305.500,58.000,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,DUCK-Net (Multi-Scale),0.9382,0.7997,0.863413,1.6583,0.830,3693.000,194.625,26.125,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.9348,0.9720,0.953015,1.7321,0.753,1739.875,118.000,13.625,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.9471,0.9841,0.965294,1.1180,0.425,2121.375,116.500,9.375,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9680,0.9842,0.976031,0.7071,0.782,3315.125,107.875,26.375,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9711,0.9471,0.958932,0.8660,0.631,2621.000,74.000,16.125,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9207,0.9557,0.937871,1.2247,0.960,2534.125,208.625,25.250,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9792,0.9755,0.977368,1.7321,0.589,1981.000,41.000,11.625,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8635,0.8650,0.864262,2.5495,1.313,2917.250,398.750,38.375,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8282,0.9504,0.885105,1.2247,0.798,3124.125,616.000,28.625,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8322,0.8171,0.824579,1.8708,3.538,3465.500,570.750,120.375,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9247,0.9514,0.937842,1.0000,2.401,3182.750,246.625,78.625,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9315,0.8841,0.907203,1.1180,3.922,3304.125,214.750,123.000,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9565,0.9844,0.970223,0.5000,3.418,4737.500,212.125,166.625,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.8189,0.8186,0.818763,2.6926,3.095,3352.875,607.000,103.750,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,DUCK-Net (Multi-Scale),0.8437,0.8493,0.846495,2.2361,3.075,3226.125,507.625,99.875,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9635,0.9436,0.953415,1.6583,0.082,2338.500,83.625,1.875,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.9120,0.9102,0.911113,1.4142,0.179,3009.500,264.375,5.375,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,DUCK-Net (Multi-Scale),0.9147,0.9357,0.925077,1.7321,4.355,3636.375,317.125,162.000,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,DUCK-Net (Multi-Scale),0.8229,0.1408,0.240448,6.3246,12.258,3433.250,104.000,72.000,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.7367,0.7620,0.749151,2.4495,5.689,1827.125,497.500,107.500,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,DUCK-Net (Multi-Scale),0.8137,0.7183,0.763011,2.6926,4.553,1583.125,260.375,63.625,Finger Tapping,2
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.8889,0.9576,0.921963,2.0000,2.175,3708.250,443.875,86.875,Finger Tapping,2
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9757,0.8578,0.912954,1.5811,0.442,2219.875,47.500,8.625,Finger Tapping,2
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9301,0.9381,0.934120,1.4142,0.036,4799.625,338.250,1.750,Finger Tapping,2
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9600,0.9855,0.972609,1.4142,0.560,3044.625,124.875,17.500,Finger Tapping,2
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9017,0.8536,0.876969,1.1180,0.505,1908.125,177.625,9.125,Finger Tapping,2
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,DUCK-Net (Multi-Scale),0.9835,0.9881,0.985799,0.8660,0.123,7977.875,132.250,9.875,Finger Tapping,2
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,DUCK-Net (Multi-Scale),0.8482,0.9341,0.889099,2.2361,1.264,6243.250,1043.500,86.875,Finger Tapping,2
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9653,0.9935,0.979173,0.7071,0.383,3930.750,140.500,15.500,Finger Tapping,2
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9254,0.9158,0.920567,1.5811,0.849,2872.750,212.000,24.125,Finger Tapping,2
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,DUCK-Net (Multi-Scale),0.9502,0.9525,0.951334,2.0616,0.376,3014.375,150.500,11.375,Finger Tapping,2
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,DUCK-Net (Multi-Scale),0.8743,0.8516,0.862809,1.7321,1.205,2535.375,310.375,29.750,Finger Tapping,2
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,DUCK-Net (Multi-Scale),0.9620,0.9838,0.972746,1.2247,0.209,3219.875,125.250,6.875,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9654,0.9348,0.949829,2.1213,0.558,2569.625,86.125,13.875,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9815,0.9017,0.939929,0.8660,0.315,2462.875,41.875,7.125,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9419,0.8228,0.878331,2.2913,1.247,2628.875,133.375,28.625,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9204,0.8170,0.865664,1.8708,1.715,2060.500,145.500,31.375,Finger Tapping,2
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9621,0.9687,0.965380,0.8660,0.436,1567.125,59.750,6.875,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9668,0.9014,0.932989,1.5000,0.809,1027.125,31.750,7.750,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9805,0.9411,0.960382,0.8660,0.270,1107.625,20.750,2.875,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9373,0.9055,0.921158,1.4142,1.060,3186.125,192.875,32.625,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8992,0.7636,0.825889,2.2361,2.099,2419.875,207.125,43.125,Finger Tapping,2
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9697,0.9505,0.960000,1.2247,0.273,3407.125,101.250,9.125,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9240,0.7697,0.839833,1.2247,0.327,3437.625,217.625,9.375,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9589,0.7875,0.864781,1.5811,0.147,3615.125,121.875,4.375,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9737,0.9254,0.948904,1.7321,0.232,1924.125,48.125,4.250,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9639,0.6309,0.762628,1.8028,0.421,2177.625,51.500,6.000,Finger Tapping,2
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9556,0.8845,0.918672,0.7071,0.505,2673.250,109.750,12.500,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9045,0.9132,0.908827,1.4142,1.733,1672.125,161.250,29.250,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9696,0.9017,0.934439,0.7071,0.521,1600.375,45.250,7.750,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9729,0.8771,0.922528,1.0000,0.622,2228.250,54.375,12.500,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9641,0.7665,0.854050,1.2247,0.909,2006.750,57.250,14.500,Finger Tapping,2
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9279,0.8104,0.865170,0.8660,1.748,3258.375,205.125,49.750,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9641,0.8790,0.919579,0.8660,1.984,2231.875,73.000,40.375,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9834,0.9602,0.971676,0.8660,0.841,2998.750,48.625,24.625,Finger Tapping,2
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8473,0.6507,0.736055,0.8660,5.498,2107.875,247.250,89.000,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9450,0.6988,0.803444,1.1180,0.392,4273.500,173.875,12.375,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9888,0.9699,0.979277,0.7071,0.114,4902.500,53.750,5.500,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9381,0.8222,0.876323,2.0000,3.468,3663.625,198.875,111.375,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8363,0.7451,0.788071,2.1213,9.114,2892.875,421.750,234.875,Finger Tapping,2
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9278,0.7212,0.811578,1.1180,2.012,2684.750,150.750,42.000,Finger Tapping,2
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9815,0.9475,0.964201,0.7071,0.088,3242.500,57.750,2.750,Finger Tapping,2
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9446,0.9071,0.925456,1.1180,0.293,2709.000,144.250,7.625,Finger Tapping,2
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9373,0.8742,0.904639,1.6583,0.376,2530.500,148.000,8.875,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9639,0.9388,0.951230,1.2247,1.109,2683.875,94.250,29.000,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9478,0.7071,0.809954,1.7321,1.186,2330.250,90.750,20.625,Finger Tapping,2
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8596,0.9416,0.898732,1.2247,4.427,3165.000,486.875,153.500,Finger Tapping,2
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9737,0.9011,0.936014,2.3452,0.711,3189.875,77.625,21.000,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9261,0.8972,0.911435,1.2247,0.797,1585.750,113.500,12.250,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9626,0.8722,0.915179,1.0000,0.331,2042.625,69.250,6.125,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9484,0.9803,0.964095,0.7071,1.142,2160.375,115.250,25.500,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8730,0.8316,0.851796,0.8660,2.766,2992.875,362.250,78.875,Finger Tapping,2
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9493,0.8699,0.907876,1.4142,0.491,2195.625,102.000,9.875,Finger Tapping,2
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.7761,0.5668,0.655137,2.2361,1.656,2046.875,334.625,24.750,Finger Tapping,2
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9641,0.9103,0.936446,1.4142,1.073,3023.750,102.500,30.625,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9583,0.9572,0.957761,0.8660,0.176,4477.000,186.500,7.875,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9580,0.8767,0.915559,0.7071,0.149,3849.375,147.875,5.250,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9504,0.9028,0.925978,6.1644,0.792,3888.500,183.250,29.250,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9405,0.9507,0.945573,1.0000,1.010,4176.750,251.250,42.625,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9515,0.9116,0.931109,0.7071,1.459,2977.375,138.375,41.625,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9137,0.8839,0.898543,1.0000,2.930,3479.250,290.625,98.625,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9800,0.9062,0.941657,0.8660,0.111,6308.500,116.500,6.500,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9439,0.8669,0.903789,1.0000,0.333,6178.375,318.250,18.875,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9135,0.7934,0.849233,1.7321,1.713,1848.500,138.875,27.500,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8978,0.5351,0.670585,3.0822,2.184,1785.750,108.750,23.250,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8473,0.3204,0.464973,2.0000,1.988,3741.875,216.000,28.125,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7020,0.3662,0.481339,2.0000,2.967,2980.125,463.250,46.125,Finger Tapping,2
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9730,0.9694,0.971198,0.5000,0.282,1689.125,45.500,4.750,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9122,0.9385,0.925201,0.8660,1.871,2454.625,221.625,47.250,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9018,0.7948,0.844927,1.5000,1.837,3621.000,313.250,58.625,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9730,0.9308,0.951439,0.7071,0.200,3728.250,96.375,7.125,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9407,0.8628,0.900048,1.8708,0.406,3928.750,213.875,14.625,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9756,0.9257,0.949990,0.8660,0.256,2833.125,65.625,6.875,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9475,0.9571,0.952265,1.2247,1.242,2342.250,124.250,29.375,Finger Tapping,2
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9067,0.8627,0.884180,2.0616,3.156,4528.375,401.875,136.000,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9662,0.9834,0.974733,0.8660,0.441,4683.125,160.875,21.000,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9498,0.8508,0.897592,1.2247,0.762,4466.375,200.875,30.500,Finger Tapping,2
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9385,0.6930,0.797287,1.5000,0.761,2289.625,104.000,12.875,Finger Tapping,2
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9473,0.8436,0.892445,1.4142,0.785,2842.625,133.375,19.875,Finger Tapping,2
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9779,0.8628,0.916756,1.7321,0.188,1356.125,26.500,2.250,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9464,0.8360,0.887791,1.1180,1.305,4771.125,225.750,55.000,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9584,0.9492,0.953807,1.0000,1.002,3426.000,141.125,34.000,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9546,0.9583,0.956425,1.2247,0.335,4019.625,183.375,13.500,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8633,0.8255,0.843966,1.6583,0.907,3720.000,486.375,32.250,Finger Tapping,2
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.6453,0.4458,0.527322,2.9580,13.644,3287.625,805.500,309.875,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9259,0.7434,0.824675,1.5000,2.859,2798.625,166.500,64.250,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9113,0.6343,0.747964,2.0000,2.911,2325.750,143.500,47.125,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9110,0.9110,0.910980,3.2016,3.341,3019.750,268.750,100.875,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9211,0.8035,0.858309,1.5000,2.405,3205.500,220.500,67.250,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.7960,0.8132,0.804520,2.6926,1.065,2319.875,483.375,25.250,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9057,0.7082,0.794882,1.0000,0.316,1721.500,127.000,4.250,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9692,0.8941,0.930135,0.7071,0.446,2521.125,71.625,10.375,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9633,0.9014,0.931327,1.0000,0.390,2673.375,91.750,9.750,Finger Tapping,2
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9051,0.8259,0.863718,1.4142,1.058,2485.250,215.125,24.000,Finger Tapping,2
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9483,0.9823,0.964995,1.1180,0.946,2334.625,125.000,22.875,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9345,0.9220,0.928208,0.7071,0.992,4791.375,309.750,46.875,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9049,0.9414,0.922772,1.5811,1.551,4106.000,406.375,66.250,Finger Tapping,2
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8876,0.9245,0.905686,0.8660,1.767,1915.750,224.250,35.250,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9640,0.9596,0.961784,2.3452,0.663,3522.500,126.375,23.250,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8168,0.5087,0.626935,1.8708,2.595,3712.000,423.500,60.000,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9452,0.9070,0.925721,2.0000,0.726,4505.250,236.750,31.375,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9570,0.9456,0.951274,1.4142,0.495,3988.500,169.500,19.500,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9020,0.7163,0.798487,1.5000,1.696,3500.125,272.250,47.125,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8446,0.5840,0.690572,1.5811,2.800,2718.375,292.000,52.625,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8734,0.9003,0.886645,0.8660,1.606,2468.500,322.125,40.875,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8521,0.5944,0.700316,2.2361,2.630,2793.625,288.250,51.250,Finger Tapping,2
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9673,0.6528,0.779528,1.5811,0.832,2426.500,53.500,13.625,Finger Tapping,2
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9508,0.7580,0.843519,1.2247,1.662,4009.625,157.250,53.125,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9633,0.8463,0.900999,1.1180,0.267,4263.875,137.625,10.000,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9243,0.5879,0.718707,1.1180,0.429,4310.375,207.625,11.750,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9550,0.8971,0.925140,0.8660,0.548,4348.875,183.875,22.375,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9123,0.9584,0.934814,1.4142,1.568,3255.375,299.750,53.625,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9350,0.9115,0.923138,1.0000,1.525,2076.875,131.500,30.875,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9487,0.7244,0.821483,2.6926,1.196,1862.125,73.000,17.000,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9743,0.9640,0.969124,1.6583,0.646,3972.125,101.125,25.375,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9323,0.8524,0.890586,1.8028,1.681,3659.000,226.375,56.250,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9548,0.7790,0.857970,1.5000,0.290,3802.125,140.375,9.000,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8866,0.6794,0.769292,3.4641,1.103,4065.250,353.375,34.375,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9443,0.8494,0.894337,2.8284,0.480,2864.250,143.500,12.375,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9069,0.3626,0.518117,1.0000,0.377,2156.375,80.250,3.250,Finger Tapping,2
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9664,0.9472,0.956735,0.7071,0.423,3223.125,106.000,13.375,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9788,0.9348,0.956284,1.5811,0.521,3393.250,68.625,16.875,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9767,0.8776,0.924502,1.1180,0.574,2494.125,52.250,12.875,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9653,0.9126,0.938211,0.7071,0.481,4698.125,154.250,21.375,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9648,0.9352,0.949787,1.4142,0.805,3859.375,131.500,30.125,Finger Tapping,2
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9710,0.9343,0.952308,0.8660,0.854,4075.375,113.625,33.500,Finger Tapping,2
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.8764,0.7097,0.784261,2.5000,4.058,3122.750,312.625,102.625,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.8648,0.9189,0.891029,1.4142,0.734,2724.625,391.375,21.250,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,3DZ-Net (Variational Dense),0.9596,0.8238,0.886532,1.0000,0.177,4528.000,157.125,6.875,Finger Tapping,2
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9317,0.8305,0.878233,2.4495,2.077,2828.250,172.125,52.375,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8349,0.7527,0.791675,0.8660,2.671,2533.250,377.000,61.000,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.8700,0.8763,0.873144,1.1180,2.387,1799.125,235.625,43.250,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9503,0.8288,0.885413,1.2247,2.006,2522.375,109.375,44.125,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,3DZ-Net (Variational Dense),0.9648,0.7843,0.865229,0.5000,1.201,3354.625,96.000,32.750,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9680,0.9100,0.938106,1.8028,0.406,3630.750,109.375,13.875,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,3DZ-Net (Variational Dense),0.9757,0.8794,0.925049,0.8660,0.237,3693.000,80.750,7.875,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.9204,0.7536,0.828725,3.9370,1.000,1739.875,113.375,14.250,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.9472,0.7628,0.845029,1.0000,0.439,2121.375,90.250,7.500,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9702,0.9704,0.970310,0.8660,0.618,3315.125,98.875,20.500,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9413,0.8736,0.906154,0.8660,0.920,2621.000,142.875,22.375,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9357,0.9292,0.932432,1.2247,0.854,2534.125,161.750,21.500,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9689,0.9117,0.939432,2.0000,0.443,1981.000,57.875,8.250,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8994,0.8091,0.851845,1.7321,1.062,2917.250,264.000,27.875,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9088,0.8607,0.884098,0.7071,0.676,3124.125,269.750,20.000,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.5062,0.7390,0.600821,11.2805,9.779,3465.500,2498.500,494.750,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9588,0.9229,0.940505,1.7321,0.783,3182.750,126.250,24.000,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9511,0.8751,0.911534,0.5000,1.867,3304.125,148.625,56.750,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9640,0.9826,0.973212,0.5000,1.543,4737.500,173.625,74.500,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.8475,0.4444,0.583021,3.0414,2.467,3352.875,268.125,43.375,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,3DZ-Net (Variational Dense),0.8608,0.5385,0.662535,5.5000,2.422,3226.125,280.875,48.875,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9672,0.6925,0.807115,3.8079,0.149,2338.500,54.875,2.500,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9555,0.5821,0.723434,2.1794,0.164,3009.500,81.625,3.000,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,3DZ-Net (Variational Dense),0.9532,0.5687,0.712367,4.0311,1.677,3636.375,101.625,36.375,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,3DZ-Net (Variational Dense),0.8267,0.3709,0.512088,4.5826,8.139,3433.250,267.000,125.375,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.8634,0.7678,0.812819,2.0616,2.800,1827.125,221.875,45.500,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,3DZ-Net (Variational Dense),0.9049,0.5402,0.676555,2.1794,2.010,1583.125,89.875,19.000,Finger Tapping,2
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9710,0.9852,0.978031,0.7071,0.425,3708.250,109.250,16.000,Finger Tapping,2
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9650,0.8098,0.880656,2.8284,0.651,2219.875,65.125,12.125,Finger Tapping,2
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9721,0.9436,0.957646,0.5000,0.051,4799.625,130.125,2.375,Finger Tapping,2
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9632,0.9580,0.960562,1.7321,0.549,3044.625,111.500,16.625,Finger Tapping,2
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.8943,0.6850,0.775754,1.6583,0.975,1908.125,154.500,14.250,Finger Tapping,2
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,3DZ-Net (Variational Dense),0.9910,0.9695,0.980097,0.5000,0.098,7977.875,70.500,7.625,Finger Tapping,2
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,3DZ-Net (Variational Dense),0.8731,0.8590,0.865966,1.4142,1.054,6243.250,779.750,64.750,Finger Tapping,2
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9709,0.9588,0.964799,0.5000,0.345,3930.750,112.875,13.375,Finger Tapping,2
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9584,0.9575,0.957947,0.8660,0.457,2872.750,119.375,13.125,Finger Tapping,2
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,3DZ-Net (Variational Dense),0.9678,0.9658,0.966791,1.1180,0.453,3014.375,96.875,13.625,Finger Tapping,2
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,3DZ-Net (Variational Dense),0.8812,0.6184,0.726772,1.1180,0.808,2535.375,211.375,14.375,Finger Tapping,2
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,3DZ-Net (Variational Dense),0.9873,0.9564,0.971625,1.0000,0.056,3219.875,39.625,1.750,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9755,0.9729,0.974184,1.4142,0.429,2569.625,62.875,11.000,Finger Tapping,2
+sub-c7t-001,sub-c7t-001_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9588,0.9459,0.952325,0.8660,0.468,2462.875,100.000,11.375,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9630,0.8517,0.903939,2.0000,0.683,2628.875,86.000,15.875,Finger Tapping,2
+sub-c7t-002,sub-c7t-002_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9116,0.9477,0.929328,1.4142,1.500,2060.500,189.250,32.125,Finger Tapping,2
+sub-c7t-003,sub-c7t-003_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9402,0.9405,0.940346,1.1180,0.470,1567.125,93.750,7.375,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9479,0.9525,0.950225,1.5811,1.029,1027.125,53.750,10.625,Finger Tapping,2
+sub-c7t-004,sub-c7t-004_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9751,0.9529,0.963872,0.8660,0.381,1107.625,27.000,4.125,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9344,0.8642,0.897948,3.4641,1.065,3186.125,193.250,31.375,Finger Tapping,2
+sub-c7t-005,sub-c7t-005_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9002,0.9538,0.926233,1.5000,1.526,2419.875,255.750,39.125,Finger Tapping,2
+sub-c7t-006,sub-c7t-006_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9405,0.9029,0.921309,1.4142,0.298,3407.125,194.625,9.750,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9257,0.9173,0.921464,0.8660,0.158,3437.625,253.125,5.375,Finger Tapping,2
+sub-c7t-007,sub-c7t-007_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9786,0.9000,0.937625,1.1180,0.034,3615.125,71.250,1.125,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9613,0.9732,0.967234,1.4142,0.263,1924.125,75.375,5.125,Finger Tapping,2
+sub-c7t-008,sub-c7t-008_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8985,0.6204,0.733990,3.1623,0.607,2177.625,152.625,9.125,Finger Tapping,2
+sub-c7t-009,sub-c7t-009_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9188,0.8778,0.897843,0.8660,0.773,2673.250,207.375,19.750,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9350,0.9395,0.937281,1.2247,0.982,1672.125,109.125,16.500,Finger Tapping,2
+sub-c7t-010,sub-c7t-010_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9331,0.8613,0.895776,1.5000,1.303,1600.375,98.750,19.250,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9700,0.9708,0.970421,1.0000,0.695,2228.250,66.875,15.500,Finger Tapping,2
+sub-c7t-011,sub-c7t-011_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9679,0.9431,0.955359,0.7071,0.697,2006.750,62.750,13.625,Finger Tapping,2
+sub-c7t-012,sub-c7t-012_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9028,0.9131,0.907919,0.7071,1.551,3258.375,320.375,51.125,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9576,0.9621,0.959852,1.0000,2.403,2231.875,95.000,53.875,Finger Tapping,2
+sub-c7t-013,sub-c7t-013_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9738,0.9293,0.951048,0.7071,1.267,2998.750,74.875,36.250,Finger Tapping,2
+sub-c7t-014,sub-c7t-014_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8283,0.8335,0.830905,1.5000,4.979,2107.875,364.250,105.625,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9549,0.9524,0.953652,0.7071,0.287,4273.500,192.250,12.250,Finger Tapping,2
+sub-c7t-015,sub-c7t-015_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9685,0.9866,0.977480,0.7071,0.353,4902.500,157.375,17.625,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8985,0.7953,0.843729,2.2913,6.152,3663.625,329.125,199.500,Finger Tapping,2
+sub-c7t-016,sub-c7t-016_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7993,0.6852,0.737861,3.3166,12.779,2892.875,497.625,316.875,Finger Tapping,2
+sub-c7t-017,sub-c7t-017_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9218,0.6953,0.792696,0.7071,2.086,2684.750,158.375,42.250,Finger Tapping,2
+sub-c7t-018,sub-c7t-018_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9789,0.9867,0.982778,0.5000,0.084,3242.500,68.875,2.750,Finger Tapping,2
+sub-c7t-019,sub-c7t-019_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9179,0.9612,0.939052,1.0000,0.392,2709.000,232.875,11.125,Finger Tapping,2
+sub-c7t-020,sub-c7t-020_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9272,0.9221,0.924662,1.2247,0.303,2530.500,183.250,7.625,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8529,0.9731,0.909063,2.0000,4.707,2683.875,450.250,144.125,Finger Tapping,2
+sub-c7t-021,sub-c7t-021_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9485,0.8688,0.906938,1.7321,1.165,2330.250,109.875,24.875,Finger Tapping,2
+sub-c7t-022,sub-c7t-022_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8294,0.8752,0.851707,1.5000,5.592,3165.000,569.750,186.750,Finger Tapping,2
+sub-c7t-023,sub-c7t-023_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9785,0.9527,0.965432,2.0000,0.531,3189.875,66.750,16.500,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9105,0.8646,0.886948,1.1180,0.523,1585.750,134.750,7.875,Finger Tapping,2
+sub-c7t-024,sub-c7t-024_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9750,0.9368,0.955526,1.1180,0.178,2042.625,49.000,3.500,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9307,0.9819,0.955626,0.8660,1.514,2160.375,157.875,34.500,Finger Tapping,2
+sub-c7t-025,sub-c7t-025_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7698,0.7149,0.741360,2.0000,5.279,2992.875,639.875,146.750,Finger Tapping,2
+sub-c7t-026,sub-c7t-026_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7706,0.9115,0.835189,8.5000,2.113,2195.625,595.625,54.875,Finger Tapping,2
+sub-c7t-027,sub-c7t-027_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7395,0.4481,0.558032,2.7386,1.421,2046.875,323.000,17.625,Finger Tapping,2
+sub-c7t-028,sub-c7t-028_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9742,0.9667,0.970431,1.1180,0.654,3023.750,77.375,19.625,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9825,0.9085,0.944091,1.8708,0.057,4477.000,72.250,2.375,Finger Tapping,2
+sub-c7t-029,sub-c7t-029_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9412,0.9675,0.954139,0.5000,0.101,3849.375,232.750,4.000,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8499,0.9563,0.899998,3.5707,2.114,3888.500,656.500,92.500,Finger Tapping,2
+sub-c7t-030,sub-c7t-030_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9473,0.8015,0.868329,1.8028,0.771,4176.750,186.125,27.250,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8392,0.9554,0.893513,0.8660,3.879,2977.375,545.125,131.500,Finger Tapping,2
+sub-c7t-031,sub-c7t-031_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9224,0.8920,0.906979,2.0616,2.857,3479.250,261.000,96.125,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9828,0.9897,0.986267,0.5000,0.055,6308.500,109.125,3.500,Finger Tapping,2
+sub-c7t-032,sub-c7t-032_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9669,0.9191,0.942400,0.8660,0.138,6178.375,194.125,8.125,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.7227,0.7819,0.751137,5.0990,4.994,1848.500,554.625,99.875,Finger Tapping,2
+sub-c7t-033,sub-c7t-033_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8560,0.8118,0.833339,3.6401,3.033,1785.750,243.875,51.375,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8521,0.4469,0.586335,2.1794,1.420,3741.875,290.250,27.875,Finger Tapping,2
+sub-c7t-034,sub-c7t-034_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7203,0.6527,0.684872,2.2361,2.101,2980.125,755.250,56.750,Finger Tapping,2
+sub-c7t-035,sub-c7t-035_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9619,0.9458,0.953806,0.8660,0.309,1689.125,63.250,5.125,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9602,0.8934,0.925585,0.8660,0.805,2454.625,91.000,18.375,Finger Tapping,2
+sub-c7t-036,sub-c7t-036_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7534,0.9290,0.831994,0.7071,3.779,3621.000,1101.250,168.750,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9153,0.9705,0.942099,0.8660,0.405,3728.250,334.750,16.000,Finger Tapping,2
+sub-c7t-037,sub-c7t-037_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9498,0.9511,0.950431,1.1180,0.324,3928.750,197.500,12.750,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9424,0.9443,0.943341,0.5000,0.612,2833.125,163.625,17.375,Finger Tapping,2
+sub-c7t-038,sub-c7t-038_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9120,0.9587,0.934773,1.4142,1.579,2342.250,216.625,38.875,Finger Tapping,2
+sub-c7t-039,sub-c7t-039_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9463,0.9434,0.944832,1.2247,1.575,4528.375,242.500,71.125,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9715,0.9576,0.964527,0.8660,0.366,4683.125,131.500,16.875,Finger Tapping,2
+sub-c7t-040,sub-c7t-040_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9605,0.9383,0.949261,1.2247,0.381,4466.375,172.375,16.625,Finger Tapping,2
+sub-c7t-041,sub-c7t-041_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8899,0.8141,0.850341,1.1180,1.397,2289.625,230.500,29.250,Finger Tapping,2
+sub-c7t-042,sub-c7t-042_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9223,0.5662,0.701651,11.0454,1.218,2842.625,135.625,21.250,Finger Tapping,2
+sub-c7t-043,sub-c7t-043_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9722,0.8407,0.901686,2.1213,0.171,1356.125,32.625,2.000,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9337,0.8215,0.873967,2.1213,1.924,4771.125,278.500,80.750,Finger Tapping,2
+sub-c7t-044,sub-c7t-044_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9273,0.8375,0.880083,1.4142,1.353,3426.000,225.000,41.875,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9475,0.8930,0.919410,2.0616,0.224,4019.625,199.000,8.500,Finger Tapping,2
+sub-c7t-045,sub-c7t-045_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8217,0.6911,0.750794,2.2913,0.723,3720.000,557.750,22.625,Finger Tapping,2
+sub-c7t-046,sub-c7t-046_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.1414,0.4702,0.217369,6.7268,38.818,3287.625,9390.000,4245.125,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9101,0.7861,0.843531,1.8708,3.682,2798.625,217.375,89.000,Finger Tapping,2
+sub-c7t-047,sub-c7t-047_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8557,0.8843,0.869747,1.4142,5.367,2325.750,346.875,129.000,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9121,0.9045,0.908260,2.4495,3.398,3019.750,263.250,101.750,Finger Tapping,2
+sub-c7t-048,sub-c7t-048_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8486,0.7330,0.786577,2.4495,3.887,3205.500,419.375,107.625,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8084,0.8645,0.835516,3.0000,0.600,2319.875,475.250,14.875,Finger Tapping,2
+sub-c7t-049,sub-c7t-049_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.6984,0.8582,0.770118,0.8660,0.697,1721.500,637.875,14.750,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9624,0.9388,0.950457,0.8660,0.305,2521.125,92.500,7.500,Finger Tapping,2
+sub-c7t-050,sub-c7t-050_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9667,0.9609,0.963795,1.4142,0.353,2673.375,88.500,9.375,Finger Tapping,2
+sub-c7t-051,sub-c7t-051_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9331,0.8979,0.915182,1.1180,0.439,2485.250,159.875,10.500,Finger Tapping,2
+sub-c7t-052,sub-c7t-052_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9325,0.9833,0.957236,0.8660,0.960,2334.625,166.250,23.625,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9286,0.9588,0.943485,0.7071,0.826,4791.375,353.125,40.875,Finger Tapping,2
+sub-c7t-053,sub-c7t-053_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8315,0.9552,0.889062,1.0000,2.131,4106.000,794.625,100.500,Finger Tapping,2
+sub-c7t-054,sub-c7t-054_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9204,0.9579,0.938803,0.7071,1.028,1915.750,158.625,20.500,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9644,0.9725,0.968443,1.5000,0.609,3522.500,126.375,21.625,Finger Tapping,2
+sub-c7t-055,sub-c7t-055_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.4470,0.3728,0.406544,3.0000,5.826,3712.000,1712.125,180.375,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9087,0.9026,0.905657,1.4142,1.092,4505.250,408.625,48.875,Finger Tapping,2
+sub-c7t-056,sub-c7t-056_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9874,0.8847,0.933254,0.7071,0.108,3988.500,45.000,3.875,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8962,0.6636,0.762548,1.7321,1.307,3500.125,269.000,33.875,Finger Tapping,2
+sub-c7t-057,sub-c7t-057_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8550,0.5260,0.651274,1.8028,1.644,2718.375,242.500,27.500,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9042,0.8620,0.882592,0.8660,1.200,2468.500,225.500,28.250,Finger Tapping,2
+sub-c7t-058,sub-c7t-058_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8251,0.4842,0.610292,1.5811,2.402,2793.625,286.750,39.375,Finger Tapping,2
+sub-c7t-059,sub-c7t-059_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9696,0.7894,0.870262,1.0000,0.677,2426.500,60.125,13.375,Finger Tapping,2
+sub-c7t-060,sub-c7t-060_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8435,0.9608,0.898320,1.0000,5.115,4009.625,715.000,233.625,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9709,0.9596,0.965220,0.8660,0.169,4263.875,122.750,7.125,Finger Tapping,2
+sub-c7t-061,sub-c7t-061_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8964,0.8768,0.886472,1.8028,0.483,4310.375,436.875,20.375,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9778,0.9584,0.967994,0.7071,0.205,4348.875,94.750,8.750,Finger Tapping,2
+sub-c7t-062,sub-c7t-062_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8972,0.9272,0.911965,2.5000,1.271,3255.375,345.750,42.750,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9193,0.7866,0.847820,2.0000,1.147,2076.875,143.375,20.375,Finger Tapping,2
+sub-c7t-063,sub-c7t-063_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8672,0.8565,0.861842,1.4142,2.746,1862.125,244.250,50.500,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9834,0.9511,0.966981,0.8660,0.374,3972.125,63.750,14.375,Finger Tapping,2
+sub-c7t-064,sub-c7t-064_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9472,0.9303,0.938676,1.1180,1.193,3659.000,189.625,42.875,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9409,0.9472,0.944019,0.7071,0.219,3802.125,226.375,8.375,Finger Tapping,2
+sub-c7t-065,sub-c7t-065_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.7987,0.8792,0.837049,3.3541,1.215,4065.250,900.625,54.375,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8489,0.8040,0.825839,2.4495,0.968,2864.250,409.750,26.250,Finger Tapping,2
+sub-c7t-066,sub-c7t-066_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8998,0.8660,0.882588,0.5000,0.289,2156.375,208.000,6.000,Finger Tapping,2
+sub-c7t-067,sub-c7t-067_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9636,0.9272,0.945076,1.4142,0.290,3223.125,112.875,9.000,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9778,0.9628,0.970265,0.7071,0.438,3393.250,74.125,14.625,Finger Tapping,2
+sub-c7t-068,sub-c7t-068_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9602,0.8200,0.884576,1.2247,0.851,2494.125,84.875,18.125,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9030,0.8637,0.882930,1.4142,1.235,4698.125,436.000,55.500,Finger Tapping,2
+sub-c7t-069,sub-c7t-069_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9810,0.9912,0.986032,0.7071,0.353,3859.375,74.250,13.750,Finger Tapping,2
+sub-c7t-070,sub-c7t-070_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9295,0.9711,0.949824,0.8660,1.926,4075.375,300.250,82.000,Finger Tapping,2
+sub-c7t-071,sub-c7t-071_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.8116,0.6560,0.725578,3.2787,6.438,3122.750,475.500,162.500,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-1,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.8643,0.9375,0.899404,0.8660,0.470,2724.625,401.000,13.875,Finger Tapping,2
+sub-c7t-072,sub-c7t-072_run-2,7T ds003642 CEREBRUM-7T,test,Ensemble-nnU-Net (Baseline),0.9704,0.9231,0.946138,1.8708,0.081,4528.000,127.500,3.500,Finger Tapping,2
+sub-c7t-073,sub-c7t-073_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9240,0.8345,0.876983,2.0000,2.501,2828.250,194.000,63.875,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.8452,0.8340,0.839559,1.8028,2.575,2533.250,387.000,64.375,Finger Tapping,2
+sub-c7t-074,sub-c7t-074_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.7919,0.9401,0.859657,1.1180,2.487,1799.125,444.500,53.125,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-1,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9639,0.9026,0.932258,1.4142,1.667,2522.375,85.250,39.375,Finger Tapping,2
+sub-c7t-075,sub-c7t-075_run-2,7T ds003642 CEREBRUM-7T,train,Ensemble-nnU-Net (Baseline),0.9353,0.8335,0.881445,0.7071,2.521,3354.625,193.500,75.375,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-1,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9716,0.9681,0.969820,1.0000,0.304,3630.750,102.750,11.000,Finger Tapping,2
+sub-c7t-076,sub-c7t-076_run-2,7T ds003642 CEREBRUM-7T,val,Ensemble-nnU-Net (Baseline),0.9497,0.8870,0.917304,0.7071,0.449,3693.000,173.375,15.500,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-retest,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.9385,0.9004,0.919077,2.3452,0.547,1739.875,102.625,9.125,Finger Tapping,2
+sub-ds114-01,sub-ds114-01_ses-test,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.9742,0.9229,0.947865,0.7071,0.093,2121.375,51.875,1.875,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9744,0.9727,0.973544,0.7071,0.332,3315.125,84.625,11.000,Finger Tapping,2
+sub-ds114-02,sub-ds114-02_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9632,0.9510,0.957091,0.5000,0.580,2621.000,95.125,15.000,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9123,0.8886,0.900272,1.0000,1.155,2534.125,216.500,28.500,Finger Tapping,2
+sub-ds114-03,sub-ds114-03_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9676,0.9249,0.945769,1.4142,0.488,1981.000,61.375,9.250,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8234,0.8261,0.824735,2.0000,1.290,2917.250,516.875,37.750,Finger Tapping,2
+sub-ds114-04,sub-ds114-04_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8240,0.8854,0.853594,1.4142,0.964,3124.125,590.875,32.375,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8352,0.8802,0.857138,2.0000,1.893,3465.500,601.875,69.125,Finger Tapping,2
+sub-ds114-05,sub-ds114-05_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9485,0.9484,0.948431,2.2361,0.742,3182.750,164.000,23.625,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9654,0.7233,0.826975,0.8660,1.495,3304.125,85.625,37.000,Finger Tapping,2
+sub-ds114-06,sub-ds114-06_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9786,0.9845,0.981547,0.8660,0.855,4737.500,102.125,40.750,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-retest,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.8932,0.8581,0.875283,1.6583,1.564,3352.875,344.000,50.375,Finger Tapping,2
+sub-ds114-07,sub-ds114-07_ses-test,3T ds000114 (GAN 3T->7T),val,Ensemble-nnU-Net (Baseline),0.8567,0.6061,0.709932,3.4641,2.503,3226.125,327.125,57.125,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9606,0.9356,0.947956,1.2247,0.121,2338.500,89.750,2.750,Finger Tapping,2
+sub-ds114-08,sub-ds114-08_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.9545,0.8791,0.915223,1.1180,0.054,3009.500,126.250,1.500,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-retest,3T ds000114 (GAN 3T->7T),test,Ensemble-nnU-Net (Baseline),0.9378,0.3496,0.509352,3.6056,2.296,3636.375,84.375,31.125,Finger Tapping,2
+sub-ds114-09,sub-ds114-09_ses-test,3T ds000114 (GAN 3T->7T),test,Ensemble-nnU-Net (Baseline),0.7162,0.3242,0.446338,7.6649,14.270,3433.250,441.000,221.750,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-retest,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8338,0.3062,0.447936,5.9161,2.887,1827.125,111.500,19.375,Finger Tapping,2
+sub-ds114-10,sub-ds114-10_ses-test,3T ds000114 (GAN 3T->7T),train,Ensemble-nnU-Net (Baseline),0.8461,0.3611,0.506143,2.0616,3.127,1583.125,104.000,21.125,Finger Tapping,2
+sub-mda-01,sub-mda-01_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9783,0.9626,0.970368,1.0000,0.336,3708.250,79.250,12.250,Finger Tapping,2
+sub-mda-02,sub-mda-02_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9608,0.9324,0.946388,0.8660,0.696,2219.875,84.375,15.000,Finger Tapping,2
+sub-mda-03,sub-mda-03_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9381,0.9866,0.961753,0.7071,0.037,4799.625,312.250,1.875,Finger Tapping,2
+sub-mda-04,sub-mda-04_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9700,0.9947,0.982204,0.8660,0.368,3044.625,93.750,11.500,Finger Tapping,2
+sub-mda-05,sub-mda-05_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.8452,0.9034,0.873373,1.4142,1.281,1908.125,315.625,26.125,Finger Tapping,2
+sub-mda-06,sub-mda-06_ses-7t,7T MDA atlas source,test,Ensemble-nnU-Net (Baseline),0.9914,0.9842,0.987789,0.5000,0.032,7977.875,68.250,2.500,Finger Tapping,2
+sub-mda-07,sub-mda-07_ses-7t,7T MDA atlas source,val,Ensemble-nnU-Net (Baseline),0.8609,0.8297,0.845031,1.6583,0.752,6243.250,837.000,45.250,Finger Tapping,2
+sub-mda-08,sub-mda-08_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9833,0.9824,0.982836,0.5000,0.143,3930.750,65.750,5.625,Finger Tapping,2
+sub-mda-09,sub-mda-09_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9015,0.8873,0.894342,1.0000,0.730,2872.750,278.375,20.625,Finger Tapping,2
+sub-mda-10,sub-mda-10_ses-7t,7T MDA atlas source,test,Ensemble-nnU-Net (Baseline),0.9260,0.9781,0.951336,1.0000,0.640,3014.375,235.500,20.375,Finger Tapping,2
+sub-mda-11,sub-mda-11_ses-7t,7T MDA atlas source,val,Ensemble-nnU-Net (Baseline),0.8875,0.7008,0.783196,1.5000,0.562,2535.375,225.250,11.250,Finger Tapping,2
+sub-mda-12,sub-mda-12_ses-7t,7T MDA atlas source,train,Ensemble-nnU-Net (Baseline),0.9849,0.9661,0.975404,0.8660,0.032,3219.875,47.625,1.000,Finger Tapping,2
