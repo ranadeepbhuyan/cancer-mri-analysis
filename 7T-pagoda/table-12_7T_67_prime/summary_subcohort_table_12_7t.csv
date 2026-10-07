@@ -1,0 +1,7 @@
+Subcohort_Category,n,Primary_Evaluation_Metric,DUCK-Net,Ensemble-nnUnet,IEGResUNet,PAGODA-Net (3x6),PAGODA-Net (4x6)
+Cerebral Edema (Small Lesions),13,Dice Similarity Coefficient (DSC),0.6860,0.7400,0.7901,0.8296,0.8586
+Cerebral Hemorrhage (Core Mass),18,Dice Similarity Coefficient (DSC),0.7963,0.8234,0.8648,0.9022,0.9140
+Combined Pathological Subset,31,Lesion-Only DSC,0.7500,0.7884,0.8334,0.8718,0.8908
+Healthy Controls,36,Subject Specificity (%),86.1%,91.7%,95.4%,96.3%,100.0%
+Healthy Controls,36,Voxel Specificity (%),99.64%,99.77%,99.78%,99.92%,99.98%
+Healthy Controls,36,Mean False Positive Vol. (cm3),0.52,0.33,0.31,0.11,0.03
